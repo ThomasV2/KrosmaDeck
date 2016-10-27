@@ -99,6 +99,14 @@ public class Aff_card : MonoBehaviour {
         Refresh();
     }
 
+    public void Search_by_rarity()
+    {
+        list_id.Clear();
+        page = 0;
+        Search_Rarity("Krosmik");
+        Refresh();
+    }
+
     public void Add_to_Deck(int i)
     {
         string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
@@ -173,7 +181,7 @@ public class Aff_card : MonoBehaviour {
         dbconn = (IDbConnection)new SqliteConnection(conn);
         dbconn.Open(); //Open connection to the database.
         IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Id FROM Cards WHERE Type = '" + type + "';";
+        string sqlQuery = "SELECT Id FROM Cards WHERE Type = '" + type + "' ORDER BY Cost ASC;";
         dbcmd.CommandText = sqlQuery;
         IDataReader reader = dbcmd.ExecuteReader();
         while (reader.Read())
@@ -197,13 +205,37 @@ public class Aff_card : MonoBehaviour {
         dbconn = (IDbConnection)new SqliteConnection(conn);
         dbconn.Open(); //Open connection to the database.
         IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Id FROM Cards WHERE Type = '" + type + "';";
+        string sqlQuery = "SELECT Id FROM Cards WHERE Type = '" + type + "' ORDER BY Cost ASC;";
         dbcmd.CommandText = sqlQuery;
         IDataReader reader = dbcmd.ExecuteReader();
         while (reader.Read())
         {
             list_id.Add(reader.GetInt32(0));
         }
+        reader.Close();
+        reader = null;
+        dbcmd.Dispose();
+        dbcmd = null;
+        dbconn.Close();
+        dbconn = null;
+    }
+
+    public void Search_Rarity(string rarity)
+    {
+        rarity = rarity.ToLower();
+        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
+        IDbConnection dbconn;
+        dbconn = (IDbConnection)new SqliteConnection(conn);
+        dbconn.Open(); //Open connection to the database.
+        IDbCommand dbcmd = dbconn.CreateCommand();
+        string sqlQuery = "SELECT Id FROM Cards WHERE (Type = '" + type + "' OR Type = 'Neutre') AND Rarity = '" + rarity + "' ORDER BY Cost ASC;";
+        dbcmd.CommandText = sqlQuery;
+        IDataReader reader = dbcmd.ExecuteReader();
+        while (reader.Read())
+        {
+            list_id.Add(reader.GetInt32(0));
+        }
+        tab_id = list_id.ToArray();
         reader.Close();
         reader = null;
         dbcmd.Dispose();

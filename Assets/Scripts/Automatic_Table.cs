@@ -10,6 +10,11 @@ public class Automatic_Table : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        //My_command("UPDATE Cards SET Cost = 2, Atk = 0 WHERE Id = 23;");
+    }
+
+    /*void Start()
+    {
         DirectoryInfo dir = new DirectoryInfo(Application.dataPath + "/Resources/Cards");
         DirectoryInfo[] info = dir.GetDirectories("*.*");
         string data = "";
@@ -54,6 +59,28 @@ public class Automatic_Table : MonoBehaviour {
          dbconn.Close();
          dbconn = null;
          Debug.LogError("fini");
+    }*/
+    void My_command(string command)
+    {
+        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
+         IDbConnection dbconn;
+         dbconn = (IDbConnection)new SqliteConnection(conn);
+         dbconn.Open(); //Open connection to the database.
+         IDbCommand dbcmd = dbconn.CreateCommand();
+         string sqlQuery = command;
+         dbcmd.CommandText = sqlQuery;
+         IDataReader reader = dbcmd.ExecuteReader();
+         while (reader.Read())
+         {
+         }
+         reader.Close();
+         reader = null;
+         dbcmd.Dispose();
+         dbcmd = null;
+         dbconn.Close();
+         dbconn = null;
+         Debug.LogError("fini");
+
     }
 
     // Update is called once per frame
