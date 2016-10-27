@@ -12,12 +12,16 @@ public class Aff_card : MonoBehaviour {
     public Deck_Manager deck_manager;
     public GameObject cards_button;
     public GameObject deck_button;
+    public Dropdown Rarity_Dropdown;
+    public Text Input_text;
+    public Text Check_Input_Text;
 
     private int[] tab_id;
     private int[] id_by_count = new int[8];
     private int page;
     private List<int> list_id = new List<int>();
     private string type = "";
+    private string[] rarity_id = { "", "commune", "peu commune", "rare", "krosmik", "infinite" };
 
     // Use this for initialization
     void Start () {
@@ -101,10 +105,32 @@ public class Aff_card : MonoBehaviour {
 
     public void Search_by_rarity()
     {
-        list_id.Clear();
-        page = 0;
-        Search_Rarity("Krosmik");
-        Refresh();
+        if (Rarity_Dropdown.value != 0)
+        {
+            list_id.Clear();
+            page = 0;
+            Search_Rarity(rarity_id[Rarity_Dropdown.value]);
+            Refresh();
+        }
+        else
+        {
+            Aff_All_Cards();
+        }
+    }
+
+    public void Search_by_string()
+    {
+        if (Check_Input_Text.enabled == false)
+        {
+            list_id.Clear();
+            page = 0;
+            Search_String(Input_text.text);
+            Refresh();
+        }
+        else
+        {
+            Aff_All_Cards();
+        }
     }
 
     public void Add_to_Deck(int i)
@@ -229,6 +255,29 @@ public class Aff_card : MonoBehaviour {
         dbconn.Open(); //Open connection to the database.
         IDbCommand dbcmd = dbconn.CreateCommand();
         string sqlQuery = "SELECT Id FROM Cards WHERE (Type = '" + type + "' OR Type = 'Neutre') AND Rarity = '" + rarity + "' ORDER BY Cost ASC;";
+        dbcmd.CommandText = sqlQuery;
+        IDataReader reader = dbcmd.ExecuteReader();
+        while (reader.Read())
+        {
+            list_id.Add(reader.GetInt32(0));
+        }
+        tab_id = list_id.ToArray();
+        reader.Close();
+        reader = null;
+        dbcmd.Dispose();
+        dbcmd = null;
+        dbconn.Close();
+        dbconn = null;
+    }
+    public void Search_String(string patern)
+    {
+        patern = patern.ToLower();
+        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
+        IDbConnection dbconn;
+        dbconn = (IDbConnection)new SqliteConnection(conn);
+        dbconn.Open(); //Open connection to the database.
+        IDbCommand dbcmd = dbconn.CreateCommand();
+        string sqlQuery = "SELECT Id FROM Cards WHERE (Type = '" + type + "' OR Type = 'Neutre') AND (Name LIKE '%" + patern + "%' OR Description LIKE '%" + patern + "%') ORDER BY Cost ASC;";
         dbcmd.CommandText = sqlQuery;
         IDataReader reader = dbcmd.ExecuteReader();
         while (reader.Read())
