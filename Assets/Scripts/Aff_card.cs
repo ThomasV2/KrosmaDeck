@@ -152,7 +152,7 @@ public class Aff_card : MonoBehaviour {
         while (reader.Read())
         {
             name = reader.GetString(0);
-            //cost = reader.GetInt32(1); // A RAJOUTER DANS LA BASE DE DONNE
+            cost = reader.GetInt32(1);
             type = reader.GetString(2);
             rarity = reader.GetString(3);
             img = reader.GetString(4);
