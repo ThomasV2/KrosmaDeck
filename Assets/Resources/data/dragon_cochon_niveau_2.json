@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 449,
+  "Name": "dragon_cochon_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 7,
+  "Attack": 7,
+  "MovementPoint": 3,
+  "Families": [
+    51
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Dragon Cochon",
+  "DescriptionFR": "",
+  "Extension": 1,
+  "LinkedCards": []
+}

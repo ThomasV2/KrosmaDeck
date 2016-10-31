@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 346,
+  "Name": "jabs",
+  "CardType": "Spell",
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 1,
+  "NameFR": "Jabs",
+  "DescriptionFR": "Confère +2 <b>AT</b>\r\nà une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 260,
+  "Name": "arakne_albinos",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    12
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Arakne Albinos",
+  "DescriptionFR": "<b>APPARITION :</b>\nRemonte une de vos invocations dans votre main.",
+  "Extension": 1,
+  "LinkedCards": []
+}

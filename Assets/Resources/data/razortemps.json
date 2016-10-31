@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 566,
+  "Name": "razortemps",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 7,
+  "Attack": 4,
+  "MovementPoint": 2,
+  "Families": [],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Razortemps",
+  "DescriptionFR": "<b>APPARITION :</b>\nVos autres invocations gagnent autant d'<b>AT</b> qu'elles ont d'<b>AR</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

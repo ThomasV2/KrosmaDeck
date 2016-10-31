@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 60,
+  "Name": "roi_des_bouftous",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    14
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Roi des Bouftous",
+  "DescriptionFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b> par autre Bouftou allié en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

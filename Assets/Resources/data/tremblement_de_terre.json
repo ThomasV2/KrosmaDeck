@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 231,
+  "Name": "tremblement_de_terre",
+  "CardType": "Spell",
+  "CostAP": 7,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 10,
+  "NameFR": "Tremblement de Terre",
+  "DescriptionFR": "Inflige 4 dégâts à une invocation ainsi qu'à toutes celles autour.",
+  "Extension": 1,
+  "LinkedCards": []
+}

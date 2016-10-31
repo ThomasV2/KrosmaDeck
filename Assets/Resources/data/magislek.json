@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 466,
+  "Name": "magislek",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 2,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Magislek",
+  "DescriptionFR": "Inflige 1 dégât aux invocations adverses quand votre adversaire joue un sort.",
+  "Extension": 1,
+  "LinkedCards": []
+}

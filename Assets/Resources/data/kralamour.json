@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 160,
+  "Name": "kralamour",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 2,
+  "Families": [
+    61
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Kralamour",
+  "DescriptionFR": "<b>APPARITION :</b>\nSoigne une invocation\r\nde 2 <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

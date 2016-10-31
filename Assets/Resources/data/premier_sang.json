@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 48,
+  "Name": "premier_sang",
+  "CardType": "Spell",
+  "CostAP": 0,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 6,
+  "NameFR": "Premier Sang",
+  "DescriptionFR": "Bannit 1 carte de votre défausse pour infliger 2 dégâts.",
+  "Extension": 1,
+  "LinkedCards": []
+}

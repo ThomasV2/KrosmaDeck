@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 541,
+  "Name": "bebe_tofu",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Bébé Tofu",
+  "DescriptionFR": "<b>MORT :</b> Vos Tofus\r\n<b>chargent</b> de 1 case.",
+  "Extension": 1,
+  "LinkedCards": []
+}

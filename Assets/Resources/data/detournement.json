@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 134,
+  "Name": "detournement",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 2,
+  "NameFR": "Détournement",
+  "DescriptionFR": "L'invocation ciblée\r\nchange de ligne.",
+  "Extension": 1,
+  "LinkedCards": []
+}

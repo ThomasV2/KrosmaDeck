@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 378,
+  "Name": "kerubim_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Kerubim le Brocanteur",
+  "DescriptionFR": "<b>APPARITION :</b>\nDétruit le prisme adverse de sa ligne puis dévoilez un Dofus adverse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

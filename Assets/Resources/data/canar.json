@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 402,
+  "Name": "canar",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 10,
+  "NameFR": "Canar",
+  "DescriptionFR": "<b>MORT :</b>\nAjoute à votre main un sort Krosmique de votre pioche.",
+  "Extension": 1,
+  "LinkedCards": []
+}

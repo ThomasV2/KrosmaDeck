@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 249,
+  "Name": "ragnagna",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    19
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Ragnagna",
+  "DescriptionFR": "<b>CHEF :</b> +1 <b>AT</b> et +1 <b>PM</b>\r\nà vos autres Rats.",
+  "Extension": 1,
+  "LinkedCards": []
+}

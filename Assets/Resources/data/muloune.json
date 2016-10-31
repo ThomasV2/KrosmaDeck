@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 571,
+  "Name": "muloune",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 5,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    15
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Muloune",
+  "DescriptionFR": "<b>COUP DE GRÂCE :</b>\nSoigne vos autres Mulous de 2 <b>PV</b>\r.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

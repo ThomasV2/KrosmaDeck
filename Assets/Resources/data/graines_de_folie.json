@@ -1,0 +1,22 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 162,
+  "Name": "graines_de_folie",
+  "CardType": "Spell",
+  "CostAP": 5,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 10,
+  "NameFR": "Graines de Folie",
+  "DescriptionFR": "Transforme toutes vos <b>Graines</b> en Poupées Folles.",
+  "Extension": 1,
+  "LinkedCards": [
+    22
+  ]
+}

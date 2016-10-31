@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 395,
+  "Name": "wobot_01",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    18
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Wobot 01",
+  "DescriptionFR": "<b>CHEF :</b> +1 <b>AT</b> à vos autres Wabbits.",
+  "Extension": 1,
+  "LinkedCards": []
+}

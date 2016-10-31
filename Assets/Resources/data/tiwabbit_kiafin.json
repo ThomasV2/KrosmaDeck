@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 477,
+  "Name": "tiwabbit_kiafin",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    18
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Tiwabbit Kiafin",
+  "DescriptionFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>\r\nsi vous avez une Cawotte en jeu.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

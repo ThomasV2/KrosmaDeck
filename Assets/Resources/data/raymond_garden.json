@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 374,
+  "Name": "raymond_garden",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    27
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Raymond Garden",
+  "DescriptionFR": "<b>APPARITION :</b>\nDonne +1 <b>AR</b> à vos autres invocations.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

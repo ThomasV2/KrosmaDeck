@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 356,
+  "Name": "bellaphone",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    48
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Bellaphone",
+  "DescriptionFR": "<b>MORT :</b>\nRemonte dans votre main l'invocation qui a détruit la Bellaphone.",
+  "Extension": 1,
+  "LinkedCards": []
+}

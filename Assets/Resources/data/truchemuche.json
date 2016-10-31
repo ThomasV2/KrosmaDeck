@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 30,
+  "Name": "truchemuche",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 5,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    26
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Truchemuche ",
+  "DescriptionFR": "Change de ligne\r\nlorsqu’une invocation\r\nadverse entre en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 186,
+  "Name": "elely",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    1,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Elely",
+  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases\r\nqu'il y a d'invocations adverses en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

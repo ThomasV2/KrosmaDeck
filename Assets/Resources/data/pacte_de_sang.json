@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 476,
+  "Name": "pacte_de_sang",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 8,
+  "NameFR": "Pacte de Sang",
+  "DescriptionFR": "Inflige 1 dégât aux invocations alliées puis leur confère +1 <b>AT</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

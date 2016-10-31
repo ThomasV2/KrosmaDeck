@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 65,
+  "Name": "lou_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    44
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Lou",
+  "DescriptionFR": "<b>APPARITION :</b>\nFait à nouveau apparaitre tous les Prismes.",
+  "Extension": 1,
+  "LinkedCards": []
+}

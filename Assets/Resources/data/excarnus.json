@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 523,
+  "Name": "excarnus",
+  "CardType": "Summon",
+  "CostAP": 10,
+  "Life": 8,
+  "Attack": 6,
+  "MovementPoint": 2,
+  "Families": [
+    14
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Excarnus",
+  "DescriptionFR": "Vos autres Bouftous remontent dans votre main quand ils meurent. ",
+  "Extension": 1,
+  "LinkedCards": []
+}

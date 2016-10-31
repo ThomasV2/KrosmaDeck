@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 537,
+  "Name": "fiole_de_frayeur",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 3,
+  "NameFR": "Fiole de Frayeur",
+  "DescriptionFR": "Inflige <b>silence</b> à une invocation et la repousse de 3 cases.",
+  "Extension": 1,
+  "LinkedCards": []
+}

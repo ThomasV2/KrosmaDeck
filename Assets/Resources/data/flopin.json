@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 41,
+  "Name": "flopin",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    2,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Flopin",
+  "DescriptionFR": "<b>PORTÉE :</b> 1-2\n<b>APPARITION :</b>\nInflige 2 dégâts à une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

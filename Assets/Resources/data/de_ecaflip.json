@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 342,
+  "Name": "de_ecaflip",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 4,
+  "NameFR": "Dé Ecaflip",
+  "DescriptionFR": "Inflige 1d6 dégât(s). Récupérez ce sort\nsur 3 ou moins.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

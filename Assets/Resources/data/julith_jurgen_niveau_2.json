@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 488,
+  "Name": "julith_jurgen_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    35
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Julith Jurgen",
+  "DescriptionFR": "<b>MORT :</b> Remonte dans votre main si aucun de vos Dofus n'a été détruit.",
+  "Extension": 1,
+  "LinkedCards": []
+}

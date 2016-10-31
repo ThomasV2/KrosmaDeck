@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 422,
+  "Name": "empereur_gelax",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 5,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    30
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Empereur Gelax",
+  "DescriptionFR": "Invoque une autre Gelée aléatoire autour de lui s'il survit à une attaque.",
+  "Extension": 1,
+  "LinkedCards": []
+}

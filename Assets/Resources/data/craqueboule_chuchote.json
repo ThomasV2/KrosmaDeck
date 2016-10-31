@@ -1,0 +1,23 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 234,
+  "Name": "craqueboule_chuchote",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    22,
+    31
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Craqueboule Chuchoté",
+  "DescriptionFR": "<b>RÉSISTANCE :</b> 1\n<b>MORT :</b> Invoque un Chuchoteur Porte-Etendard.",
+  "Extension": 1,
+  "LinkedCards": [
+    324
+  ]
+}

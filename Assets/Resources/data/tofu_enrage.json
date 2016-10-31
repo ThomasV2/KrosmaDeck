@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 400,
+  "Name": "tofu_enrage",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Tofu Enragé",
+  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases que vous avez de Tofus\r\nen jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

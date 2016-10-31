@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 302,
+  "Name": "saignee_mortelle",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 6,
+  "NameFR": "Saignée Mortelle",
+  "DescriptionFR": "Fait chuter à 1 les <b>PV</b>\r\ndes invocations.",
+  "Extension": 1,
+  "LinkedCards": []
+}

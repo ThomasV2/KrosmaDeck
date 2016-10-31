@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 99,
+  "Name": "ruel_niveau_1",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    4,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Ruel Stroud",
+  "DescriptionFR": "Coûte 3 <b>PA</b> de moins\r\npar autre membre de la Confrérie du Tofu que vous avez en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

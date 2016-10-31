@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 542,
+  "Name": "piou_royal",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 5,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    24
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Piou Royal",
+  "DescriptionFR": "Vos Pious coûtent\r\n2 <b>PA</b> de moins.\n<b>CHEF  : </b> +1 <b>AT</b> à vos\r\nautres Pious.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

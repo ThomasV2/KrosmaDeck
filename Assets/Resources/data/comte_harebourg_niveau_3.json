@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 349,
+  "Name": "comte_harebourg_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 5,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Comte Harebourg",
+  "DescriptionFR": "<b>APPARITION :</b>\nDétruit tous les prismes.",
+  "Extension": 1,
+  "LinkedCards": []
+}

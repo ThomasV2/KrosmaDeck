@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 226,
+  "Name": "fleche_explosive",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 2,
+  "NameFR": "Flèche Explosive",
+  "DescriptionFR": "Inflige 5 dégâts.",
+  "Extension": 1,
+  "LinkedCards": []
+}

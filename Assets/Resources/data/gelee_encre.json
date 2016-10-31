@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 69,
+  "Name": "gelee_encre",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 2,
+  "Families": [
+    30
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Gelée Encre",
+  "DescriptionFR": "<b>MORT :</b>\nDonne +1 <b>AT</b> et +1 <b>AR</b>\r\nà vos autres Gelées.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

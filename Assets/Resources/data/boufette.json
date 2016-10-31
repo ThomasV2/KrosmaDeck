@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 32,
+  "Name": "boufette",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    14
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Boufette",
+  "DescriptionFR": "<b>APPARITION :</b>\nSoigne vos autres Bouftous de 2 <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

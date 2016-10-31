@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 24,
+  "Name": "sangsuce_tsu_tsu",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    62
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Sangsuce Tsu Tsu",
+  "DescriptionFR": "Tous les soins deviennent des dégâts.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

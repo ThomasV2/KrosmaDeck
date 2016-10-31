@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 420,
+  "Name": "arakne_spectrale",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 6,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    12
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Arakne Spectrale",
+  "DescriptionFR": "Remonte dans votre main\r\nsi il lui reste 1 <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

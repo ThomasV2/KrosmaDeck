@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 319,
+  "Name": "defhi_croquets",
+  "CardType": "Summon",
+  "CostAP": 8,
+  "Life": 3,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 4,
+  "NameFR": "Defhi Croquets",
+  "DescriptionFR": "<b>INITIATIVE</b>\n<b>APPARITION :</b>\n<b>Charge</b> de 1d6 case(s).",
+  "Extension": 1,
+  "LinkedCards": []
+}

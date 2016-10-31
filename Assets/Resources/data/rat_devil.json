@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 387,
+  "Name": "rat_devil",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    19
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Rat Devil",
+  "DescriptionFR": "Gagne +2 <b>AR</b> tant que vous avez un Rat Dechant en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

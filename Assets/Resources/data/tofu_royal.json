@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 15,
+  "Name": "tofu_royal",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 5,
+  "Attack": 4,
+  "MovementPoint": 4,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Tofu Royal",
+  "DescriptionFR": "<b>CHEF :</b>\n+1 <b>AT</b> et +1 <b>PM</b> à vos autres Tofus.",
+  "Extension": 1,
+  "LinkedCards": []
+}

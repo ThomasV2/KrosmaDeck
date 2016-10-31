@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 207,
+  "Name": "masse",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 9,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    60
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Masse",
+  "DescriptionFR": "Les invocations qu'il blesse meurent si vous avez un autre Justicier en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

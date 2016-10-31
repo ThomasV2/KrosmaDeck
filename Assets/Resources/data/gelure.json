@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 170,
+  "Name": "gelure",
+  "CardType": "Spell",
+  "CostAP": 0,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 7,
+  "NameFR": "Gelure",
+  "DescriptionFR": "Transfère vos <b>PA</b> vers votre <b>réserve</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

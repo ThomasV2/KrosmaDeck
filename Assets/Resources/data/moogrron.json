@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 191,
+  "Name": "moogrron",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    39
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Moogrron",
+  "DescriptionFR": "<b>CHARGE</b>",
+  "Extension": 1,
+  "LinkedCards": []
+}

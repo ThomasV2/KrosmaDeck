@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 202,
+  "Name": "piou_rouge",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 3,
+  "MovementPoint": 4,
+  "Families": [
+    24
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Piou Rouge",
+  "DescriptionFR": "<b>APPARITION :</b>\nDonne +1 <b>AT</b> à une autre invocation.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

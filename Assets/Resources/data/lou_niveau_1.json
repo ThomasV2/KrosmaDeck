@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 572,
+  "Name": "lou_niveau_1",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    44
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Lou",
+  "DescriptionFR": "<b>APPARITION :</b>\nRécupérez un Prisme allié.",
+  "Extension": 1,
+  "LinkedCards": []
+}

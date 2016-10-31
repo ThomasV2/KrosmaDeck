@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 172,
+  "Name": "ronces_multiples",
+  "CardType": "Spell",
+  "CostAP": 6,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 10,
+  "NameFR": "Ronces Multiples",
+  "DescriptionFR": "Réduit les invocations adverses au <b>silence</b> et soigne de 3 <b>PV</b> vos invocations.",
+  "Extension": 1,
+  "LinkedCards": []
+}

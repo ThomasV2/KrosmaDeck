@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 281,
+  "Name": "poils_de_jiji",
+  "CardType": "Spell",
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Poils de Jiji",
+  "DescriptionFR": "Jouez cette carte pour vous en débarasser.",
+  "Extension": 1,
+  "LinkedCards": []
+}

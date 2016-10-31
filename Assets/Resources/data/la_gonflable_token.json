@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 5,
+  "Name": "la_gonflable_token",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 1,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    32,
+    43
+  ],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 10,
+  "NameFR": "La Gonflable",
+  "DescriptionFR": "<b>FIN DU TOUR :</b>\nSoigne de 2 <b>PV</b> vos autres invocations.",
+  "Extension": 1,
+  "LinkedCards": []
+}

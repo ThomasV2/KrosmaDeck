@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 179,
+  "Name": "bouftou_du_printemps",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 3,
+  "Attack": 6,
+  "MovementPoint": 2,
+  "Families": [
+    14
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Bouftou du Printemps",
+  "DescriptionFR": "<b>DÉBUT DU TOUR :</b>\nGagne +1 <b>AR</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

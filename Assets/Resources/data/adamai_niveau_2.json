@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 47,
+  "Name": "adamai_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    55,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Adamaï",
+  "DescriptionFR": "<b>APPARITION :</b>\nRemonte dans la main\r\nde son propriétaire une invocation ayant 5 <b>AT</b>\r\nou moins.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 331,
+  "Name": "wabbit_tados",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    18
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Wabbit Tados",
+  "DescriptionFR": "<b>APPARITION :</b> \n<b>Charge</b> de 2 case par Cawotte alliée en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

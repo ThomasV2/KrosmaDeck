@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 18,
+  "Name": "sphincter_cell",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    19
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Sphincter Cell",
+  "DescriptionFR": "<b>COUP DE GRÂCE :</b>\nRécupérez le dernier Rat parti dans votre défausse.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

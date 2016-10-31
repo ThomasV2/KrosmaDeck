@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 324,
+  "Name": "katar_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 3,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Katar",
+  "DescriptionFR": "<b>INITIATIVE</b>\n<b>DÉBUT DU TOUR :</b>\n<b>Attire</b> la première invocation adverse située devant lui.",
+  "Extension": 1,
+  "LinkedCards": []
+}

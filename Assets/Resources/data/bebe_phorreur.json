@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 16,
+  "Name": "bebe_phorreur",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    20
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Bébé Phorreur",
+  "DescriptionFR": "<b>MORT :</b> Piochez 1 carte.",
+  "Extension": 1,
+  "LinkedCards": []
+}

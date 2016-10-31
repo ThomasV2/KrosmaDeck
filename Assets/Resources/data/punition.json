@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 189,
+  "Name": "punition",
+  "CardType": "Spell",
+  "CostAP": 8,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 8,
+  "NameFR": "Punition",
+  "DescriptionFR": "Sacrifiez un de vos Dofus pour infliger 3 dégâts à un Dofus adverse.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

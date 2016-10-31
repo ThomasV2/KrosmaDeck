@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 192,
+  "Name": "armure_sanguine",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 8,
+  "NameFR": "Armure Sanguine",
+  "DescriptionFR": "Confère +5 <b>AR</b>\r\nà une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

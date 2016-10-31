@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 357,
+  "Name": "phorzerker",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 7,
+  "Attack": 7,
+  "MovementPoint": 2,
+  "Families": [
+    20
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Phorzerker",
+  "DescriptionFR": "<b>APPARITION :</b>\nDéfaussez une carte de votre main au hasard.",
+  "Extension": 1,
+  "LinkedCards": []
+}

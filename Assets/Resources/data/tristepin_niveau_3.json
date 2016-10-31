@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 369,
+  "Name": "tristepin_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 5,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    1,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Tristepin",
+  "DescriptionFR": "<b>CHARGE</b>\nGagne <b>initiative</b> tant\r\nque vous avez un autre membre de la Confrérie du Tofu en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

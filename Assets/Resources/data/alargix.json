@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 494,
+  "Name": "alargix",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 5,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 3,
+  "NameFR": "Alargix",
+  "DescriptionFR": "<b>DÉBUT DU TOUR :</b>\nRécupère tous ses <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

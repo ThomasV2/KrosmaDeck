@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 139,
+  "Name": "larve_verte",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 2,
+  "Families": [
+    16
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Larve Verte",
+  "DescriptionFR": "<b>APPARITION :</b>\nSa cible change aléatoirement de ligne.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 309,
+  "Name": "grouilleux",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    59
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Grouilleux",
+  "DescriptionFR": "<b>BLESSÉ :</b>\nGagne +1 <b>AT</b> et <b>initiative</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

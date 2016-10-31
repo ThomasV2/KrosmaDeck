@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 119,
+  "Name": "teleportation",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 7,
+  "NameFR": "Téléportation",
+  "DescriptionFR": "<b>Téléporte</b> une invocation sur une case de votre camp.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 87,
+  "Name": "malobouc",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    47
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Malobouc",
+  "DescriptionFR": "<b>MORT :</b>\nDétruit tous les prismes adverses.",
+  "Extension": 1,
+  "LinkedCards": []
+}

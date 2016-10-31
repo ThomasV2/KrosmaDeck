@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 353,
+  "Name": "nox_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 5,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Nox",
+  "DescriptionFR": "<b>MORT :</b> Inflige aux invocations adverses autant de dégâts que vous avez de <b>PA</b> dans votre <b>réserve</b>.\r\nVide votre <b>réserve</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

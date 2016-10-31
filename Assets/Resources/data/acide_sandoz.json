@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 88,
+  "Name": "acide_sandoz",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 3,
+  "NameFR": "Acide Sandoz",
+  "DescriptionFR": "Piochez 1 carte quand une invocation est soignée.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

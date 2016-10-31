@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 352,
+  "Name": "julith_jurgen_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    35
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Julith Jurgen",
+  "DescriptionFR": "Inflige 1 dégâts aux invocations adverses lorsqu'un Dofus allié subit des dégâts.",
+  "Extension": 1,
+  "LinkedCards": []
+}

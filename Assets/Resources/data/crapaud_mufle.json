@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 238,
+  "Name": "crapaud_mufle",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 2,
+  "Families": [
+    53
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Crapaud Mufle",
+  "DescriptionFR": "Gagne +1 <b>AT</b> et +1 <b>AR</b> chaque fois que vous jouez un sort.",
+  "Extension": 1,
+  "LinkedCards": []
+}

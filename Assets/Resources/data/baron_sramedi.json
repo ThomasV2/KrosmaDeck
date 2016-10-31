@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 243,
+  "Name": "baron_sramedi",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 5,
+  "Attack": 6,
+  "MovementPoint": 3,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 6,
+  "NameFR": "Baron Sramedi",
+  "DescriptionFR": "<b>MORT :</b> Remonte dans votre main si vous avez au moins 10 cartes dans votre défausse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

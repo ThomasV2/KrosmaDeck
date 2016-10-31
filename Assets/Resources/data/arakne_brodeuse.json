@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 165,
+  "Name": "arakne_brodeuse",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    12
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Arakne Brodeuse",
+  "DescriptionFR": "<b>APPARITION :</b>\nRemonte dans la main adverse une invocation ayant 2 <b>AT</b> ou moins.",
+  "Extension": 1,
+  "LinkedCards": []
+}

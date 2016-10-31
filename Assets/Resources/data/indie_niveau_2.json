@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 454,
+  "Name": "indie_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 1,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    44
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Indie",
+  "DescriptionFR": "<b>MORT :</b> Récupérez une carte Infinite aléatoire de votre défausse. Elle coûte 1 <b>PA</b> de moins.",
+  "Extension": 1,
+  "LinkedCards": []
+}

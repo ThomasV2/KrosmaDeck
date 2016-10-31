@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 447,
+  "Name": "otomai_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    7
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Otomaï",
+  "DescriptionFR": "<b>MORT :</b> Toutes les autres invocations se transforment en invocations aléatoires coûtant 5 <b>PA</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

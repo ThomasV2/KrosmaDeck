@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 217,
+  "Name": "fosscheur",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 6,
+  "NameFR": "Fosscheur",
+  "DescriptionFR": "Déplace les cartes de la défausse de votre adversaire dans la votre.",
+  "Extension": 1,
+  "LinkedCards": []
+}

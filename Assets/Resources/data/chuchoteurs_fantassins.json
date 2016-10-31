@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 445,
+  "Name": "chuchoteurs_fantassins",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    31
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Chuchoteurs Fantassins",
+  "DescriptionFR": "",
+  "Extension": 1,
+  "LinkedCards": []
+}

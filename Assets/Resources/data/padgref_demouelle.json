@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 222,
+  "Name": "padgref_demouelle",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 8,
+  "NameFR": "Padgref Demouelle",
+  "DescriptionFR": "<b>APPARITION</b> :\nInfligez 1 dégât à\r\nun de vos Dofus.",
+  "Extension": 1,
+  "LinkedCards": []
+}

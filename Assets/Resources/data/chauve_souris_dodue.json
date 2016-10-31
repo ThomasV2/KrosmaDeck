@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 433,
+  "Name": "chauve_souris_dodue",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 5,
+  "Attack": 1,
+  "MovementPoint": 2,
+  "Families": [
+    21
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Chauve Souris Dodue",
+  "DescriptionFR": "Soigne de 1 <b>PV</b> vos autres invocations quand elle blesse un adversaire.",
+  "Extension": 1,
+  "LinkedCards": []
+}

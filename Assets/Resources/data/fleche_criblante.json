@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 8,
+  "Name": "fleche_criblante",
+  "CardType": "Spell",
+  "CostAP": 5,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 2,
+  "NameFR": "Flèche Criblante",
+  "DescriptionFR": "Inflige 3 dégâts à une invocation et 1 dégât au Dofus adverse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

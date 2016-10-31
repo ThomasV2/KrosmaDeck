@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 325,
+  "Name": "lumino",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 4,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    60
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Lumino",
+  "DescriptionFR": "<b>FIN DU TOUR :</b>\nInflige 1 dégât au Dofus adverse de sa ligne si vous avez un autre Justicier en jeu.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

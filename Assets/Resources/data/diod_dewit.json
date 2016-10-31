@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 337,
+  "Name": "diod_dewit",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 7,
+  "NameFR": "Diod Dewit",
+  "DescriptionFR": "<b>APPARITION :</b>\nPlace un Sinistro\r\nsur un Dofus.",
+  "Extension": 1,
+  "LinkedCards": []
+}

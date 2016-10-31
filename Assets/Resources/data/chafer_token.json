@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 313,
+  "Name": "chafer_token",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 2,
+  "Families": [
+    28
+  ],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Chafer",
+  "DescriptionFR": "",
+  "Extension": 1,
+  "LinkedCards": []
+}

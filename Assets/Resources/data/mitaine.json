@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 551,
+  "Name": "mitaine",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 5,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 4,
+  "NameFR": "Mitaine",
+  "DescriptionFR": "<b>APPARITION :</b>\nGagne autant d'<b>AT</b> que vous avez de cartes en main.",
+  "Extension": 1,
+  "LinkedCards": []
+}

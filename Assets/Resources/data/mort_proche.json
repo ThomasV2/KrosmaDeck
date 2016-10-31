@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 195,
+  "Name": "mort_proche",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 8,
+  "NameFR": "Mort Proche",
+  "DescriptionFR": "Confère +3 <b>AT</b> et +2 <b>AR</b>\r\nà une invocation. Elle meurt à la fin de son tour.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

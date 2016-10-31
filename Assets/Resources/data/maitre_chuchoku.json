@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 98,
+  "Name": "maitre_chuchoku",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    31
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Maitre Chuchoku",
+  "DescriptionFR": "<b>APPARITION :</b>\nDonne <b>bouclier</b> à une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

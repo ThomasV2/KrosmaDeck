@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 1579,
+  "Name": "maine_cooyne",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    36
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Maine Cooyne",
+  "DescriptionFR": "<b>CHEF :</b> +1 <b>AT</b> à\r\nvos autres Chachas.",
+  "Extension": 1,
+  "LinkedCards": []
+}

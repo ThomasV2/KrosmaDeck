@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 19,
+  "Name": "fiole_de_psykoz",
+  "CardType": "Spell",
+  "CostAP": 6,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 3,
+  "NameFR": "Fiole de Psykoz",
+  "DescriptionFR": "Prenez le contrôle d'une invocation adverse ayant 3 <b>AT</b> ou moins jusqu'à la fin du tour.",
+  "Extension": 1,
+  "LinkedCards": []
+}

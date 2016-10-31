@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 415,
+  "Name": "tofu_celeste",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 4,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Tofu Céleste",
+  "DescriptionFR": "<b>APPARITON :</b> Piochez 3 cartes. Gardez les Tofus, défaussez les autres.",
+  "Extension": 1,
+  "LinkedCards": []
+}

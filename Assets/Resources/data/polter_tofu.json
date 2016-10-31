@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 358,
+  "Name": "polter_tofu",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    66,
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Polter Tofu",
+  "DescriptionFR": "<b>MORT :</b>\nRetourne dans votre main.\r\nIl coûte 1 <b>PA</b> de plus.",
+  "Extension": 1,
+  "LinkedCards": []
+}

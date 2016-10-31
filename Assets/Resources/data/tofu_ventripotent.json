@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 94,
+  "Name": "tofu_ventripotent",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 2,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Tofu Ventripotent",
+  "DescriptionFR": "Gagne +1 <b>AR</b> lorsqu'un de vos Tofus est invoqué.",
+  "Extension": 1,
+  "LinkedCards": []
+}

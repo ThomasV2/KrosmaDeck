@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 292,
+  "Name": "maluss",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 1,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    47
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Maluss",
+  "DescriptionFR": "Inflige 1 dégât au Dofus adverse de sa ligne quand vous volez ou détruisez un prisme adverse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 308,
+  "Name": "poele",
+  "CardType": "Spell",
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Poêle",
+  "DescriptionFR": "Inflige 3 dégâts.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 424,
+  "Name": "maskemane_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    45
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Maskemane Psycho",
+  "DescriptionFR": "<b>APPARITION :</b>\nDéfausse votre main et celle de votre adversaire puis chaque joueur pioche 5 cartes.",
+  "Extension": 1,
+  "LinkedCards": []
+}

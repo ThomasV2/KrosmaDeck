@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 321,
+  "Name": "sono_sino",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 1,
+  "NameFR": "Sono Sino",
+  "DescriptionFR": "<b>APPARITION :</b>\nL’invocation ciblée <b>charge</b> de 2 cases.",
+  "Extension": 1,
+  "LinkedCards": []
+}

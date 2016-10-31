@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 68,
+  "Name": "craqueleur_royal",
+  "CardType": "Summon",
+  "CostAP": 8,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    22
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Craqueleur Royal",
+  "DescriptionFR": "<b>RÉSISTANCE :</b> 1\n<b>CHEF :</b> +1 <b>AT</b> à vos autres Craqueleurs.",
+  "Extension": 1,
+  "LinkedCards": []
+}

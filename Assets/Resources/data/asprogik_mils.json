@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 525,
+  "Name": "asprogik_mils",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 3,
+  "NameFR": "Asprogik Mils",
+  "DescriptionFR": "<b>APPARITION :</b>\nEchange son <b>AT</b> avec une autre invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

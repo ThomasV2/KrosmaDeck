@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 20,
+  "Name": "repos_eternel",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 6,
+  "NameFR": "Repos Éternel",
+  "DescriptionFR": "Durant ce tour,\r\nne dépensez pas de <b>PA</b> pour jouer vos cartes. A la place bannissez des cartes de votre défausse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

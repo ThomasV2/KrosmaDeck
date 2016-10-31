@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 442,
+  "Name": "horloge",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 7,
+  "NameFR": "Horloge",
+  "DescriptionFR": "Récupérez un sort Sinistro de votre défausse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

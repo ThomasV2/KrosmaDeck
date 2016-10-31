@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 438,
+  "Name": "abragland",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 4,
+  "MovementPoint": 2,
+  "Families": [
+    17
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Abragland",
+  "DescriptionFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> par Arakne\r\nen jeu.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

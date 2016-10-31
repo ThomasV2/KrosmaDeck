@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 491,
+  "Name": "mot_reconstituant",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 3,
+  "NameFR": "Mot Reconstituant",
+  "DescriptionFR": "Soigne une invocation ou un Dofus de 3 <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

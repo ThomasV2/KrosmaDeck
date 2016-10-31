@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 556,
+  "Name": "grainaille",
+  "CardType": "Spell",
+  "CostAP": 6,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 10,
+  "NameFR": "Grainaille",
+  "DescriptionFR": "Confère à une invocation autant d'<b>AT</b> et d'<b>AR</b> que de Graines alliés en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

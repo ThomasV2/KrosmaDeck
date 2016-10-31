@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 475,
+  "Name": "arakne",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    12
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Arakne",
+  "DescriptionFR": "<b>BLESSÉ</b> :\nGagne +1 <b>PM</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 301,
+  "Name": "tofu_mutant",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 5,
+  "Attack": 1,
+  "MovementPoint": 1,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Tofu Mutant",
+  "DescriptionFR": "<b>APPARITION :</b>\nSacrifie un Tofu allié pour gagner son <b>AT</b> et ses <b>PM</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

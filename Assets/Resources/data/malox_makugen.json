@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 76,
+  "Name": "malox_makugen",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 6,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 3,
+  "NameFR": "Malox Makugen",
+  "DescriptionFR": "Inflige 1 dégât au Dofus adverse de sa ligne à chaque invocation soignée.",
+  "Extension": 1,
+  "LinkedCards": []
+}

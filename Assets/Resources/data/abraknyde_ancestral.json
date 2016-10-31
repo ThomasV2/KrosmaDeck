@@ -1,0 +1,22 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 455,
+  "Name": "abraknyde_ancestral",
+  "CardType": "Summon",
+  "CostAP": 8,
+  "Life": 5,
+  "Attack": 7,
+  "MovementPoint": 2,
+  "Families": [
+    17
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Abraknyde Ancestral",
+  "DescriptionFR": "<b>MORT :</b> Invoque 2 Corbacs autour de lui.",
+  "Extension": 1,
+  "LinkedCards": [
+    144
+  ]
+}

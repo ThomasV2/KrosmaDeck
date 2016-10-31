@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 399,
+  "Name": "polter",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    66
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Polter",
+  "DescriptionFR": "<b>CONTRE COUP :</b>\nTransforme son adversaire en <b>Buisson</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,22 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 380,
+  "Name": "chafer_translucide",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 5,
+  "Attack": 4,
+  "MovementPoint": 2,
+  "Families": [
+    28
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Chafer Translucide",
+  "DescriptionFR": "<b>INCIBLABLE</b>\n<b>MORT :</b> 50% de chances d'invoquer un Chafer d'Elite.",
+  "Extension": 1,
+  "LinkedCards": [
+    97
+  ]
+}

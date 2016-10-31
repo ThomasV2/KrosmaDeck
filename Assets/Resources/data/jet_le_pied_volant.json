@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 158,
+  "Name": "jet_le_pied_volant",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 4,
+  "Attack": 6,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 8,
+  "NameFR": "Jet le Pied Volant",
+  "DescriptionFR": "<b>APPARITION :</b>\nEchange sa place avec celle d'un allié.",
+  "Extension": 1,
+  "LinkedCards": []
+}

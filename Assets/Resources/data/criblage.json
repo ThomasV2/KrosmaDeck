@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 519,
+  "Name": "criblage",
+  "CardType": "Spell",
+  "CostAP": 8,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 2,
+  "NameFR": "Criblage",
+  "DescriptionFR": "Inflige à un Dofus\r\nautant de dégâts que de Crâs alliés en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

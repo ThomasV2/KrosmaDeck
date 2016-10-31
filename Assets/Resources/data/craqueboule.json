@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 210,
+  "Name": "craqueboule",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 2,
+  "Families": [
+    22
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Craqueboule",
+  "DescriptionFR": "<b>RÉSISTANCE :</b> 1\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

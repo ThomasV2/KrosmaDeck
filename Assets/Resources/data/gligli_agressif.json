@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 237,
+  "Name": "gligli_agressif",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 4,
+  "Families": [
+    25
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Gligli Agressif",
+  "DescriptionFR": "<b>CHEF :</b>\n+1 <b>PM</b> à vos autres Gliglis.",
+  "Extension": 1,
+  "LinkedCards": []
+}

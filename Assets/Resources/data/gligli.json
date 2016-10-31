@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 181,
+  "Name": "gligli",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 1,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    25
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Gligli",
+  "DescriptionFR": "<b>CHARGE</b>",
+  "Extension": 1,
+  "LinkedCards": []
+}

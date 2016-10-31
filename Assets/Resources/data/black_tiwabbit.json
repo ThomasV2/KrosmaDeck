@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 122,
+  "Name": "black_tiwabbit",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    18
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Black Tiwabbit",
+  "DescriptionFR": "<b>APPARITION :</b>\nInflige 1 dégât.",
+  "Extension": 1,
+  "LinkedCards": []
+}

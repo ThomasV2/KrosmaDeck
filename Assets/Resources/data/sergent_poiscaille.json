@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 95,
+  "Name": "sergent_poiscaille",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 6,
+  "Attack": 4,
+  "MovementPoint": 2,
+  "Families": [
+    40
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Sergent Poiscaille",
+  "DescriptionFR": "",
+  "Extension": 1,
+  "LinkedCards": []
+}

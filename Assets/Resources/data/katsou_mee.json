@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 540,
+  "Name": "katsou_mee",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 1,
+  "NameFR": "Katsou Mee",
+  "DescriptionFR": "<b>APPARITION :</b>\nDonne +3 <b>AT</b> à une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

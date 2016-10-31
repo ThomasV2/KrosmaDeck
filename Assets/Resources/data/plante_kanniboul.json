@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 704,
+  "Name": "plante_kanniboul",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 3,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    65
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Plante Kanniboul",
+  "DescriptionFR": "<b>FIN DU TOUR :</b>\nDétruit les invocations ayant 2 <b>AT</b> ou moins.",
+  "Extension": 1,
+  "LinkedCards": []
+}

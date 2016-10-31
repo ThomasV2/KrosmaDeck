@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 275,
+  "Name": "qilby_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 5,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    56
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Qilby",
+  "DescriptionFR": "<b>COUP DE GRÂCE :</b>\nRemonte l'invocation adverse dans votre main.",
+  "Extension": 1,
+  "LinkedCards": []
+}

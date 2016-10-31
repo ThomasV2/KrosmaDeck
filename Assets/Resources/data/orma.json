@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 295,
+  "Name": "orma",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 10,
+  "NameFR": "Orma",
+  "DescriptionFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>\r\npar Graine alliée en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

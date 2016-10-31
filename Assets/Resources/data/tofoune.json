@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 106,
+  "Name": "tofoune",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Tofoune",
+  "DescriptionFR": "<b>APPARITION :</b>\nPiochez 1 carte.\r\nSi ce n'est pas un Tofu défaussez-la.",
+  "Extension": 1,
+  "LinkedCards": []
+}

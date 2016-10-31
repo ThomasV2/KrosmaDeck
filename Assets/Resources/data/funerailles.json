@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 930,
+  "Name": "funerailles",
+  "CardType": "Spell",
+  "CostAP": 0,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 6,
+  "NameFR": "Funérailles",
+  "DescriptionFR": "Défausse 3 Srams\r\nde votre pioche.",
+  "Extension": 1,
+  "LinkedCards": []
+}

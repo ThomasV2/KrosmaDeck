@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 67,
+  "Name": "justice_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    60
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Justice",
+  "DescriptionFR": "<b>APPARITION :</b>\nRéduit une invocation\r\nau <b>silence</b> et passe son <b>AT</b> à 3.",
+  "Extension": 1,
+  "LinkedCards": []
+}

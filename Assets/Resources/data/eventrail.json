@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 232,
+  "Name": "eventrail",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 1,
+  "NameFR": "Éventrail",
+  "DescriptionFR": "Inflige 3 dégâts\r\naux invocations adverses d'une ligne.",
+  "Extension": 1,
+  "LinkedCards": []
+}

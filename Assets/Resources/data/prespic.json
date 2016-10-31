@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 478,
+  "Name": "prespic",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    52
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Prespic",
+  "DescriptionFR": "<b> CONTRE COUP :</b>\nInflige 1 dégât autour de lui.",
+  "Extension": 1,
+  "LinkedCards": []
+}

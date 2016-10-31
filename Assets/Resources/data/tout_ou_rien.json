@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 492,
+  "Name": "tout_ou_rien",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 4,
+  "NameFR": "Tout ou Rien",
+  "DescriptionFR": "Vos invocations <b>chargent</b> <b>OU</b> sont repoussées de 3 cases.",
+  "Extension": 1,
+  "LinkedCards": []
+}

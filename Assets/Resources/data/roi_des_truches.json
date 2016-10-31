@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 282,
+  "Name": "roi_des_truches",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 5,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    26
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Roi des Truches",
+  "DescriptionFR": "Annule les compétences de changement de ligne et de camp de vos truches.",
+  "Extension": 1,
+  "LinkedCards": []
+}

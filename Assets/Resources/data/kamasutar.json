@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 92,
+  "Name": "kamasutar",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    20,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Kamasutar",
+  "DescriptionFR": "<b>APPARITION :</b>\nRécupérez les 5 dernières cartes parties dans votre défausse si votre main est vide.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

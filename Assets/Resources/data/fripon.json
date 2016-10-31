@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 73,
+  "Name": "fripon",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 5,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    20
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Fripon",
+  "DescriptionFR": "<b>MORT :</b>\nRécupérez 1 carte aléatoire de la défausse adverse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

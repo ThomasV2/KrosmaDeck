@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 250,
+  "Name": "eliacube",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 9,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Eliacube",
+  "DescriptionFR": "<b>MUR</b>\nAjoute 1 <b>PA</b> à votre\r\n<b>réserve</b> quand une invocation meurt.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 503,
+  "Name": "karla_blondie",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 5,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 4,
+  "NameFR": "Karla Blondie",
+  "DescriptionFR": "<b>APPARITION :</b>\nGagne 1d6 <b>AT</b>.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

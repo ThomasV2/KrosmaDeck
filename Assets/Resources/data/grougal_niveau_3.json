@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 397,
+  "Name": "grougal_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 9,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    55
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Grougaloragran",
+  "DescriptionFR": "Tant qu'il est en jeu, vos Dofus ne peuvent pas être détruits.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 429,
+  "Name": "bond",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 1,
+  "NameFR": "Bond",
+  "DescriptionFR": "<b>Téléporte</b> une invocation\r\nde 3 cases.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

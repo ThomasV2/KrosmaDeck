@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 470,
+  "Name": "maloboss",
+  "CardType": "Summon",
+  "CostAP": 14,
+  "Life": 5,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    47
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Maloboss",
+  "DescriptionFR": "<b>MORT :</b> Ajoute 3 autres Bandits à votre main.",
+  "Extension": 1,
+  "LinkedCards": []
+}

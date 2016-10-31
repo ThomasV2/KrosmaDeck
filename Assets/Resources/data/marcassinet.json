@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 263,
+  "Name": "marcassinet",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    25
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Marcassinet ",
+  "DescriptionFR": "Gagne +1 <b>PM</b> tant que vous avez une Glaie en jeu.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

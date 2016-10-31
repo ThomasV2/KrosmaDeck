@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 58,
+  "Name": "pollinisation",
+  "CardType": "Spell",
+  "CostAP": 7,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 10,
+  "NameFR": "Pollinisation",
+  "DescriptionFR": "Inflige 3 dégâts aux invocations adverses, transforme en <b>Graines</b> alliées celles qui meurent.",
+  "Extension": 1,
+  "LinkedCards": []
+}

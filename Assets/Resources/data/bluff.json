@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 61,
+  "Name": "bluff",
+  "CardType": "Spell",
+  "CostAP": 5,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 4,
+  "NameFR": "Bluff",
+  "DescriptionFR": "Échangez la position\r\nde 2 de vos Dofus.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

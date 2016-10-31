@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 373,
+  "Name": "la_sacrifiee_token",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 1,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    32,
+    43
+  ],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 10,
+  "NameFR": "La Sacrifiée",
+  "DescriptionFR": "<b>MORT :</b> Inflige 2 dégâts supplémentaires à l'invocation qui l'a détuit.",
+  "Extension": 1,
+  "LinkedCards": []
+}

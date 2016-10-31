@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 70,
+  "Name": "fan_token",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Fan",
+  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> si Khan Karkass est en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

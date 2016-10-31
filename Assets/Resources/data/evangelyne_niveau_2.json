@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 498,
+  "Name": "evangelyne_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    2,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Evangelyne",
+  "DescriptionFR": "<b>PORTÉE :</b> 1-4\nGagne +2 <b>portée</b> si vous avez un autre membre de la Confrérie du Tofu en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

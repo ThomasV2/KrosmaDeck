@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 522,
+  "Name": "saizan_zen",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 3,
+  "NameFR": "Saizan Zen",
+  "DescriptionFR": "<b>APPARITION :</b>\nDonne +2 <b>AR</b> à une invocation ou +4 <b>AR</b> si\r\nelle est blessée.",
+  "Extension": 1,
+  "LinkedCards": []
+}

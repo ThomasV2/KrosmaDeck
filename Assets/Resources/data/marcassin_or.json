@@ -1,0 +1,22 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 407,
+  "Name": "marcassin_or",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    25
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Marcassin Or",
+  "DescriptionFR": "<b>APPARITION :</b>\nTransforme toutes les autres invocations en Marcassinet.",
+  "Extension": 1,
+  "LinkedCards": [
+    287
+  ]
+}

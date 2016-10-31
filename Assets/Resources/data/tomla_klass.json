@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 72,
+  "Name": "tomla_klass",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 1,
+  "NameFR": "Tomla Klass",
+  "DescriptionFR": "<b>APPARITION :</b>\nDonne +2 <b>AT</b> à une invocation.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

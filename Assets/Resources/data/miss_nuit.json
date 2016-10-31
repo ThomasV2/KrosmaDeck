@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 382,
+  "Name": "miss_nuit",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 7,
+  "NameFR": "Miss Nuit",
+  "DescriptionFR": "Ajoute 1 <b>PA</b> à votre <b>réserve</b> chaque fois que votre adversaire joue une carte.",
+  "Extension": 1,
+  "LinkedCards": []
+}

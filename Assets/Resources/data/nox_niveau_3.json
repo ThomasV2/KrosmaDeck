@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 287,
+  "Name": "nox_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 9,
+  "Life": 7,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Nox",
+  "DescriptionFR": "Tant que Nox est en jeu,\r\nle coût de vos invocations est de 4 <b>PA</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

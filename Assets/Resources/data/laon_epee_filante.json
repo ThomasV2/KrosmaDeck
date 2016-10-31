@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 153,
+  "Name": "laon_epee_filante",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 4,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 8,
+  "NameFR": "Laon Epée Filante",
+  "DescriptionFR": "<b>CONTRE COUP :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

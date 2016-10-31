@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 146,
+  "Name": "atcham_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 2,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Atcham",
+  "DescriptionFR": "50% de chances de ne pas subir les dégâts qu'il reçoit.",
+  "Extension": 1,
+  "LinkedCards": []
+}

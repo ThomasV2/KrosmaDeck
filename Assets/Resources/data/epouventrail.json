@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 425,
+  "Name": "epouventrail",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 0,
+  "Families": [
+    57
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Epouventrail",
+  "DescriptionFR": "<b>MUR</b>",
+  "Extension": 1,
+  "LinkedCards": []
+}

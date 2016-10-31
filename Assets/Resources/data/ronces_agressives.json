@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 439,
+  "Name": "ronces_agressives",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 10,
+  "NameFR": "Ronces Agressives",
+  "DescriptionFR": "Inflige 4 dégâts à toutes les invocations d'une ligne.",
+  "Extension": 1,
+  "LinkedCards": []
+}

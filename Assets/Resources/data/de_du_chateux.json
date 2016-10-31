@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 459,
+  "Name": "de_du_chateux",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 4,
+  "NameFR": "Dé du Chateux",
+  "DescriptionFR": "Inflige 1d6 dégât(s).\nDévoile le Dofus adverse de la ligne sur 3 ou moins.",
+  "Extension": 1,
+  "LinkedCards": []
+}

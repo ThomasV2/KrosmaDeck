@@ -6,11 +6,8 @@ using System.IO;
 
 public class Deck_Manager : MonoBehaviour {
 
-    public RectTransform myPanel;
-    public GameObject myDeckPrefab;
-    public Aff_card aff_card;
-
-    public List<GameObject> Deck_cards = new List<GameObject>();
+    // Key = index, Value = nombre de carte selectionné
+    public Dictionary<int, int> Deck_cards = new Dictionary<int, int>();
     private int count = 0;
     private int count_infinite = 0;
 
@@ -23,56 +20,45 @@ public class Deck_Manager : MonoBehaviour {
 	
 	}
 
-    public void Add_Card(int id, string name, int cost, string type, string rarity, string img)
+    public void Add_Card(int index)
     {
         if (count >= 45)
             return;
-        if (rarity == "infinite")
+
+        Data_Card current = Data_All.data_tab[index];
+        if (current.Rarity == (int)Rarity.Infinite)
         {
             if (count_infinite < 5)
                 count_infinite++;
             else
                 return;
         }
-        foreach (GameObject card in Deck_cards)
+        foreach (KeyValuePair<int, int> card in Deck_cards)
         {
-            if (card.name == name)
+            if (card.Key == index)
             {
-                if (rarity == "infinite")
+                if (current.Rarity == (int)Rarity.Infinite)
                 {
                     count_infinite--;
                     return;
                 }
-                if (rarity == "krosmik")
+                if (current.Rarity == (int)Rarity.Krosmique)
                 {
                     return;
                 }
-                if (card.GetComponent<Data_Deck>().quantity < 3)
+                if (card.Value < 3)
                 {
-                    card.GetComponent<Data_Deck>().Set_Quantity(card.GetComponent<Data_Deck>().quantity + 1);
+                    Deck_cards[index] += 1;
                     count++;
                 }
                 return;
             }
         }
-        GameObject newDeck = (GameObject)Instantiate(myDeckPrefab);
-        newDeck.transform.SetParent(myPanel);
-        newDeck.name = name;
-        Data_Deck data = newDeck.GetComponent<Data_Deck>();
-        data.Set_Name(name);
-        data.Set_Cost(cost);
-        data.Set_Quantity(1);
-        data.Set_Type(type);
-        data.Set_Rarity(rarity);
-        data.Set_Img(img);
-        data.id = id;
-        Deck_cards.Add(newDeck);
-        count++;
     }
 
     public void Delete_Card(GameObject card)
     {
-        Data_Deck data = card.GetComponent<Data_Deck>();
+        /*Data_Deck data = card.GetComponent<Data_Deck>();
         if (data.rarity == "infinite")
             count_infinite--;
 
@@ -86,12 +72,12 @@ public class Deck_Manager : MonoBehaviour {
         {
             data.Set_Quantity(data.quantity - 1);
             count--;
-        }
+        }*/
     }
 
     public void Create_Deck_File()
     {
-        string path = Application.dataPath + "/Save/";
+/*        string path = Application.dataPath + "/Save/";
         string filename = "test_deck.sav";
         string data = "";
         Data_Deck current_data_deck;
@@ -106,12 +92,12 @@ public class Deck_Manager : MonoBehaviour {
         }
         data = data.Remove(data.Length - 1);
 
-        File.WriteAllText(path + filename, data);
+        File.WriteAllText(path + filename, data);*/
     }
 
     public void Load_Deck_File()
     {
-        string path = Application.dataPath + "/Save/";
+       /* string path = Application.dataPath + "/Save/";
         string filename = "test_deck.sav";
         int value;
 
@@ -124,6 +110,6 @@ public class Deck_Manager : MonoBehaviour {
         {
             int.TryParse(id, out value);
             aff_card.Add_to_Deck_by_Id(value);
-        }
+        }*/
     }
 }

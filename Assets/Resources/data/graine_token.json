@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 35,
+  "Name": "graine_token",
+  "CardType": "Aoe",
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 10,
+  "NameFR": "Graine",
+  "DescriptionFR": "Placez cette graine dans votre camp.",
+  "Extension": 1,
+  "LinkedCards": []
+}

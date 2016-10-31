@@ -1,0 +1,22 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 469,
+  "Name": "sarcophage",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 7,
+  "NameFR": "Sarcophage",
+  "DescriptionFR": "Ajoute 2 Momies\r\nà votre main.",
+  "Extension": 1,
+  "LinkedCards": [
+    530
+  ]
+}

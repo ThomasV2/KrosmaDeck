@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 506,
+  "Name": "lait_bambou",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Lait de Bambou",
+  "DescriptionFR": "L'invocation ciblée <b>charge</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

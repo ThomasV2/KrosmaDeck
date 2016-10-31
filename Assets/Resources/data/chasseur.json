@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 245,
+  "Name": "chasseur",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 4,
+  "NameFR": "Chasseur",
+  "DescriptionFR": "Piochez 1 carte.\nElle coûte 0 <b>PA</b> si c'est\r\nune invocation, sinon défaussez-la.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

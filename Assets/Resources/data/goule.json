@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 132,
+  "Name": "goule",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 1,
+  "Families": [
+    21
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Goule",
+  "DescriptionFR": "<b>CONTRE COUP :</b>\nSe <b>téléporte</b> de 3 cases vers l'avant.",
+  "Extension": 1,
+  "LinkedCards": []
+}

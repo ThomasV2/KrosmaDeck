@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 794,
+  "Name": "sournoiserie",
+  "CardType": "Spell",
+  "CostAP": 0,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 6,
+  "NameFR": "Sournoiserie",
+  "DescriptionFR": "Bannit 3 cartes de votre défausse pour faire <b>charger</b> une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

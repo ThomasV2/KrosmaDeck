@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 480,
+  "Name": "salbatroce",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 1,
+  "Attack": 3,
+  "MovementPoint": 4,
+  "Families": [
+    69
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Salbatroce",
+  "DescriptionFR": "<b>APPARITION :</b>\nDévoile les Dofus de sa ligne.",
+  "Extension": 1,
+  "LinkedCards": []
+}

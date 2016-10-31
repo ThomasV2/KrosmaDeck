@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 490,
+  "Name": "ratou",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    19
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Ratou",
+  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases que vous avez d'autres Rats alliés en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

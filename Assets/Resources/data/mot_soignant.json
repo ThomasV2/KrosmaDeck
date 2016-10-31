@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 131,
+  "Name": "mot_soignant",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 3,
+  "NameFR": "Mot Soignant",
+  "DescriptionFR": "L'invocation ciblée récupère tous ses <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 408,
+  "Name": "bowne_piauch",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 5,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 4,
+  "NameFR": "Bowne Piauch",
+  "DescriptionFR": "<b>APPARITION :</b>\nChaque joueur pioche 1 carte de la pioche adverse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

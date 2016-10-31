@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 112,
+  "Name": "deserboss",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    32
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Deserboss",
+  "DescriptionFR": "<b>APPARITION :</b>\nInflige 1 dégât à toutes les invocations situées dans le camp adverse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

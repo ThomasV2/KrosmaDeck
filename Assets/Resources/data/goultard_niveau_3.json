@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 310,
+  "Name": "goultard_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 9,
+  "Life": 4,
+  "Attack": 6,
+  "MovementPoint": 3,
+  "Families": [
+    1
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Goultard le Barbare",
+  "DescriptionFR": "<b>INITIATIVE</b>\n<b>CHEF :</b> +2 <b>AT</b> et +1 <b>PM</b> à vos autres invocations.",
+  "Extension": 1,
+  "LinkedCards": []
+}

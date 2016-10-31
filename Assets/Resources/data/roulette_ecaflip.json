@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 549,
+  "Name": "roulette_ecaflip",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 4,
+  "NameFR": "Roulette Ecaflip",
+  "DescriptionFR": "Confère 1d6 <b>AR</b> à une invocation. Elle est détruite si vous faites 6.",
+  "Extension": 1,
+  "LinkedCards": []
+}

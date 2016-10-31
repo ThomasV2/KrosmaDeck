@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 512,
+  "Name": "pierre_tombale",
+  "CardType": "Summon",
+  "CostAP": 0,
+  "Life": 3,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 6,
+  "NameFR": "Pierre Tombale",
+  "DescriptionFR": "<b>MUR</b>\n<b>APPARITION :</b>\nDéfausse les 3 premières cartes de votre pioche.",
+  "Extension": 1,
+  "LinkedCards": []
+}

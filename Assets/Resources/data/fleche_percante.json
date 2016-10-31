@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 294,
+  "Name": "fleche_percante",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 2,
+  "NameFR": "Flèche perçante",
+  "DescriptionFR": "<b>PERCE ARMURE :</b>\nInflige 2 dégâts. ",
+  "Extension": 1,
+  "LinkedCards": []
+}

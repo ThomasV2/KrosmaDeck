@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 43,
+  "Name": "edass_le_trouble_fete",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 8,
+  "NameFR": "Edass le Trouble Fête",
+  "DescriptionFR": "<b>BLESSÉ :</b>\nGagne +2 <b>AT</b> et <b>initiative\r</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

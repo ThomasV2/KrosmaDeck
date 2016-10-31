@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 211,
+  "Name": "sang_meprise",
+  "CardType": "Spell",
+  "CostAP": 6,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 8,
+  "NameFR": "Sang Méprise",
+  "DescriptionFR": "Dévoile vos Dofus pour dévoiler ceux de votre adversaire.",
+  "Extension": 1,
+  "LinkedCards": []
+}

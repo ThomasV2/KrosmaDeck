@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 559,
+  "Name": "boufton_noir",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    14
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Boufton Noir",
+  "DescriptionFR": "Gagne +1 <b>AR</b> tant\r\nque vous avez un autre Bouftou en jeu.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

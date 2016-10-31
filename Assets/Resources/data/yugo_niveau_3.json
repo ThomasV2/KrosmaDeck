@@ -1,0 +1,21 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 137,
+  "Name": "yugo_niveau_3",
+  "CardType": "Summon",
+  "CostAP": 6,
+  "Life": 6,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    56,
+    33
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Yugo",
+  "DescriptionFR": "<b>CONTRE COUP :</b>\nPlace un membre de la Confrérie du Tofu de votre pioche dans votre main.",
+  "Extension": 1,
+  "LinkedCards": []
+}

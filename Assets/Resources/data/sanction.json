@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 151,
+  "Name": "sanction",
+  "CardType": "Spell",
+  "CostAP": 10,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 6,
+  "NameFR": "Sanction",
+  "DescriptionFR": "Bannit 10 cartes de votre défausse pour faire chuter les <b>PV</b> d'un Dofus à 1.",
+  "Extension": 1,
+  "LinkedCards": []
+}

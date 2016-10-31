@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 322,
+  "Name": "baraklud",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 3,
+  "NameFR": "Baraklud",
+  "DescriptionFR": "<b>APPARITION :</b>\nSoigne une invocation ou un Dofus de 2 <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

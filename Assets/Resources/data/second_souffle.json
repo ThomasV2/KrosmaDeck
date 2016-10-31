@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 1237,
+  "Name": "second_souffle",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 6,
+  "NameFR": "Second Souffle",
+  "DescriptionFR": "Récupérez 2 cartes de votre défausse et défaussez les 4 premières cartes de votre pioche.",
+  "Extension": 1,
+  "LinkedCards": []
+}

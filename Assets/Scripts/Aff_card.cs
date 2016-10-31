@@ -5,16 +5,24 @@ using System.Data;
 using System;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System.Threading;
 
 public class Aff_card : MonoBehaviour {
     
+    // Data
+    private Image[] prev_img = new Image[8] {null, null, null, null, null, null, null, null};
+    private Image[] current_img = new Image[8] { null, null, null, null, null, null, null, null };
+    private Image[] next_img = new Image[8] { null, null, null, null, null, null, null, null };
+
+    // Affichage
     public GameObject[] cards;
     public Deck_Manager deck_manager;
+
+    // Input
     public GameObject cards_button;
     public GameObject deck_button;
     public Dropdown Rarity_Dropdown;
     public Text Input_text;
-    public Text Check_Input_Text;
 
     private int[] tab_id;
     private int[] id_by_count = new int[8];
@@ -25,7 +33,7 @@ public class Aff_card : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        if (Scene_Manager.load_deck == true)
+        /*if (Scene_Manager.load_deck == true)
         {
             cards_button.SetActive(true);
             deck_button.SetActive(false);
@@ -38,7 +46,8 @@ public class Aff_card : MonoBehaviour {
             deck_button.SetActive(true);
             Search_Type(Scene_Manager.card_type);
             Refresh();
-        }
+        }*/
+
 	}
 	
 	// Update is called once per frame
@@ -81,7 +90,7 @@ public class Aff_card : MonoBehaviour {
 
     public void Aff_Deck()
     {
-        Data_Deck data;
+  /*      Data_Deck data;
         list_id.Clear();
         page = 0;
         foreach (GameObject card in deck_manager.Deck_cards)
@@ -92,7 +101,7 @@ public class Aff_card : MonoBehaviour {
             list_id.Add(data.id);
         }
         tab_id = list_id.ToArray();
-        Refresh();
+        Refresh();*/
     }
 
     public void Aff_All_Cards()
@@ -103,35 +112,6 @@ public class Aff_card : MonoBehaviour {
         Refresh();
     }
 
-    public void Search_by_rarity()
-    {
-        if (Rarity_Dropdown.value != 0)
-        {
-            list_id.Clear();
-            page = 0;
-            Search_Rarity(rarity_id[Rarity_Dropdown.value]);
-            Refresh();
-        }
-        else
-        {
-            Aff_All_Cards();
-        }
-    }
-
-    public void Search_by_string()
-    {
-        if (Check_Input_Text.enabled == false)
-        {
-            list_id.Clear();
-            page = 0;
-            Search_String(Input_text.text);
-            Refresh();
-        }
-        else
-        {
-            Aff_All_Cards();
-        }
-    }
 
     public void Add_to_Deck(int i)
     {

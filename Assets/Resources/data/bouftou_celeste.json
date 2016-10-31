@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 128,
+  "Name": "bouftou_celeste",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 5,
+  "Attack": 6,
+  "MovementPoint": 3,
+  "Families": [
+    14
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Bouftou Céleste",
+  "DescriptionFR": "<b>INCIBLABLE</b>\n<b>APPARITION :</b>\nRécupérez le dernier Bouftou parti dans votre défausse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

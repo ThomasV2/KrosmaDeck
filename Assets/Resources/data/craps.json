@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 10,
+  "Name": "craps",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 4,
+  "NameFR": "Craps",
+  "DescriptionFR": "Inflige 7 dégâts\r\nrépartis aléatoirement\r\nentre tous les Dofus.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 239,
+  "Name": "esquive",
+  "CardType": "Spell",
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 2,
+  "NameFR": "Esquive",
+  "DescriptionFR": "Repousse une invocation alliée de 4 cases.",
+  "Extension": 1,
+  "LinkedCards": []
+}

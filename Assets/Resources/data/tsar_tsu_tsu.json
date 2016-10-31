@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 138,
+  "Name": "tsar_tsu_tsu",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    62
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Tsar Tsu Tsu",
+  "DescriptionFR": "<b>COUP DE GRÂCE :</b>\nGagne +2 <b>AT</b> et +<b>2 AR</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

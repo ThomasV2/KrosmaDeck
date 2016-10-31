@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 545,
+  "Name": "echaenge",
+  "CardType": "Spell",
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 4,
+  "NameFR": "Echaenge",
+  "DescriptionFR": "Chaque joueur pioche 1 carte chez son adversaire.",
+  "Extension": 1,
+  "LinkedCards": []
+}

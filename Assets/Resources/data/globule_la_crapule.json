@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 565,
+  "Name": "globule_la_crapule",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 6,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 8,
+  "NameFR": "Globule la Crapule",
+  "DescriptionFR": "<b>CONTRE COUP :</b>\nGagne +1 <b>PM</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

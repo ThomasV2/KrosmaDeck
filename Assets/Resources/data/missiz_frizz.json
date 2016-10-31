@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 474,
+  "Name": "missiz_frizz",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 7,
+  "NameFR": "Missiz Frizz",
+  "DescriptionFR": "<b>MORT :</b>\nRemonte dans votre main\r\nsi vous avez au moins 5 <b>PA</b>\r\ndans votre <b>réserve</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

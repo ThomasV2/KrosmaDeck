@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 133,
+  "Name": "cawotte",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    29
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Cawotte",
+  "DescriptionFR": "<b>MUR</b>\n<b>FIN DU TOUR :</b>\nSoigne vos Wabbits\r\nde 1 <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

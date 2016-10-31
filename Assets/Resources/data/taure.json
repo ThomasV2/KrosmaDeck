@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 105,
+  "Name": "taure",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    72
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Taure",
+  "DescriptionFR": "",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 323,
+  "Name": "dureden_taillair",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 8,
+  "NameFR": "Dureden Taillair",
+  "DescriptionFR": "<b>BLESSÉ :</b>\n+2 <b>AT</b> et +1 <b>PM</b>",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 392,
+  "Name": "noxine_token",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Noxine",
+  "DescriptionFR": "<b>APPARITION :</b>\nVole un <b>PA</b> de la <b>réserve</b> adverse et l'ajoute à la votre.",
+  "Extension": 1,
+  "LinkedCards": []
+}

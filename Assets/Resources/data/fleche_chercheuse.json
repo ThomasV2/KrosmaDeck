@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 38,
+  "Name": "fleche_chercheuse",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    2
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 2,
+  "NameFR": "Flèche chercheuse",
+  "DescriptionFR": "Inflige 1 dégât,\r\nsi l'invocation est détruite récupérez ce sort.",
+  "Extension": 1,
+  "LinkedCards": []
+}

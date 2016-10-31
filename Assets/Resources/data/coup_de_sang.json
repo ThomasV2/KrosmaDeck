@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 570,
+  "Name": "coup_de_sang",
+  "CardType": "Spell",
+  "CostAP": 4,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 8,
+  "NameFR": "Coup de Sang",
+  "DescriptionFR": "Confère à une invocation autant d'<b>AT</b> qu'elle a de <b>PV</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

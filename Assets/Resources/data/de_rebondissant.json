@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 573,
+  "Name": "de_rebondissant",
+  "CardType": "Spell",
+  "CostAP": 10,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 4,
+  "NameFR": "Dé Rebondissant",
+  "DescriptionFR": "Inflige 1d6 dégât(s) aux invocations adverses.\n(Coûte 1 <b>PA</b> de moins par Chacha en jeu.\r)",
+  "Extension": 1,
+  "LinkedCards": []
+}

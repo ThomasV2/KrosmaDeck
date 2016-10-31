@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 169,
+  "Name": "mot_retablissant",
+  "CardType": "Spell",
+  "CostAP": 5,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 3,
+  "NameFR": "Mot Rétablissant",
+  "DescriptionFR": "Confère +3 <b>AR</b> à vos invocations.",
+  "Extension": 1,
+  "LinkedCards": []
+}

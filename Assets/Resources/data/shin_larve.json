@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 500,
+  "Name": "shin_larve",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 6,
+  "Attack": 5,
+  "MovementPoint": 2,
+  "Families": [
+    16
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Shin Larve",
+  "DescriptionFR": "Vos larves gagnent +1 <b>AT</b> et <b>chargent</b> lorsqu'elles entrent en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

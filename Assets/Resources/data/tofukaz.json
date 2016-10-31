@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 167,
+  "Name": "tofukaz",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Tofukaz",
+  "DescriptionFR": "Gagne +2 <b>AT</b> et +1 <b>PM</b> lorsqu’un de vos Tofus meurt.",
+  "Extension": 1,
+  "LinkedCards": []
+}

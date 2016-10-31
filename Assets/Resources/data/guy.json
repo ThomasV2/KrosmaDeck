@@ -1,0 +1,18 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 274,
+  "Name": "guy",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 4,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Guy",
+  "DescriptionFR": "<b>APPARITION :</b>\nEchange au hasard les emplacements des Dofus pour chaque joueur.",
+  "Extension": 1,
+  "LinkedCards": []
+}

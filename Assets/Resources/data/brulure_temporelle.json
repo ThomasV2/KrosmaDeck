@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 93,
+  "Name": "brulure_temporelle",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 7,
+  "NameFR": "Brûlure Temporelle",
+  "DescriptionFR": "Inflige 2 dégâts.\r\nAjoute 1 <b>PA</b> à votre <b>réserve</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

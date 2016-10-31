@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 125,
+  "Name": "attirance",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 8,
+  "NameFR": "Attirance",
+  "DescriptionFR": "<b>Attire</b> une invocation adverse de 7 cases.",
+  "Extension": 1,
+  "LinkedCards": []
+}

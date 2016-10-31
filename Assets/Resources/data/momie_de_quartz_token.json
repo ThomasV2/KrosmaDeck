@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 360,
+  "Name": "momie_de_quartz_token",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    9
+  ],
+  "IsToken": true,
+  "Rarity": 0,
+  "GodType": 7,
+  "NameFR": "Momie",
+  "DescriptionFR": "Ajoute 1 <b>PA</b> à votre <b>réserve</b> quand il subit des dégâts.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 555,
+  "Name": "chuchoteurs_porte-etendard",
+  "CardType": "Summon",
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    31
+  ],
+  "IsToken": false,
+  "Rarity": 1,
+  "GodType": 0,
+  "NameFR": "Chuchoteurs Porte-Etendard",
+  "DescriptionFR": "<b>CHEF :</b>\n+1 <b>AT</b> à vos autres Chuchoteurs.",
+  "Extension": 1,
+  "LinkedCards": []
+}

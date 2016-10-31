@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 361,
+  "Name": "larmes_de_sang",
+  "CardType": "Spell",
+  "CostAP": 5,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 8,
+  "NameFR": "Larmes de Sang",
+  "DescriptionFR": "Confère <b>bouclier</b> et <b>charge</b> à une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 155,
+  "Name": "tofu_explosif",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 1,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    13
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Tofu Explosif",
+  "DescriptionFR": "<b>MORT :</b>\nInflige aux invocations adverses 1 dégât par Tofu allié en jeu.",
+  "Extension": 1,
+  "LinkedCards": []
+}

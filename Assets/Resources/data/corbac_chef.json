@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 497,
+  "Name": "corbac_chef",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 4,
+  "Attack": 2,
+  "MovementPoint": 2,
+  "Families": [
+    42
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Corbac Chef",
+  "DescriptionFR": "<b>CHEF :</b> +1 <b>PM</b> à vos\r\nautres Corbacs.",
+  "Extension": 1,
+  "LinkedCards": []
+}

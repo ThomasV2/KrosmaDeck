@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 561,
+  "Name": "piou_violet",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 4,
+  "Families": [
+    24
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Piou Violet",
+  "DescriptionFR": "<b>APPARITION :</b>\nDonne +1 <b>AT</b> et +1 <b>AR</b>\r\nà vos autres Pious.",
+  "Extension": 1,
+  "LinkedCards": []
+}

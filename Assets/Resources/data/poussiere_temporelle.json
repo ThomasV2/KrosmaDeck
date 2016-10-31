@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 184,
+  "Name": "poussiere_temporelle",
+  "CardType": "Spell",
+  "CostAP": 5,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 7,
+  "NameFR": "Poussière Temporelle",
+  "DescriptionFR": "Inflige 2 dégâts.\r\nAjoute 5 <b>PA</b> à votre <b>réserve</b> si l'invocation meurt.",
+  "Extension": 1,
+  "LinkedCards": []
+}

@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 12,
+  "Name": "aiguille",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    9
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 7,
+  "NameFR": "Aiguille",
+  "DescriptionFR": "Inflige 2 dégâts\r\nou 5 dégâts si vous avez\r\nau moins 5 <b>PA</b> dans\r\nvotre <b>réserve</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}

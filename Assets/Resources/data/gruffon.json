@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 7,
+  "Name": "gruffon",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 2,
+  "Attack": 1,
+  "MovementPoint": 3,
+  "Families": [
+    70
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Gruffon",
+  "DescriptionFR": "<b>APPARITION :</b>\n50% de chances de dévoiler tous les dofus adverses.",
+  "Extension": 1,
+  "LinkedCards": []
+}

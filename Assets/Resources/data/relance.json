@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 389,
+  "Name": "relance",
+  "CardType": "Spell",
+  "CostAP": 2,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 4,
+  "NameFR": "Relance",
+  "DescriptionFR": "Piochez 2 cartes\r\n<b>OU</b> ce sort se place sur\r\nla pioche adverse.",
+  "Extension": 1,
+  "LinkedCards": []
+}

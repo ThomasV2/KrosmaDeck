@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 26,
+  "Name": "craqueboule_or",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 3,
+  "MovementPoint": 2,
+  "Families": [
+    22
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Craqueboule Or",
+  "DescriptionFR": "<b>CHEF :</b> Augmente de 1 la <b>résistance</b> de vos autres craqueleurs.",
+  "Extension": 1,
+  "LinkedCards": []
+}

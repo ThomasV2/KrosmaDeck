@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 508,
+  "Name": "chauve_souris",
+  "CardType": "Summon",
+  "CostAP": 1,
+  "Life": 2,
+  "Attack": 3,
+  "MovementPoint": 3,
+  "Families": [
+    21
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Chauve Souris",
+  "DescriptionFR": "<b>APPARITION :</b>\nDéfausse 1 carte aléatoire de votre main.",
+  "Extension": 1,
+  "LinkedCards": []
+}

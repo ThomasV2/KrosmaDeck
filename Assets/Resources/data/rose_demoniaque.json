@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 404,
+  "Name": "rose_demoniaque",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 1,
+  "MovementPoint": 2,
+  "Families": [
+    65
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 0,
+  "NameFR": "Rose Démoniaque",
+  "DescriptionFR": "<b>APPARITION :</b>\n<b>Assomme</b> une invocation.",
+  "Extension": 1,
+  "LinkedCards": []
+}

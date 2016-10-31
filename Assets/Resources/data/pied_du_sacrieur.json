@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 271,
+  "Name": "pied_du_sacrieur",
+  "CardType": "Spell",
+  "CostAP": 3,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    6
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 8,
+  "NameFR": "Pied du Sacrieur",
+  "DescriptionFR": "Inflige 3 dégâts à une invocation et 1 dégât aux autres.",
+  "Extension": 1,
+  "LinkedCards": []
+}

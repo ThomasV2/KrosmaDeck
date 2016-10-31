@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 100,
+  "Name": "ush_niveau_1",
+  "CardType": "Summon",
+  "CostAP": 4,
+  "Life": 3,
+  "Attack": 4,
+  "MovementPoint": 3,
+  "Families": [
+    8
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Ush",
+  "DescriptionFR": "<b>APPARITION :</b>\nDéplace le Dofus allié de\r\nsa ligne sur l'emplacement d'un Dofus détruit.",
+  "Extension": 1,
+  "LinkedCards": []
+}

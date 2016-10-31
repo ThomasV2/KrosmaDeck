@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 423,
+  "Name": "dephasage",
+  "CardType": "Spell",
+  "CostAP": 1,
+  "Life": 0,
+  "Attack": 0,
+  "MovementPoint": 0,
+  "Families": [
+    3
+  ],
+  "IsToken": false,
+  "Rarity": 0,
+  "GodType": 3,
+  "NameFR": "Dephasage",
+  "DescriptionFR": "Confère <b>inciblable</b>\r\nà une invocation.\r",
+  "Extension": 1,
+  "LinkedCards": []
+}

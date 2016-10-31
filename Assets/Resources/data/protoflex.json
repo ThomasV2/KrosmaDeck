@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 288,
+  "Name": "protoflex",
+  "CardType": "Summon",
+  "CostAP": 7,
+  "Life": 4,
+  "Attack": 3,
+  "MovementPoint": 6,
+  "Families": [
+    71
+  ],
+  "IsToken": false,
+  "Rarity": 3,
+  "GodType": 0,
+  "NameFR": "Protoflex",
+  "DescriptionFR": "<b>CHARGE\r</b>",
+  "Extension": 1,
+  "LinkedCards": []
+}

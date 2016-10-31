@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 434,
+  "Name": "truche_foldingue",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 5,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    26
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 0,
+  "NameFR": "Truche Foldingue ",
+  "DescriptionFR": "<b>COUP DE GRACE :</b>\n50% de chances de\r\nchanger de camp.",
+  "Extension": 1,
+  "LinkedCards": []
+}

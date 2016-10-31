@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 173,
+  "Name": "amsrad_cepaisset",
+  "CardType": "Summon",
+  "CostAP": 3,
+  "Life": 8,
+  "Attack": 5,
+  "MovementPoint": 3,
+  "Families": [
+    5
+  ],
+  "IsToken": false,
+  "Rarity": 2,
+  "GodType": 6,
+  "NameFR": "Amsrad Cépaisset",
+  "DescriptionFR": "Bannit 5 cartes de votre défausse pour l'invoquer.",
+  "Extension": 1,
+  "LinkedCards": []
+}

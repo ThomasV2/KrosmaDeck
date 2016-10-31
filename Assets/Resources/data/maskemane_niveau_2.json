@@ -1,0 +1,20 @@
+{
+  "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
+  "Id": 529,
+  "Name": "maskemane_niveau_2",
+  "CardType": "Summon",
+  "CostAP": 5,
+  "Life": 4,
+  "Attack": 2,
+  "MovementPoint": 3,
+  "Families": [
+    45
+  ],
+  "IsToken": false,
+  "Rarity": 4,
+  "GodType": 0,
+  "NameFR": "Maskemane Classe",
+  "DescriptionFR": "<b>INITIATIVE</b>\n<b>COUP DE GRÂCE :</b>\nGagne +2 <b>AT</b>.",
+  "Extension": 1,
+  "LinkedCards": []
+}
