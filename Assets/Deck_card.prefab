@@ -57,7 +57,7 @@ GameObject:
   - 114: {fileID: 114000013266387078}
   - 114: {fileID: 114000011462703888}
   - 114: {fileID: 114000012855854100}
-  - 114: {fileID: 114000010045152936}
+  - 114: {fileID: 114000010999797022}
   m_Layer: 5
   m_Name: Deck_card
   m_TagString: Untagged
@@ -82,7 +82,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114000010045152936
+--- !u!114 &114000010999797022
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -90,19 +90,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012147669918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb13e13bb08bd3e4ca4b6fd53e9b30fc, type: 3}
+  m_Script: {fileID: 11500000, guid: 17d3e88749bd9db4cb224efc773a36e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  id: 0
-  cost: 0
-  quantity: 0
-  type: 
-  rarity: 
-  img: 
-  name_text: {fileID: 114000012193205558}
-  cost_text: {fileID: 114000011183508992}
-  quantity_text: {fileID: 114000013969320852}
+  index: 0
 --- !u!114 &114000011183508992
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -175,8 +166,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114000010045152936}
-        m_MethodName: Delete
+      - m_Target: {fileID: 114000010999797022}
+        m_MethodName: Delete_in_Deck
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -27,15 +27,21 @@ public enum Rarity
 
 public class Research_Card : MonoBehaviour {
 
-    static public List<int> current_cards = new List<int>();
+    static public List<int> current_cards = new List<int>(); // int = position dans data_all
     public GodTypes godType;
     public Rarity rarity = Rarity.All;
     public bool[] costAP = new bool[8] {true, true, true, true, true, true, true, true};
-    public string descr = "";
+    public string description = "";
+
+    void Start()
+    {
+        this.godType = Scene_Manager.godType;
+    }
 
     public void Research()
     {
         //Execute la recherche selon les critères présent
+        current_cards.Clear();
         //On initialise la list des carte potentielle (Dieu + Neutre)
         Research_GodType();
         //On ajoute la recherche par rareté si elle est présente
@@ -49,7 +55,7 @@ public class Research_Card : MonoBehaviour {
                 Research_CostAP(i);
             }
         }
-        // Voir pour les familles/type
+        // Voir pour les familles/type ?
         //Enfin, selon leur description ou nom
         Research_String();
     }
@@ -67,19 +73,20 @@ public class Research_Card : MonoBehaviour {
 
     void Research_Rarity()
     {
-        foreach (int index in current_cards)
+        for (int index = current_cards.Count - 1; index >= 0; index--)
         {
-            if (Data_All.data_tab[index].Rarity == (int)rarity)
-                current_cards.Remove(index);
+            if (Data_All.data_tab[current_cards[index]].Rarity != (int)rarity)
+                current_cards.Remove(current_cards[index]);
         }
     }
 
+    // VOIR POUR LE CAS 7+
     void Research_CostAP(int cost)
     {
-        foreach (int index in current_cards)
+        for (int index = current_cards.Count - 1; index >= 0; index--)
         {
-            if (Data_All.data_tab[index].CostAP == cost)
-                current_cards.Remove(index);
+            if (Data_All.data_tab[current_cards[index]].CostAP == cost)
+                current_cards.Remove(current_cards[index]);
         }
     }
 
@@ -87,4 +94,16 @@ public class Research_Card : MonoBehaviour {
     {
         // DO SOMETHING
     }
+
+    //-1 car le dropdown commence a 0 et non -1
+    public void Set_Rarity(int rarity)
+    {
+        this.rarity = (Rarity)(rarity - 1);
+    }
+
+    public void Set_CostAP(int index)
+    {
+        costAP[index] = !costAP[index];
+    }
+
 }

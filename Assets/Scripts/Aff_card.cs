@@ -1,22 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Mono.Data.Sqlite;
-using System.Data;
 using System;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using System.Threading;
 
 public class Aff_card : MonoBehaviour {
     
     // Data
-    private Image[] prev_img = new Image[8] {null, null, null, null, null, null, null, null};
-    private Image[] current_img = new Image[8] { null, null, null, null, null, null, null, null };
-    private Image[] next_img = new Image[8] { null, null, null, null, null, null, null, null };
+    private Sprite[] prev_img = new Sprite[8] { null, null, null, null, null, null, null, null };
+    private Sprite[] current_img = new Sprite[8] { null, null, null, null, null, null, null, null };
+    private Sprite[] next_img = new Sprite[8] { null, null, null, null, null, null, null, null };
+    public Research_Card research;
 
     // Affichage
     public GameObject[] cards;
     public Deck_Manager deck_manager;
+    public File_Manager file_manager;
+    public GameObject scroll_content;
+    public GameObject prefab_deck;
 
     // Input
     public GameObject cards_button;
@@ -24,57 +25,74 @@ public class Aff_card : MonoBehaviour {
     public Dropdown Rarity_Dropdown;
     public Text Input_text;
 
-    private int[] tab_id;
-    private int[] id_by_count = new int[8];
     private int page;
-    private List<int> list_id = new List<int>();
-    private string type = "";
-    private string[] rarity_id = { "", "commune", "peu commune", "rare", "krosmik", "infinite" };
 
     // Use this for initialization
     void Start () {
-        /*if (Scene_Manager.load_deck == true)
+        if (Scene_Manager.load_deck == true)
         {
             cards_button.SetActive(true);
             deck_button.SetActive(false);
-            deck_manager.Load_Deck_File();
+            file_manager.Load_Deck_File(Scene_Manager.filename);
+            Refresh_Deck();
             Aff_Deck();
         }
         else
         {
+            research.Research();
             cards_button.SetActive(false);
             deck_button.SetActive(true);
-            Search_Type(Scene_Manager.card_type);
+            Init_Img();
             Refresh();
-        }*/
+        }
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
 	}
 
     public void Refresh()
     {
         for (int count = 0; count < 8; count++)
         {
-            if (count + (page * 8) >= tab_id.Length)
-            {
-                Hide_img(cards[count]);
-            }
+            if (current_img[count] == null)
+                cards[count].SetActive(false);
             else
             {
-                Change_img(cards[count], tab_id[count + (page * 8)]);
-                id_by_count[count] = tab_id[count + (page * 8)];
+                cards[count].SetActive(true);
+                cards[count].GetComponent<Image>().sprite = current_img[count];
             }
+        }
+    }
+
+    public void Refresh_Deck()
+    {
+        foreach (Transform child in scroll_content.transform)
+        {
+            Destroy(child.gameObject);
+        }
+        foreach (KeyValuePair<int, int> pair in deck_manager.Deck_cards)
+        {
+            GameObject newCard = (GameObject)Instantiate(prefab_deck);
+            newCard.GetComponent<Prefab_Script>().index = pair.Key;
+            Text component;
+            foreach (Transform child in newCard.transform)
+            {
+                component = child.GetComponent<Text>();
+                if (child.name == "Qantity")
+                    component.text = pair.Value.ToString();
+                else if (child.name == "Name")
+                    component.text = Data_All.data_tab[pair.Key].Name;
+                else // Cost
+                    component.text = Data_All.data_tab[pair.Key].CostAP.ToString();
+            }   
+            newCard.transform.SetParent(scroll_content.transform);
         }
     }
 
     public void Next_Page()
     {
-        if (tab_id.GetLength(0) - (page * 8) >= 8)
+        if (Research_Card.current_cards.Count - (page * 8) >= 8)
         {
             page++;
+            Preload_Img(true);
             Refresh();
         }
     }
@@ -84,223 +102,128 @@ public class Aff_card : MonoBehaviour {
         if (page > 0)
         {
             page--;
+            Preload_Img(false);
             Refresh();
         }
     }
 
-    public void Aff_Deck()
+    public void Init_Img()
     {
-  /*      Data_Deck data;
-        list_id.Clear();
+        int index;
         page = 0;
-        foreach (GameObject card in deck_manager.Deck_cards)
+        Debug.LogError("size current is " + Research_Card.current_cards.Count);
+        for (int count = 0; count < 8; count++)
         {
-            data = card.GetComponent<Data_Deck>();
-            if (type == "" && data.type != "Neutre")
-                this.type = data.type;
-            list_id.Add(data.id);
+            if (count < Research_Card.current_cards.Count)
+            {
+                index = Research_Card.current_cards[count + (page * 8)];
+                current_img[count] = Resources.Load<Sprite>("Cards/" + Data_All.data_tab[index].Name);
+            }
+            else
+            {
+                current_img[count] = null;
+            }
         }
-        tab_id = list_id.ToArray();
-        Refresh();*/
+        for (int count = 0; count < 8; count++)
+        {
+            if (count + 8 < Research_Card.current_cards.Count)
+            {
+                index = Research_Card.current_cards[count + ((page + 1) * 8)];
+                next_img[count] = Resources.Load<Sprite>("Cards/" + Data_All.data_tab[index].Name);
+            }
+            else
+            {
+                next_img[count] = null;
+            }
+        }
     }
 
-    public void Aff_All_Cards()
+    void Preload_Img(bool is_next)
     {
-        list_id.Clear();
-        page = 0;
-        Search_Type(this.type);
+        int index;
+        if (is_next == true)
+        {
+            // prev -> unload
+            StartCoroutine(Unload_Imgs());
+            for (int count = 0; count < 8; count++)
+            {
+                // current -> prev
+                prev_img[count] = current_img[count];
+                // next -> current
+                current_img[count] = next_img[count];
+                // preload next
+                if (count + ((page + 1) * 8) < Research_Card.current_cards.Count)
+                {
+                    index = Research_Card.current_cards[count + ((page + 1) * 8)];
+                    StartCoroutine(Load_Img_Next(index, count));
+                }
+                else
+                {
+                    next_img[count] = null;
+                }
+            }
+        }
+        else
+        {
+            //next -> unload OK
+            StartCoroutine(Unload_Imgs());
+            for (int count = 0; count < 8; count++)
+            {
+                //current -> next
+                next_img[count] = current_img[count];
+                //prev -> current
+                current_img[count] = prev_img[count];
+                //preload new prev
+                if (page > 0)
+                {
+                    index = Research_Card.current_cards[count + ((page - 1) * 8)];
+                    StartCoroutine(Load_Img_Prev(index, count));
+                }
+                else
+                {
+                    prev_img[count] = null;
+                }
+            }
+        }
+    }
+
+    IEnumerator Load_Img_Next(int index, int count)
+    {
+        ResourceRequest request = Resources.LoadAsync<Sprite>("Cards/" + Data_All.data_tab[index].Name);
+        yield return request;
+        next_img[count] = request.asset as Sprite;
+    }
+
+    IEnumerator Load_Img_Prev(int index, int count)
+    {
+        ResourceRequest request = Resources.LoadAsync<Sprite>("Cards/" + Data_All.data_tab[index].Name);
+        yield return request;
+        prev_img[count] = request.asset as Sprite;
+    }
+
+    IEnumerator Unload_Imgs()
+    {
+        Resources.UnloadUnusedAssets();
+        yield return null;
+    }
+
+
+    public void Aff_Deck()
+    {
+        List<int> new_current = new List<int>();
+
+        foreach (KeyValuePair<int, int> pair in deck_manager.Deck_cards)
+        {
+            new_current.Add(pair.Key);
+        }
+        Research_Card.current_cards = new_current;
+        Init_Img();
         Refresh();
     }
 
-
-    public void Add_to_Deck(int i)
+    public void Add_to_Deck(int count)
     {
-        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
-        string name = "";
-        string type = "";
-        string rarity = "";
-        string img = "";
-        int cost = 0;
-
-        IDbConnection dbconn;
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open(); //Open connection to the database.
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Name, Cost, Type, Rarity, Img FROM Cards WHERE Id = " + id_by_count[i] + ";";
-        dbcmd.CommandText = sqlQuery;
-        IDataReader reader = dbcmd.ExecuteReader();
-        while (reader.Read())
-        {
-            name = reader.GetString(0);
-            cost = reader.GetInt32(1);
-            type = reader.GetString(2);
-            rarity = reader.GetString(3);
-            img = reader.GetString(4);
-        }
-        reader.Close();
-        reader = null;
-        dbcmd.Dispose();
-        dbcmd = null;
-        dbconn.Close();
-        dbconn = null;
-        deck_manager.Add_Card(id_by_count[i], name, cost, type, rarity, img);
-    }
-
-    public void Add_to_Deck_by_Id(int id)
-    {
-        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
-        string name = "";
-        string type = "";
-        string rarity = "";
-        string img = "";
-        int cost = 0;
-
-        IDbConnection dbconn;
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open(); //Open connection to the database.
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Name, Cost, Type, Rarity, Img FROM Cards WHERE Id = " + id + ";";
-        dbcmd.CommandText = sqlQuery;
-        IDataReader reader = dbcmd.ExecuteReader();
-        while (reader.Read())
-        {
-            name = reader.GetString(0);
-            //cost = reader.GetInt32(1); // A RAJOUTER DANS LA BASE DE DONNE
-            type = reader.GetString(2);
-            rarity = reader.GetString(3);
-            img = reader.GetString(4);
-        }
-        reader.Close();
-        reader = null;
-        dbcmd.Dispose();
-        dbcmd = null;
-        dbconn.Close();
-        dbconn = null;
-        deck_manager.Add_Card(id, name, cost, type, rarity, img);
-    }
-
-    public void Search_Type(string type)
-    {
-        this.type = type;
-        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
-        IDbConnection dbconn;
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open(); //Open connection to the database.
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Id FROM Cards WHERE Type = '" + type + "' ORDER BY Cost ASC;";
-        dbcmd.CommandText = sqlQuery;
-        IDataReader reader = dbcmd.ExecuteReader();
-        while (reader.Read())
-        {
-            list_id.Add(reader.GetInt32(0));
-        }
-        Additional_Search_Type("Neutre");
-        tab_id = list_id.ToArray();
-        reader.Close();
-        reader = null;
-        dbcmd.Dispose();
-        dbcmd = null;
-        dbconn.Close();
-        dbconn = null;
-    }
-
-    public void Additional_Search_Type(string type)
-    {
-        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
-        IDbConnection dbconn;
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open(); //Open connection to the database.
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Id FROM Cards WHERE Type = '" + type + "' ORDER BY Cost ASC;";
-        dbcmd.CommandText = sqlQuery;
-        IDataReader reader = dbcmd.ExecuteReader();
-        while (reader.Read())
-        {
-            list_id.Add(reader.GetInt32(0));
-        }
-        reader.Close();
-        reader = null;
-        dbcmd.Dispose();
-        dbcmd = null;
-        dbconn.Close();
-        dbconn = null;
-    }
-
-    public void Search_Rarity(string rarity)
-    {
-        rarity = rarity.ToLower();
-        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
-        IDbConnection dbconn;
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open(); //Open connection to the database.
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Id FROM Cards WHERE (Type = '" + type + "' OR Type = 'Neutre') AND Rarity = '" + rarity + "' ORDER BY Cost ASC;";
-        dbcmd.CommandText = sqlQuery;
-        IDataReader reader = dbcmd.ExecuteReader();
-        while (reader.Read())
-        {
-            list_id.Add(reader.GetInt32(0));
-        }
-        tab_id = list_id.ToArray();
-        reader.Close();
-        reader = null;
-        dbcmd.Dispose();
-        dbcmd = null;
-        dbconn.Close();
-        dbconn = null;
-    }
-    public void Search_String(string patern)
-    {
-        patern = patern.ToLower();
-        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
-        IDbConnection dbconn;
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open(); //Open connection to the database.
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Id FROM Cards WHERE (Type = '" + type + "' OR Type = 'Neutre') AND (Name LIKE '%" + patern + "%' OR Description LIKE '%" + patern + "%') ORDER BY Cost ASC;";
-        dbcmd.CommandText = sqlQuery;
-        IDataReader reader = dbcmd.ExecuteReader();
-        while (reader.Read())
-        {
-            list_id.Add(reader.GetInt32(0));
-        }
-        tab_id = list_id.ToArray();
-        reader.Close();
-        reader = null;
-        dbcmd.Dispose();
-        dbcmd = null;
-        dbconn.Close();
-        dbconn = null;
-    }
-
-    public void Hide_img(GameObject card)
-    {
-        card.gameObject.SetActive(false);
-    }
-
-    public void Change_img(GameObject card, int id)
-    {
-        string conn = "URI=file:" + Application.dataPath + "/Resources/cards_database.s3db"; //Path to database.
-        IDbConnection dbconn;
-        dbconn = (IDbConnection)new SqliteConnection(conn);
-        dbconn.Open(); //Open connection to the database.
-        IDbCommand dbcmd = dbconn.CreateCommand();
-        string sqlQuery = "SELECT Img FROM Cards WHERE Id = " + id;
-        dbcmd.CommandText = sqlQuery;
-        IDataReader reader = dbcmd.ExecuteReader();
-        string path = "";
-        while (reader.Read())
-        {
-            path = reader.GetString(0);
-        }
-        reader.Close();
-        reader = null;
-        dbcmd.Dispose();
-        dbcmd = null;
-        dbconn.Close();
-        dbconn = null;
-        card.GetComponent<Image>().sprite = Resources.Load<Sprite>(path.Remove(0, 1).Replace(".png", ""));
-        if (card.active == false)
-            card.SetActive(true);
+        deck_manager.Add_Card(Research_Card.current_cards[count + (page * 8)]);
+        Refresh_Deck();
     }
 }

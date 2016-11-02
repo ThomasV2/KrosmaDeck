@@ -1,29 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Scene_Manager : MonoBehaviour {
 
-    public static string card_type = "";
+    public static GodTypes godType;
     public static bool load_deck = false;
+    public static string filename = "";
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    public Text file;
 
     public void Set_load_deck(bool value)
     {
         load_deck = value;
     }
 
-    public void Deck_Scene(string type)
+    public void Set_filename()
     {
-        card_type = type;
+        filename = file.text + ".sav";
+    }
+
+    public void Deck_Scene(int type)
+    {
+        godType = (GodTypes)type;
         Application.LoadLevel("Card");
     }
 }

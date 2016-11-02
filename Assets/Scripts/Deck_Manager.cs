@@ -11,15 +11,7 @@ public class Deck_Manager : MonoBehaviour {
     private int count = 0;
     private int count_infinite = 0;
 
-	// Use this for initialization
-	void Start () {
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
+    //index = valeur contenue dans le curent_tab selectionné
     public void Add_Card(int index)
     {
         if (count >= 45)
@@ -54,62 +46,18 @@ public class Deck_Manager : MonoBehaviour {
                 return;
             }
         }
+        Deck_cards.Add(index, 1);
     }
 
-    public void Delete_Card(GameObject card)
+    public void Delete_Card(int index)
     {
-        /*Data_Deck data = card.GetComponent<Data_Deck>();
-        if (data.rarity == "infinite")
-            count_infinite--;
-
-        if (data.quantity == 1)
+        Data_Card current = Data_All.data_tab[index];
+        if (current.Rarity == (int)Rarity.Infinite)
+                count_infinite--;
+        Deck_cards[index] = Deck_cards[index] - 1;
+        if (Deck_cards[index] == 0)
         {
-            Deck_cards.Remove(card);
-            Destroy(card);
-            count--;
+            Deck_cards.Remove(index);
         }
-        else
-        {
-            data.Set_Quantity(data.quantity - 1);
-            count--;
-        }*/
-    }
-
-    public void Create_Deck_File()
-    {
-/*        string path = Application.dataPath + "/Save/";
-        string filename = "test_deck.sav";
-        string data = "";
-        Data_Deck current_data_deck;
-
-        if (!Directory.Exists(path))
-             Directory.CreateDirectory(path);
-        foreach (GameObject card in Deck_cards)
-        {
-            current_data_deck = card.GetComponent<Data_Deck>();
-            for (int i = current_data_deck.quantity; i > 0; i--)
-                data += current_data_deck.id + ",";
-        }
-        data = data.Remove(data.Length - 1);
-
-        File.WriteAllText(path + filename, data);*/
-    }
-
-    public void Load_Deck_File()
-    {
-       /* string path = Application.dataPath + "/Save/";
-        string filename = "test_deck.sav";
-        int value;
-
-        if (!Directory.Exists(path))
-            return;
-
-        string data = File.ReadAllText(path + "/" + filename);
-        string[] ids = data.Split(","[0]);
-        foreach (string id in ids)
-        {
-            int.TryParse(id, out value);
-            aff_card.Add_to_Deck_by_Id(value);
-        }*/
     }
 }
