@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class File_Manager : MonoBehaviour {
 
     public Deck_Manager deck_manager;
-    public Research_Card research;
     public Text filename;
 
     public void Create_Deck_File()
@@ -62,6 +61,6 @@ public class File_Manager : MonoBehaviour {
              Debug.LogError("add index " + index);
              deck_manager.Add_Card(index);
           }
-         research.godType = type;
+         Scene_Manager.godType = type;
     }
 }

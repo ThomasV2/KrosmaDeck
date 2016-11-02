@@ -28,14 +28,12 @@ public enum Rarity
 public class Research_Card : MonoBehaviour {
 
     static public List<int> current_cards = new List<int>(); // int = position dans data_all
-    public GodTypes godType;
     public Rarity rarity = Rarity.All;
-    public bool[] costAP = new bool[8] {true, true, true, true, true, true, true, true};
+    public bool[] costAP = new bool[8] {false, false, false, false, false, false, false, false};
     public string description = "";
 
     void Start()
     {
-        this.godType = Scene_Manager.godType;
     }
 
     public void Research()
@@ -50,21 +48,28 @@ public class Research_Card : MonoBehaviour {
         //Ensuite, les différents coûts en PA possible. On enlève des cartes les couts en 'false'
         for (int i = 0; i < 8; i++)
         {
-            if (this.costAP[i] == false)
+            if (costAP[i] == true)
             {
-                Research_CostAP(i);
+                Research_CostAP();
+                break;
             }
         }
         // Voir pour les familles/type ?
         //Enfin, selon leur description ou nom
         Research_String();
+        current_cards.Sort(delegate (int a, int b)
+        {
+            int xdiff = Data_All.data_tab[a].GodType.CompareTo(Data_All.data_tab[b].GodType);
+            if (xdiff != 0) return  -1 * xdiff;
+            else return Data_All.data_tab[a].CostAP.CompareTo(Data_All.data_tab[b].CostAP);
+        });
     }
 
     void Research_GodType()
     {
         for (int i = 0; i < Data_All.SIZE_TAB; i++)
         {
-            if (Data_All.data_tab[i].GodType == (int)godType || Data_All.data_tab[i].GodType == (int)GodTypes.Neutre)
+            if (Data_All.data_tab[i].GodType == (int)Scene_Manager.godType || Data_All.data_tab[i].GodType == (int)GodTypes.Neutre)
             {
                 current_cards.Add(i);
             }
@@ -79,14 +84,20 @@ public class Research_Card : MonoBehaviour {
                 current_cards.Remove(current_cards[index]);
         }
     }
-
-    // VOIR POUR LE CAS 7+
-    void Research_CostAP(int cost)
+    
+    void Research_CostAP()
     {
         for (int index = current_cards.Count - 1; index >= 0; index--)
         {
-            if (Data_All.data_tab[current_cards[index]].CostAP == cost)
+            if (Data_All.data_tab[current_cards[index]].CostAP >= 7)
+            {
+                if (costAP[7] == false)
+                    current_cards.Remove(current_cards[index]);
+            }
+            else if (costAP[Data_All.data_tab[current_cards[index]].CostAP] == false)
+            {
                 current_cards.Remove(current_cards[index]);
+            }
         }
     }
 
