@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public enum GodTypes
 {
@@ -56,7 +57,8 @@ public class Research_Card : MonoBehaviour {
         }
         // Voir pour les familles/type ?
         //Enfin, selon leur description ou nom
-        Research_String();
+        if (description != "")
+            Research_String();
         current_cards.Sort(delegate (int a, int b)
         {
             int xdiff = Data_All.data_tab[a].GodType.CompareTo(Data_All.data_tab[b].GodType);
@@ -103,7 +105,14 @@ public class Research_Card : MonoBehaviour {
 
     void Research_String()
     {
-        // DO SOMETHING
+        for (int index = current_cards.Count - 1; index >= 0; index--)
+        {
+            if (Data_All.data_tab[current_cards[index]].NameFR.IndexOf(description, StringComparison.OrdinalIgnoreCase) >= 0 ||
+                Data_All.data_tab[current_cards[index]].DescriptionFR.IndexOf(description, StringComparison.OrdinalIgnoreCase) >= 0)
+                continue;
+            else
+                current_cards.Remove(current_cards[index]);
+        }
     }
 
     //-1 car le dropdown commence a 0 et non -1
@@ -117,4 +126,8 @@ public class Research_Card : MonoBehaviour {
         costAP[index] = !costAP[index];
     }
 
+    public void Set_Description(string value)
+    {
+        description = value;
+    }
 }

@@ -47,6 +47,7 @@ public class Deck_Manager : MonoBehaviour {
             }
         }
         Deck_cards.Add(index, 1);
+        count++;
     }
 
     public void Delete_Card(int index)
@@ -59,5 +60,6 @@ public class Deck_Manager : MonoBehaviour {
         {
             Deck_cards.Remove(index);
         }
+        count--;
     }
 }

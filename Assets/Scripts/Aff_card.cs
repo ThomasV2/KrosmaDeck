@@ -111,7 +111,7 @@ public class Aff_card : MonoBehaviour {
     {
         int index;
         page = 0;
-        Debug.LogError("size current is " + Research_Card.current_cards.Count);
+        //Debug.LogError("size current is " + Research_Card.current_cards.Count);
         for (int count = 0; count < 8; count++)
         {
             if (count < Research_Card.current_cards.Count)

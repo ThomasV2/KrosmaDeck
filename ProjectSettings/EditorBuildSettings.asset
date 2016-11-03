@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Dieu.unity
+    path: Assets/Scenes/Dieu.unity
   - enabled: 1
-    path: Assets/Card.unity
+    path: Assets/Scenes/Card.unity
