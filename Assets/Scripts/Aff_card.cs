@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 
 public class Aff_card : MonoBehaviour {
-    
+
     // Data
     private Sprite[] prev_img = new Sprite[8] { null, null, null, null, null, null, null, null };
     private Sprite[] current_img = new Sprite[8] { null, null, null, null, null, null, null, null };
@@ -17,6 +17,8 @@ public class Aff_card : MonoBehaviour {
     public Deck_Manager deck_manager;
     public File_Manager file_manager;
     public GameObject scroll_content;
+    public Text total_text;
+    public GameObject lock_panel;
     public GameObject prefab_deck;
 
     // Input
@@ -68,23 +70,30 @@ public class Aff_card : MonoBehaviour {
         {
             Destroy(child.gameObject);
         }
+        int count = 0;
         foreach (KeyValuePair<int, int> pair in deck_manager.Deck_cards)
         {
             GameObject newCard = (GameObject)Instantiate(prefab_deck);
             newCard.GetComponent<Prefab_Script>().index = pair.Key;
             Text component;
+            count += pair.Value;
             foreach (Transform child in newCard.transform)
             {
                 component = child.GetComponent<Text>();
                 if (child.name == "Qantity")
                     component.text = pair.Value.ToString();
                 else if (child.name == "Name")
-                    component.text = Data_All.data_tab[pair.Key].Name;
+                    component.text = Data_All.data_tab[pair.Key].NameFR;
                 else // Cost
                     component.text = Data_All.data_tab[pair.Key].CostAP.ToString();
-            }   
+            }
             newCard.transform.SetParent(scroll_content.transform);
         }
+        total_text.text = "" + count.ToString() + " / 45";
+        if (count >= 45)
+            lock_panel.SetActive(true);
+        else
+            lock_panel.SetActive(false);
     }
 
     public void Next_Page()
@@ -219,11 +228,20 @@ public class Aff_card : MonoBehaviour {
         Research_Card.current_cards = new_current;
         Init_Img();
         Refresh();
+        lock_panel.SetActive(false);
     }
 
     public void Add_to_Deck(int count)
     {
-        deck_manager.Add_Card(Research_Card.current_cards[count + (page * 8)]);
-        Refresh_Deck();
+        if (Data_All.data_tab[Research_Card.current_cards[count + (page * 8)]].IsToken == false)
+        {
+            deck_manager.Add_Card(Research_Card.current_cards[count + (page * 8)]);
+            Refresh_Deck();
+        }
+    }
+
+    public void Return_to_Menu()
+    {
+        Scene_Manager.God_Scene();
     }
 }

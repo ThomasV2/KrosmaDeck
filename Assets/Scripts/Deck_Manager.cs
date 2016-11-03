@@ -45,6 +45,15 @@ public class Deck_Manager : MonoBehaviour {
                 }
                 return;
             }
+            if (current.Rarity == (int)Rarity.Infinite && Data_All.data_tab[card.Key].Rarity == (int)Rarity.Infinite)
+            {
+                string current_name = current.Name.Split('_')[0];
+                if (Data_All.data_tab[card.Key].Name.Contains(current_name) == true)
+                {
+                    count_infinite--;
+                    return;
+                }
+            }
         }
         Deck_cards.Add(index, 1);
         count++;
