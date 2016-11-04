@@ -98,7 +98,7 @@ public class Aff_card : MonoBehaviour {
 
     public void Next_Page()
     {
-        if (Research_Card.current_cards.Count - (page * 8) >= 8)
+        if (Research_Card.current_cards.Count - (page * 8) > 8)
         {
             page++;
             Preload_Img(true);
