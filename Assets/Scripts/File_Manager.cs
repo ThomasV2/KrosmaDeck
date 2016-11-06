@@ -3,14 +3,18 @@ using System.Collections;
 using System.IO;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using System.Runtime.InteropServices;
 
 public class File_Manager : MonoBehaviour {
 
     public Deck_Manager deck_manager;
+    public string pathfile;
     public Text filename;
-
+    
     public void Create_Deck_File()
     {
+        if (deck_manager.Deck_cards.Count == 0)
+            return;
         if (filename.text.Length == 0)
         {
             Debug.LogError("Filename absent");
@@ -32,22 +36,17 @@ public class File_Manager : MonoBehaviour {
         File.WriteAllText(path + file, data);
     }
 
-    public void Load_Deck_File(string filename)
+    public void Load_Deck_File(string path)
     {
-        string path = Application.dataPath + "/Save/";
         int value;
         GodTypes type = GodTypes.Neutre;
 
-         if (!Directory.Exists(path))
-             return;
-
-         string data = File.ReadAllText(path + "/" + filename);
+        string data = File.ReadAllText(path);
          string[] ids = data.Split(","[0]);
          int index = 0;
          foreach (string id in ids)
          {
              int.TryParse(id, out value);
-             Debug.LogError(value);
              for (int i = 0; i < Data_All.SIZE_TAB; i++)
              {
                  if (Data_All.data_tab[i].Id == value)
@@ -58,7 +57,6 @@ public class File_Manager : MonoBehaviour {
                      break;
                  }
              }
-             Debug.LogError("add index " + index);
              deck_manager.Add_Card(index);
           }
          Scene_Manager.godType = type;

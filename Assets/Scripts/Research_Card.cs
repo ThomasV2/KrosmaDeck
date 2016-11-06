@@ -62,8 +62,16 @@ public class Research_Card : MonoBehaviour {
         current_cards.Sort(delegate (int a, int b)
         {
             int xdiff = Data_All.data_tab[a].GodType.CompareTo(Data_All.data_tab[b].GodType);
-            if (xdiff != 0) return  -1 * xdiff;
-            else return Data_All.data_tab[a].CostAP.CompareTo(Data_All.data_tab[b].CostAP);
+            if (xdiff != 0) return -1 * xdiff;
+            else
+            {
+                int ydiff = Data_All.data_tab[a].CostAP.CompareTo(Data_All.data_tab[b].CostAP);
+                if (ydiff != 0) return ydiff;
+                else
+                {
+                    return Data_All.data_tab[a].NameFR.CompareTo(Data_All.data_tab[b].NameFR);
+                }
+            }
         });
     }
 
@@ -124,6 +132,14 @@ public class Research_Card : MonoBehaviour {
     public void Set_CostAP(int index)
     {
         costAP[index] = !costAP[index];
+    }
+
+    public void Reset_CostAP()
+    {
+        for (int i = 0; i < costAP.Length; i++)
+        {
+            costAP[i] = false;
+        }
     }
 
     public void Set_Description(string value)

@@ -35,7 +35,7 @@ public class Aff_card : MonoBehaviour {
         {
             cards_button.SetActive(true);
             deck_button.SetActive(false);
-            file_manager.Load_Deck_File(Scene_Manager.filename);
+            file_manager.Load_Deck_File(Scene_Manager.pathfile);
             Refresh_Deck();
             Aff_Deck();
         }

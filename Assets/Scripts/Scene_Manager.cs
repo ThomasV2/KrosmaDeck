@@ -7,27 +7,29 @@ public class Scene_Manager : MonoBehaviour {
 
     public static GodTypes godType;
     public static bool load_deck = false;
-    public static string filename = "";
-
-    public Text file;
+    public static string pathfile = "";
+    public GameObject fondu;
 
     public void Set_load_deck(bool value)
     {
         load_deck = value;
     }
 
-    public void Set_filename()
+    public void Open_Load_Dialog_File()
     {
-        if (File.Exists(Application.dataPath + "/Save/" + file.text + ".sav") == true)
+        FileSelector.GetFile(Search_file_load, ".sav");
+    }
+
+    public void Search_file_load(FileSelector.Status status, string path)
+    {
+        if (status != FileSelector.Status.Successful)
         {
-            filename = file.text + ".sav";
-            load_deck = true;
-            Deck_Scene(0);
+            fondu.SetActive(false);
+            return;
         }
-        else
-        {
-            file.text = "Erreur ! Mauvais nom de fichier.";
-        }
+        pathfile = path;
+        load_deck = true;
+        Deck_Scene(0);
     }
 
     public void Deck_Scene(int type)
@@ -40,7 +42,7 @@ public class Scene_Manager : MonoBehaviour {
     {
         godType = GodTypes.Neutre;
         load_deck = false;
-        filename = "";
+        pathfile = "";
         Application.LoadLevel("Dieu");
     }
 }
