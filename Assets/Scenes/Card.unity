@@ -3958,6 +3958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deck_manager: {fileID: 604027741}
+  pathfile: 
   filename: {fileID: 1188623199}
 --- !u!1 &625989631
 GameObject:
@@ -4320,7 +4321,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d165375ed8f94084f8b889d2e2e0f330, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e98fb7a08d1faf9489c5c586338e2560, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
