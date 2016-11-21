@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 446,
+  "Id": 293,
   "Name": "piou_aux_oeufs_d_or",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 3,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Piou aux Oeufs d'or",
-  "DescriptionFR": "Piochez 1 carte quand\r\nune invocation alliée entre en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Piou aux Oeufs d'Or",
+    "DescFR": "Piochez 1 carte quand\r\nune invocation alliée entre en jeu.",
+    "NameEN": "Golden Egg Piwi",
+    "DescEN": "Draw 1 card when\r\nan allied Summons enters the game.",
+    "NameES": "Pío de los huevos de oro",
+    "DescES": "Robas 1 carta cuando\r\nuna invocación aliada entra en juego."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 347,
+  "Id": 61,
   "Name": "adamai_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 6,
   "Attack": 4,
@@ -14,8 +14,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Adamaï",
-  "DescriptionFR": "<b>APPARITION :</b>\nRemonte une invocation dans la main de son propriétaire.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Adamaï",
+    "DescFR": "<b>APPARITION :</b>\nRemonte une invocation dans la main de son propriétaire.",
+    "NameEN": "Adamai",
+    "DescEN": "<b>APPEARANCE:</b>\nReturn a Summons to its owner's hand.",
+    "NameES": "Adamai",
+    "DescES": "<b>APARICIÓN:</b>\nUna invocación vuelve a la mano de su propietario."
+  }
 }

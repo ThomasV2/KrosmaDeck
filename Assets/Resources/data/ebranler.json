@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 90,
+  "Id": 575,
   "Name": "ebranler",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 2,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 1,
-  "NameFR": "Ebranler",
-  "DescriptionFR": "<b>Assomme</b> une invocation pour 1 tour.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Ebranler",
+    "DescFR": "<b>Assomme</b> une invocation pour 1 tour.",
+    "NameEN": "Shake",
+    "DescEN": "<b>STUNS</b> a Summons for 1 turn.",
+    "NameES": "Sacudida",
+    "DescES": "<b>Aturde</b> una invocación durante 1 turno."
+  }
 }

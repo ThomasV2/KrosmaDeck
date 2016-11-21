@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 534,
+  "Id": 300,
   "Name": "l_enklarveur",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
-  "Life": 7,
-  "Attack": 4,
+  "Life": 6,
+  "Attack": 3,
   "MovementPoint": 3,
   "Families": [
     6
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 8,
-  "NameFR": "L'Enklarveur",
-  "DescriptionFR": "<b>GARDE DU CORPS</b>",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "L'Enklarveur",
+    "DescFR": "<b>CONTRE COUP :</b>\nInflige 1 dégât aux autres invocations.",
+    "NameEN": "Enklarver",
+    "DescEN": "<b>COUNTERATTACK:</b>\nInflicts 1 damage to all other Summons.",
+    "NameES": "El Enklarvador",
+    "DescES": "<b>VENGANZA:</b>\nInflige 2 de daño a todas las demás invocaciones."
+  }
 }

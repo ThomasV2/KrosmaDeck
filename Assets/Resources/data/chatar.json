@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 372,
+  "Id": 476,
   "Name": "chatar",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 3,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 4,
-  "NameFR": "Chatar",
-  "DescriptionFR": "<b>APPARITION :</b>\nGagne +2 <b>AT OU</b> part\r\ndans la main adverse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chatar",
+    "DescFR": "<b>APPARITION :</b>\nGagne +2 <b>AT OU</b> s'inflige 2 dégâts.",
+    "NameEN": "Catar",
+    "DescEN": "<b>APPEARANCE:</b>\nGains +2 <b>AT OR</b> inflicts 2 damage on self.",
+    "NameES": "Gatar",
+    "DescES": "<b>APARICIÓN:</b>\nGana +2 <b>AT O</b> Inflige 2 de daño."
+  }
 }

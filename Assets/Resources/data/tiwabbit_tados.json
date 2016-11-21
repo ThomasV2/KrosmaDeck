@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 450,
+  "Id": 500,
   "Name": "tiwabbit_tados",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 1,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Tiwabbit Tados",
-  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> de 1 case si vous avez une Cawotte en jeu.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tiwabbit Tados",
+    "DescFR": "<b>APPARITION :</b>\n<b>Charge</b> de 1 case si vous avez une Cawotte en jeu.\r",
+    "NameEN": "Boney Tiwabbit",
+    "DescEN": "<b>APPEARANCE:</b>\n<b>CHARGES</b> 1 cell if you have a Cawwot in play.\n",
+    "NameES": "Pekewabbit huesudo",
+    "DescES": "<b>APARICIÓN:</b>\n<b>Carga</b> 1 casilla si tienes una zanahowia en juego.\n"
+  }
 }

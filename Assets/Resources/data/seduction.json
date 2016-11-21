@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 185,
+  "Id": 573,
   "Name": "seduction",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 12,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 3,
-  "NameFR": "Séduction",
-  "DescriptionFR": "Prenez le contrôle d'une invocation adverse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Séduction",
+    "DescFR": "Prenez le contrôle d'une invocation adverse.",
+    "NameEN": "Seduction",
+    "DescEN": "Take control of an enemy Summons.",
+    "NameES": "Atracción",
+    "DescES": "Toma el control de una invocación enemiga."
+  }
 }

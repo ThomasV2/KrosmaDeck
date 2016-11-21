@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 153,
+  "Id": 171,
   "Name": "laon_epee_filante",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 4,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 8,
-  "NameFR": "Laon Epée Filante",
-  "DescriptionFR": "<b>CONTRE COUP :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Laon Epée Filante",
+    "DescFR": "<b>CONTRE COUP :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>.",
+    "NameEN": "Falyn Sword",
+    "DescEN": "<b>COUNTERATTACK:</b>\nGains +1 <b>AT</b> and +1 <b>AR</b>.",
+    "NameES": "Gades Espada Fugaz",
+    "DescES": "<b>VENGANZA:</b>\nGana +1 <b>AT</b> y +1 <b>AR</b>."
+  }
 }

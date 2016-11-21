@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 397,
+  "Id": 104,
   "Name": "grougal_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 9,
   "Life": 6,
   "Attack": 5,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Grougaloragran",
-  "DescriptionFR": "Tant qu'il est en jeu, vos Dofus ne peuvent pas être détruits.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Grougaloragran",
+    "DescFR": "Tant qu'il est en jeu, vos Dofus ne peuvent pas être détruits.",
+    "NameEN": "Grougaloragran",
+    "DescEN": "While he is in play, your Dofus cannot be destroyed.",
+    "NameES": "Grugaloragrán",
+    "DescES": "Mientras esté en juego, tus dofus no pueden ser destruidos."
+  }
 }

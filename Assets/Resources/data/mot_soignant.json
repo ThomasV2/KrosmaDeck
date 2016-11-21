@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 131,
+  "Id": 521,
   "Name": "mot_soignant",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 3,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     3
   ],
   "IsToken": false,
-  "Rarity": 1,
+  "Rarity": 0,
   "GodType": 3,
-  "NameFR": "Mot Soignant",
-  "DescriptionFR": "L'invocation ciblée récupère tous ses <b>PV</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Mot Soignant",
+    "DescFR": "L'invocation ciblée récupère tous ses <b>PV</b>.",
+    "NameEN": "Healing Word",
+    "DescEN": "The targeted Summons recovers all its <b>HP</b>.",
+    "NameES": "Palabra Sanadora",
+    "DescES": "La invocación seleccionada recupera todos sus <b>PdV</b>."
+  }
 }

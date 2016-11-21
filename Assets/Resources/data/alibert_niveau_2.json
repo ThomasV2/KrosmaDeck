@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 96,
+  "Id": 53,
   "Name": "alibert_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 4,
   "Attack": 2,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Alibert",
-  "DescriptionFR": "<b>APPARITION :</b>\nAjoute une Blanquette\r\nà votre main.",
   "Extension": 1,
   "LinkedCards": [
-    220
-  ]
+    528
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Alibert",
+    "DescFR": "<b>APPARITION :</b>\nAjoute une Poêle\r\nà votre main.",
+    "NameEN": "Alibert",
+    "DescEN": "<b>APPEARANCE:</b>\nAdd a Frying Pan\r\nto your hand.",
+    "NameES": "Álibert",
+    "DescES": "<b>APARICIÓN:</b>\nAñade una sartén\r\na tu mano."
+  }
 }

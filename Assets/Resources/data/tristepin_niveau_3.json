@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 369,
+  "Id": 109,
   "Name": "tristepin_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 5,
   "Attack": 5,
@@ -14,8 +14,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Tristepin",
-  "DescriptionFR": "<b>CHARGE</b>\nGagne <b>initiative</b> tant\r\nque vous avez un autre membre de la Confrérie du Tofu en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tristepin",
+    "DescFR": "<b>CHARGE</b>\nGagne <b>initiative</b> tant\r\nque vous avez un autre membre de la Confrérie du Tofu en jeu.",
+    "NameEN": "Percedal",
+    "DescEN": "<b>CHARGE</b>\nGains <b>FIRST STRIKE</b> as long as\r\nyou have another member of the Brotherhood of the Tofu in play.",
+    "NameES": "Tristepin",
+    "DescES": "<b>CARGA</b>\nGana <b>iniciativa</b> mientras\r\ntengas otro miembro de la Hermandad del Tofu en juego."
+  }
 }

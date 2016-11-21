@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 363,
+  "Id": 276,
   "Name": "patek_tag",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 2,
   "Life": 2,
   "Attack": 1,
@@ -11,10 +11,17 @@
     9
   ],
   "IsToken": false,
-  "Rarity": 0,
+  "Rarity": 1,
   "GodType": 7,
-  "NameFR": "Patek Tag ",
-  "DescriptionFR": "<b>APPARITION :</b>\nDétruisez un prisme.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Patek Tag ",
+    "DescFR": "<b>APPARITION :</b>\nDétruisez un prisme.",
+    "NameEN": "Patek Tag ",
+    "DescEN": "<b>APPEARANCE:</b>\nDestroys a Prism.",
+    "NameES": "Patek Tag ",
+    "DescES": "<b>APARICIÓN:</b>\nDestruyes un prisma."
+  }
 }

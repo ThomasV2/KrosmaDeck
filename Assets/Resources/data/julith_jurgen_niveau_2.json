@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 488,
+  "Id": 124,
   "Name": "julith_jurgen_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 4,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Julith Jurgen",
-  "DescriptionFR": "<b>MORT :</b> Remonte dans votre main si aucun de vos Dofus n'a été détruit.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Julith Jurgen",
+    "DescFR": "<b>MORT :</b> Remonte dans votre main si aucun de vos Dofus n'a été détruit.",
+    "NameEN": "Julith Jurgen",
+    "DescEN": "<b>DEATH:</b> Returns to your hand if none of your Dofus have been destroyed.",
+    "NameES": "Julith Jurgen",
+    "DescES": "<b>MUERTE:</b>\nVuelve a tu mano si ninguno de tus dofus ha sido destruido."
+  }
 }

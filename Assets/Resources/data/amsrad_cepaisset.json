@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 173,
+  "Id": 113,
   "Name": "amsrad_cepaisset",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 8,
   "Attack": 5,
@@ -11,10 +11,17 @@
     5
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 1,
   "GodType": 6,
-  "NameFR": "Amsrad Cépaisset",
-  "DescriptionFR": "Bannit 5 cartes de votre défausse pour l'invoquer.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Amsrad Cépaisset",
+    "DescFR": "Bannit 5 cartes de votre défausse pour l'invoquer.",
+    "NameEN": "Amsrad Cipici",
+    "DescEN": "Banish 5 cards from your discard pile to summon it.",
+    "NameES": "Amstrad Cepecé",
+    "DescES": "Elimina 5 cartas de tu descarte para invocarla."
+  }
 }

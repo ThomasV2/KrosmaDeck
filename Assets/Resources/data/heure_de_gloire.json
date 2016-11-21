@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 296,
+  "Id": 27,
   "Name": "heure_de_gloire",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 0,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 1,
-  "NameFR": "Heure de Gloire",
-  "DescriptionFR": "Dépensez vos <b>PA</b>\r\nrestants pour donner à une invocation +1 <b>AT</b> et +1 <b>AR</b> par <b>PA</b> utilisé.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Heure de Gloire",
+    "DescFR": "Dépensez vos <b>PA</b>\r\nrestants pour donner à une invocation +1 <b>AT</b> et +1 <b>AR</b> par <b>PA</b> utilisé.",
+    "NameEN": "Hour of Glory",
+    "DescEN": "Use your remaining <b>AP</b>\r\nto give a Summons +1 <b>AT</b> and +1 <b>AR</b> per <b>AP</b> used.",
+    "NameES": "Hora de Gloria",
+    "DescES": "Gasta tus <b>PA</b>\r\nrestantes para darle a una invocación +1 <b>AT</b> y +1 <b>AR</b> por cada <b>PA</b> utilizado."
+  }
 }

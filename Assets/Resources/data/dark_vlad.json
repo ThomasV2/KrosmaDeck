@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 482,
+  "Id": 435,
   "Name": "dark_vlad",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 4,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Dark Vlad",
-  "DescriptionFR": "Inflige ses dégâts sur chaque cases autour de lui à chaque fois qu'il attaque.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Dark Vlad",
+    "DescFR": "Inflige ses dégâts sur chaque case autour de lui à chaque fois qu'il attaque.",
+    "NameEN": "Dark Vlad",
+    "DescEN": "Inflicts damage on each adjacent cell each time it attacks.",
+    "NameES": "Dark Vlad",
+    "DescES": "Inflige sus daños en cada una de las casillas de su alrededor cada vez que ataca."
+  }
 }

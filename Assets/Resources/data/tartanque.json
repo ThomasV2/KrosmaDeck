@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 154,
+  "Id": 313,
   "Name": "tartanque",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 1,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Tartanque",
-  "DescriptionFR": "<b>APPARITION :</b>\nSacrifiez une de vos invocations pour gagner +4 <b>AT</b> et +4 <b>AR</b>\r.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tartanque",
+    "DescFR": "<b>APPARITION :</b>\nSacrifiez une de vos invocations pour gagner +4 <b>AT</b> et +4 <b>AR</b>\r.",
+    "NameEN": "Moloch",
+    "DescEN": "<b>APPEARANCE:</b>\nSacrifice one of your Summons to gain +4 <b>AT</b> and +4 <b>AR</b>\n.",
+    "NameES": "Slashand",
+    "DescES": "<b>APARICIÓN:</b>\nSacrificas a 1 de tus invocaciones para ganar +4 <b>AT</b> y +4 <b>AR</b>.\n"
+  }
 }

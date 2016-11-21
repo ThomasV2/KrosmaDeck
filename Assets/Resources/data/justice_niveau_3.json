@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 130,
+  "Id": 520,
   "Name": "justice_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 3,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Justice",
-  "DescriptionFR": "<b>APPARITION :</b>\nPasse l'<b>AT</b> d'une invocation à 3 et la fait <b>charger</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Justice",
+    "DescFR": "<b>APPARITION :</b>\nPasse l'<b>AT</b> d'une invocation à 3 et la fait <b>charger</b>.",
+    "NameEN": "Justice",
+    "DescEN": "<b>APPEARANCE:</b>\nChange a Summons's <b>AT</b> to 3 and he <b>CHARGES</b>.",
+    "NameES": "Justicia",
+    "DescES": "<b>APARICIÓN:</b>\nPasa a 3 el<b>AT</b> de una invocación y la hace <b>cargar</b>."
+  }
 }

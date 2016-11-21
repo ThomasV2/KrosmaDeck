@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 58,
+  "Id": 553,
   "Name": "pollinisation",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 7,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 10,
-  "NameFR": "Pollinisation",
-  "DescriptionFR": "Inflige 3 dégâts aux invocations adverses, transforme en <b>Graines</b> alliées celles qui meurent.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Pollinisation",
+    "DescFR": "Inflige 3 dégâts aux invocations adverses, transforme en <b>Graines</b> alliées celles qui meurent.",
+    "NameEN": "Pollination",
+    "DescEN": "Inflicts 3 damage to enemy Summons and transforms those that die into allied <b>Seeds</b>.",
+    "NameES": "Polinización",
+    "DescES": "Inflige 3 de daño a todas las invocaciones enemigas y transforma las que mueren en <b>semillas</b> aliadas."
+  }
 }

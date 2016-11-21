@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 500,
+  "Id": 54,
   "Name": "shin_larve",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 6,
   "Attack": 5,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Shin Larve",
-  "DescriptionFR": "Vos larves gagnent +1 <b>AT</b> et <b>chargent</b> lorsqu'elles entrent en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Shin Larve",
+    "DescFR": "Vos larves gagnent +1 <b>AT</b> et <b>chargent</b> lorsqu'elles entrent en jeu.",
+    "NameEN": "Shin Larva",
+    "DescEN": "Your Larvae gain +1 <b>AT</b> and <b>CHARGE</b> when they come into play.",
+    "NameES": "Shin Larva",
+    "DescES": "Tus larvas ganan +1 <b>AT</b> y <b>cargan</b> cuando entran en juego."
+  }
 }

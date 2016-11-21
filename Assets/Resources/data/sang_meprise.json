@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 211,
+  "Id": 277,
   "Name": "sang_meprise",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 6,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 8,
-  "NameFR": "Sang Méprise",
-  "DescriptionFR": "Dévoile vos Dofus pour dévoiler ceux de votre adversaire.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sang Méprise",
+    "DescFR": "Dévoile vos Dofus pour dévoiler ceux de votre adversaire.",
+    "NameEN": "Bloody Mistake",
+    "DescEN": "Reveal your Dofus to reveal your opponent's.",
+    "NameES": "Sangre Nueva",
+    "DescES": "Descubre los dofus para descubrir también los del contrincante."
+  }
 }

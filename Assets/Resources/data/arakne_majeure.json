@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 241,
+  "Id": 404,
   "Name": "arakne_majeure",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 5,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Arakne Majeure",
-  "DescriptionFR": "<b>APPARITION :</b>\nRemonte une invocation dans la main de son propriétaire.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Arakne Majeure",
+    "DescFR": "<b>APPARITION :</b>\nRemonte une invocation dans la main de son propriétaire.",
+    "NameEN": "Major Arachnee",
+    "DescEN": "<b>APPEARANCE:</b>\nReturn a Summons to its owner's hand.",
+    "NameES": "Arakna mayor",
+    "DescES": "<b>APARICIÓN:</b>\nUna invocación vuelve a la mano de su propietario."
+  }
 }

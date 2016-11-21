@@ -1,20 +1,27 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 97,
+  "Id": 123,
   "Name": "moogrr",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 2,
-  "MovementPoint": 2,
+  "MovementPoint": 3,
   "Families": [
     39
   ],
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Moogrr",
-  "DescriptionFR": "<b>CONTRE COUP :</b>\nGagne +1 <b>PM</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Moogrr",
+    "DescFR": "<b>APPARITION :</b>\n<b>Charge</b> de 2 cases si vous avez une Moogrr en jeu.",
+    "NameEN": "Moogrr",
+    "DescEN": "<b>APPARITION :</b>\n<b>Charge</b> de 2 cases si vous avez une Moogrr en jeu.",
+    "NameES": "Muuugresa",
+    "DescES": "<b>APPARITION :</b>\n<b>Charge</b> de 2 cases si vous avez une Moogrr en jeu."
+  }
 }

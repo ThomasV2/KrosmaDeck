@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 402,
+  "Id": 174,
   "Name": "canar",
-  "CardType": "Summon",
-  "CostAP": 4,
-  "Life": 1,
-  "Attack": 1,
+  "CardType": 0,
+  "CostAP": 5,
+  "Life": 5,
+  "Attack": 4,
   "MovementPoint": 3,
   "Families": [
     32
@@ -13,8 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 10,
-  "NameFR": "Canar",
-  "DescriptionFR": "<b>MORT :</b>\nAjoute à votre main un sort Krosmique de votre pioche.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [
+    183
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Canar",
+    "DescFR": "<b>APPARITION :</b>\nTransforme une de vos <b>Graines</b> en Poupée Gonflable.",
+    "NameEN": "Canar",
+    "DescEN": "<b>APPEARANCE:</b>\nTransform one of your <b>Seeds</b> into an Inflatable doll.",
+    "NameES": "Patuso",
+    "DescES": "<b>APARICIÓN:</b>\nTransforma una de tus <b>semillas</b> en muñeca hinchable."
+  }
 }

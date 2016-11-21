@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 93,
+  "Id": 477,
   "Name": "brulure_temporelle",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 3,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 7,
-  "NameFR": "Brûlure Temporelle",
-  "DescriptionFR": "Inflige 2 dégâts.\r\nAjoute 1 <b>PA</b> à votre <b>réserve</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Brûlure Temporelle",
+    "DescFR": "Inflige 2 dégâts.\r\nAjoute 1 <b>PA</b> à votre <b>réserve</b>.",
+    "NameEN": "Temporal Burn",
+    "DescEN": "Inflicts 2 damage.\r\nAdd 1 <b>AP</b> to your <b>reserve</b>.",
+    "NameES": "Quemadura Temporal",
+    "DescES": "Inflige 2 de daño.\r\nAñade 1 <b>PA</b> a tu <b>reserva</b>."
+  }
 }

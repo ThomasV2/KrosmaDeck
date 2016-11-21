@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 572,
+  "Id": 321,
   "Name": "lou_niveau_1",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 2,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Lou",
-  "DescriptionFR": "<b>APPARITION :</b>\nRécupérez un Prisme allié.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Lou",
+    "DescFR": "<b>APPARITION :</b>\nRécupérez un prisme allié.",
+    "NameEN": "Lou",
+    "DescEN": "<b>APPEARANCE:</b>\nPicks up an allied Prism.",
+    "NameES": "Lu",
+    "DescES": "<b>APARICIÓN:</b>\nConsigues un prisma aliado."
+  }
 }

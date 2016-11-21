@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 301,
+  "Id": 286,
   "Name": "tofu_mutant",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 5,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Tofu Mutant",
-  "DescriptionFR": "<b>APPARITION :</b>\nSacrifie un Tofu allié pour gagner son <b>AT</b> et ses <b>PM</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tofu Mutant",
+    "DescFR": "<b>APPARITION :</b>\nSacrifie un Tofu allié pour gagner son <b>AT</b> et ses <b>PM</b>.",
+    "NameEN": "Mutant Tofu",
+    "DescEN": "<b>APPEARANCE:</b>\nSacrifice an allied Tofu to gain its <b>AT</b> and <b>MP</b>.",
+    "NameES": "Tofu mutante",
+    "DescES": "<b>APARICIÓN:</b>\nSacrifica a un tofu aliado para ganar su <b>AT</b> y sus <b>PM</b>."
+  }
 }

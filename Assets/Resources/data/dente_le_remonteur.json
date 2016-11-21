@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 436,
+  "Id": 226,
   "Name": "dente_le_remonteur",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 3,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 7,
-  "NameFR": "Dente le Remonteur",
-  "DescriptionFR": "Se pose gratuitement si vous avez au moins 5 <b>PA</b> dans votre <b>réserve</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Dente le Remonteur",
+    "DescFR": "Se pose gratuitement si vous avez au moins 5 <b>PA</b> dans votre <b>réserve</b>.",
+    "NameEN": "Dente Letyme",
+    "DescEN": "Is free to play if you have at least 5 <b>AP</b> in your <b>reserve</b>.",
+    "NameES": "Dente, el Remontador",
+    "DescES": "Se pone gratuitamente si tienes al menos 5 <b>PA</b> de tu <b>reserva</b>."
+  }
 }

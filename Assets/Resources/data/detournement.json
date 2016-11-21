@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 134,
+  "Id": 267,
   "Name": "detournement",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     2
   ],
   "IsToken": false,
-  "Rarity": 1,
+  "Rarity": 2,
   "GodType": 2,
-  "NameFR": "Détournement",
-  "DescriptionFR": "L'invocation ciblée\r\nchange de ligne.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Détournement",
+    "DescFR": "Faites changer de ligne à une invocation alliée située dans votre camp.",
+    "NameEN": "Subversion",
+    "DescEN": "The targeted allied Summons in your side of the board changes row.",
+    "NameES": "Corrupción",
+    "DescES": "La invocación aliada seleccionada cambia de hilera si está en tu lado."
+  }
 }

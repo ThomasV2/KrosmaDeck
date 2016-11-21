@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 417,
+  "Id": 201,
   "Name": "gelee_fraise",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 2,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Gelée Fraise",
-  "DescriptionFR": "<b>APPARITION :</b>\nInvoquez une Gelatine.",
   "Extension": 1,
   "LinkedCards": [
     258
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Gelée Fraise",
+    "DescFR": "<b>APPARITION :</b>\nInvoquez une Gelatine.",
+    "NameEN": "Strawberry Jelly",
+    "DescEN": "<b>APPEARANCE:</b>\nSummons a Gelatine.",
+    "NameES": "Gelatina de fresa",
+    "DescES": "<b>APARICIÓN:</b>\nInvocas una gelatina."
+  }
 }

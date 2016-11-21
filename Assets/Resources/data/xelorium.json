@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 471,
+  "Id": 282,
   "Name": "xelorium",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 7,
-  "NameFR": "Xélorium",
-  "DescriptionFR": "Vole tous les <b>PA</b> de la <b>réserve</b> adverse pour les ajouter à la votre.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Xélorium",
+    "DescFR": "Vole tous les <b>PA</b> de la <b>réserve</b> adverse pour les ajouter à la votre.",
+    "NameEN": "Xelorium",
+    "DescEN": "Steal all the <b>AP</b> from your opponent's <b>reserve</b> and add them to yours.",
+    "NameES": "Xelorium",
+    "DescES": "Roba todos los <b>PA</b> de la <b>reserva</b> enemiga para añadirlos a la tuya."
+  }
 }

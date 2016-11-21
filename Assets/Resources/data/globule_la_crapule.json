@@ -1,20 +1,27 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 565,
+  "Id": 163,
   "Name": "globule_la_crapule",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 6,
   "Attack": 3,
-  "MovementPoint": 2,
+  "MovementPoint": 3,
   "Families": [
     6
   ],
   "IsToken": false,
   "Rarity": 1,
   "GodType": 8,
-  "NameFR": "Globule la Crapule",
-  "DescriptionFR": "<b>CONTRE COUP :</b>\nGagne +1 <b>PM</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Globule la Crapule",
+    "DescFR": "<b>APPARITION :</B>\nAttire de 3 cases la première invocation adverse située devant elle.",
+    "NameEN": "Clot the Crapulous",
+    "DescEN": "<b>APPEARANCE:</b>\n<b>ATTRACTS</b> the first enemy Summons in front of it by 3 cells.",
+    "NameES": "Glóbulo, la Crápula",
+    "DescES": "<b>APARICIÓN:</b>\n<b>Atrae</b> la primera invocación enemiga situada delante de él 3 casillas."
+  }
 }

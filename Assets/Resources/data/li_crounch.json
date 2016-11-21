@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 129,
+  "Id": 188,
   "Name": "li_crounch",
-  "CardType": "Summon",
-  "CostAP": 4,
-  "Life": 5,
-  "Attack": 1,
+  "CardType": 0,
+  "CostAP": 2,
+  "Life": 2,
+  "Attack": 2,
   "MovementPoint": 3,
   "Families": [
     32
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 10,
-  "NameFR": "Li Crounch",
-  "DescriptionFR": "<b>APPARITION :</b>\nTransforme une de vos <b>Graines</b> en Poupée Sacrifiée.",
   "Extension": 1,
   "LinkedCards": [
     522
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Li Crounch",
+    "DescFR": "<b>APPARITION :</b>\nTransforme une de vos <b>Graines</b> en Poupée Sacrifiée.",
+    "NameEN": "Li Crounch",
+    "DescEN": "<b>APPEARANCE:</b>\nTransforms one of your <b>Seeds</b> into a Sacrificial Doll.",
+    "NameES": "Li Crounch",
+    "DescES": "<b>APARICIÓN:</b>\nTransforma una de tus <b>semillas</b> en muñeca sacrificada."
+  }
 }

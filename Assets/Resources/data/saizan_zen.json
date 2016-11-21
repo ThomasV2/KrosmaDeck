@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 522,
+  "Id": 381,
   "Name": "saizan_zen",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 2,
   "Life": 2,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 3,
-  "NameFR": "Saizan Zen",
-  "DescriptionFR": "<b>APPARITION :</b>\nDonne +2 <b>AR</b> à une invocation ou +4 <b>AR</b> si\r\nelle est blessée.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Saizan Zen",
+    "DescFR": "<b>APPARITION :</b>\nDonne +1 <b>AR</b> à une invocation ou +2 <b>AR</b> si\r\nelle est blessée.",
+    "NameEN": "Saizan Zen",
+    "DescEN": "<b>APPEARANCE:</b>\nGive +1 <b>AR</b> to a Summons or +2 <b>AR</b> if\r\nit is injured.",
+    "NameES": "Saizan Zen",
+    "DescES": "<b>APARICIÓN:</b>\nDa +1 <b>AR</b> a una invocación o +2 <b>AR</b> si\r\nestá herida."
+  }
 }

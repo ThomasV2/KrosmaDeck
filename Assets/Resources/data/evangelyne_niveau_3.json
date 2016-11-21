@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 298,
+  "Id": 340,
   "Name": "evangelyne_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 3,
   "Attack": 3,
@@ -14,8 +14,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Evangelyne",
-  "DescriptionFR": "<b>PORTÉE :</b> 1-5\nGagne +2 <b>portée</b> si vous avez un autre membre de la Confrérie du Tofu en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Evangelyne",
+    "DescFR": "<b>PORTÉE :</b> 1-5\nGagne +2 <b>portée</b> si vous avez un autre membre de la Confrérie du Tofu en jeu.",
+    "NameEN": "Evangelyne",
+    "DescEN": "<b>RANGE:</b> 1-5\nGains +2 <b>RANGE</b> if you have another member of the Brotherhood of the Tofu in play.",
+    "NameES": "Evangelyne",
+    "DescES": "<b>ALCANCE:</b> 1-5\nGana +2 de <b>alcance</b> si tienes otro miembro de la Hermandad del Tofu en juego."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 106,
+  "Id": 105,
   "Name": "tofoune",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 2,
   "Life": 2,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Tofoune",
-  "DescriptionFR": "<b>APPARITION :</b>\nPiochez 1 carte.\r\nSi ce n'est pas un Tofu défaussez-la.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tofoune",
+    "DescFR": "<b>APPARITION :</b>\nPiochez 1 carte.\r\nSi ce n'est pas un Tofu défaussez-la.",
+    "NameEN": "Tofoone",
+    "DescEN": "<b>APPEARANCE:</b>\nDraw 1 card.\r\nDiscard it if it is not a Tofu.",
+    "NameES": "Tofona",
+    "DescES": "<b>APARICIÓN:</b>\nRobas 1 carta.\r\nSi no es un tofu, descártala."
+  }
 }

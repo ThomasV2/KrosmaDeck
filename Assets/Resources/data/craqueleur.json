@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 104,
+  "Id": 540,
   "Name": "craqueleur",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Craqueleur",
-  "DescriptionFR": "<b>RÉSISTANCE :</b> 1\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Craqueleur",
+    "DescFR": "<b>RÉSISTANCE :</b> 1\r",
+    "NameEN": "Crackler",
+    "DescEN": "<b>RESISTANCE:</b> 1\n",
+    "NameES": "Crujidor",
+    "DescES": "<b>RESISTENCIA:</b> 1\n"
+  }
 }

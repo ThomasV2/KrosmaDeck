@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 79,
+  "Id": 461,
   "Name": "comte_harebourg_niveau_1",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 3,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Comte Harebourg",
-  "DescriptionFR": "Tant qu'il est en jeu,\r\ndouble les <b>PA</b> obtenus par vos prismes.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Comte Harebourg",
+    "DescFR": "Tant qu'il est en jeu,\r\ndouble les <b>PA</b> obtenus par vos prismes.",
+    "NameEN": "Count Harebourg",
+    "DescEN": "While he is in play,\r\ndouble the <b>AP</b> obtained from your prisms.",
+    "NameES": "Conde Kontatrás",
+    "DescES": "Mientras esté en juego,\r\ndobla los <b>PA</b> que obtienen tus prismas."
+  }
 }

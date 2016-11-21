@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 247,
+  "Id": 11,
   "Name": "fantome_cra",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 3,
   "Attack": 3,
@@ -11,10 +11,17 @@
     2
   ],
   "IsToken": false,
-  "Rarity": 1,
+  "Rarity": 2,
   "GodType": 2,
-  "NameFR": "Fantome Cra",
-  "DescriptionFR": "<b>PORTÉE :</b> 1-2\n<b>INCIBLABLE</b>",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Fantôme Crâ",
+    "DescFR": "<b>PORTÉE :</b> 1-2\n<b>INCIBLABLE</b>",
+    "NameEN": "Cra Ghost",
+    "DescEN": "<b>RANGE:</b> 1-2\n<b>UNTARGETABLE</b>",
+    "NameES": "Fantasma ocra",
+    "DescES": "<b>ALCANCE:</b> 1-2\n<b>ESCURRIDIZO</b>"
+  }
 }

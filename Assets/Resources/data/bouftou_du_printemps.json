@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 179,
+  "Id": 159,
   "Name": "bouftou_du_printemps",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 3,
   "Attack": 6,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Bouftou du Printemps",
-  "DescriptionFR": "<b>DÉBUT DU TOUR :</b>\nGagne +1 <b>AR</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Bouftou du Printemps",
+    "DescFR": "<b>DÉBUT DU TOUR :</b>\nGagne +1 <b>AR</b>.",
+    "NameEN": "Spring Gobball",
+    "DescEN": "<b>START OF TURN:</b>\nGains +1 <b>AR</b>.",
+    "NameES": "Jalató de primavera",
+    "DescES": "<b>FIN DEL TURNO:</b>\nGana +1 <b>AR</b>."
+  }
 }

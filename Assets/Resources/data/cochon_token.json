@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 148,
+  "Id": 60,
   "Name": "cochon_token",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 1,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Cochon",
-  "DescriptionFR": "<b>MORT :</b> Vos invocations récupèrent 1 <b>PV</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Cochon",
+    "DescFR": "<b>MORT :</b> Vos invocations récupèrent 1 <b>PV</b>.",
+    "NameEN": "Pig",
+    "DescEN": "<b>DEATH:</b> Your Summons recover 1 <b>HP</b>.",
+    "NameES": "Cerdo",
+    "DescES": "<b>MUERTE:</b>\nTus invocaciones recuperan 1<b>PdV</b>."
+  }
 }

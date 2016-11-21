@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 8,
+  "Id": 10,
   "Name": "fleche_criblante",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 5,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 2,
-  "NameFR": "Flèche Criblante",
-  "DescriptionFR": "Inflige 3 dégâts à une invocation et 1 dégât au Dofus adverse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Flèche Criblante",
+    "DescFR": "Inflige 3 dégâts à une invocation et 1 dégât au Dofus adverse.",
+    "NameEN": "Riddling Arrow",
+    "DescEN": "Inflicts 3 damage on a Summons and 1 damage on an enemy Dofus.",
+    "NameES": "Flecha Perforante",
+    "DescES": "Inflige 3 de daño a una invocación y 1 de daño al dofus enemigo."
+  }
 }

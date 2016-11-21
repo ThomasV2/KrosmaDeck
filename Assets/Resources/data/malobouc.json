@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 87,
+  "Id": 366,
   "Name": "malobouc",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
-  "Life": 4,
-  "Attack": 1,
+  "Life": 3,
+  "Attack": 2,
   "MovementPoint": 3,
   "Families": [
     47
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Malobouc",
-  "DescriptionFR": "<b>MORT :</b>\nDétruit tous les prismes adverses.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Malobouc",
+    "DescFR": "<b>MORT :</b>\nDétruit tous les prismes adverses.",
+    "NameEN": "Badgoat",
+    "DescEN": "<b>DEATH:</b>\nDestroys all enemy Prisms.",
+    "NameES": "Malajeta",
+    "DescES": "<b>MUERTE:</b>\nDestruye todos los prismas enemigos."
+  }
 }

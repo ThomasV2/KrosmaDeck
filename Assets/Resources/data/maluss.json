@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 292,
+  "Id": 349,
   "Name": "maluss",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 1,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Maluss",
-  "DescriptionFR": "Inflige 1 dégât au Dofus adverse de sa ligne quand vous volez ou détruisez un prisme adverse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Maluss",
+    "DescFR": "Inflige 1 dégât au Dofus adverse de sa ligne quand vous volez ou détruisez un prisme adverse.",
+    "NameEN": "Badenalty",
+    "DescEN": "Inflicts 1 damage to the enemy Dofus on its line when you steal or destroy an enemy prism.",
+    "NameES": "Maltrahzero",
+    "DescES": "Inflige 1 de daño a un dofus enemigo de su hilera cuando robas o destruyes un prisma enemigo."
+  }
 }

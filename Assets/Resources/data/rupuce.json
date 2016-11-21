@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 242,
+  "Id": 462,
   "Name": "rupuce",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Rupuce",
-  "DescriptionFR": "Ne subit jamais plus\r\nde 1 dégât à la fois.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Rupuce",
+    "DescFR": "Ne subit jamais plus\r\nde 1 dégât à la fois.",
+    "NameEN": "Rouflee",
+    "DescEN": "Doesn't suffer more\r\nthan 1 damage at a time.",
+    "NameES": "Rupulguita",
+    "DescES": "No sufre nunca más de\r\n1 de daño a la vez."
+  }
 }

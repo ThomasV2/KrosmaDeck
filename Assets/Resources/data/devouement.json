@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 558,
+  "Id": 216,
   "Name": "devouement",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 8,
   "Life": 0,
   "Attack": 0,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 7,
-  "NameFR": "Dévouement",
-  "DescriptionFR": "Transforme une invocation en Momie alliée.",
   "Extension": 1,
   "LinkedCards": [
     530
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Dévouement",
+    "DescFR": "Transforme une invocation en Momie alliée.",
+    "NameEN": "Devotion",
+    "DescEN": "Transforms a Summons into an allied Mummy.",
+    "NameES": "Devoción",
+    "DescES": "Transforma una invocación en momia aliada."
+  }
 }

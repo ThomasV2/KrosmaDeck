@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 226,
+  "Id": 210,
   "Name": "fleche_explosive",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 2,
-  "NameFR": "Flèche Explosive",
-  "DescriptionFR": "Inflige 5 dégâts.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Flèche Explosive",
+    "DescFR": "Inflige 4 dégâts.",
+    "NameEN": "Explosive Arrow",
+    "DescEN": "Inflicts 4 damage.",
+    "NameES": "Flecha Explosiva",
+    "DescES": "Inflige 4 de daño."
+  }
 }

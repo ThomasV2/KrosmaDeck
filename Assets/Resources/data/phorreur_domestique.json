@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 255,
+  "Id": 448,
   "Name": "phorreur_domestique",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
-  "Life": 3,
-  "Attack": 3,
+  "Life": 2,
+  "Attack": 2,
   "MovementPoint": 2,
   "Families": [
     20
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Phorreur Domestique",
-  "DescriptionFR": "<b>APPARITION :</b>\nRécupérez 1 carte aléatoire de votre défausse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Phorreur Domestique",
+    "DescFR": "<b>APPARITION :</b>\nRécupérez 1 carte aléatoire de votre défausse.",
+    "NameEN": "Pet Drheller",
+    "DescEN": "<b>APPEARANCE:</b>\nReturn 1 random card from your discard pile to your hand.",
+    "NameES": "Perforatroz doméstico",
+    "DescES": "<b>APARICIÓN:</b>\nRecuperas 1 carta aleatoria de tu descarte."
+  }
 }

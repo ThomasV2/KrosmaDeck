@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 340,
+  "Id": 294,
   "Name": "jems_blond",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 4,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 2,
-  "NameFR": "Jèms Blond",
-  "DescriptionFR": "<b>PORTÉE :</b> 1-3\n<b>COUP DE GRÂCE :</b> Inflige 1 dégât au Dofus adverse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Jèms Blond",
+    "DescFR": "<b>PORTÉE :</b> 1-3\n<b>COUP DE GRÂCE :</b> Inflige 1 dégât au Dofus adverse.",
+    "NameEN": "Jems Blond",
+    "DescEN": "<b>RANGE:</b> 1-3\n<b>FINAL BLOW:</b> Inflicts 1 damage on the enemy Dofus.",
+    "NameES": "Jeins Bon",
+    "DescES": "<b>ALCANCE:</b> 1-3\n<b>GOLPE DE GRACIA:</b> Inflige 1 de daño a un dofus enemigo."
+  }
 }

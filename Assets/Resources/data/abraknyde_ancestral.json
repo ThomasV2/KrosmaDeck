@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 455,
+  "Id": 298,
   "Name": "abraknyde_ancestral",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 8,
   "Life": 5,
   "Attack": 7,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Abraknyde Ancestral",
-  "DescriptionFR": "<b>MORT :</b> Invoque 2 Corbacs autour de lui.",
   "Extension": 1,
   "LinkedCards": [
     144
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Abraknyde Ancestral",
+    "DescFR": "<b>MORT :</b>\nInvoque 2 Corbacs\r\nà côté de lui.",
+    "NameEN": "Ancestral Treechnid",
+    "DescEN": "<b>DEATH:</b>\nSummons 2 Crobaks on adjacent cells if possible.",
+    "NameES": "Abráknido Ancestral",
+    "DescES": "<b>MUERTE:</b> Invoca 2 cuerboks a su alrededor."
+  }
 }

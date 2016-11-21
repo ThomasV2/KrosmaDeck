@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 400,
+  "Id": 398,
   "Name": "tofu_enrage",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Tofu Enragé",
-  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases que vous avez de Tofus\r\nen jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tofu Enragé",
+    "DescFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases que vous avez de Tofus\r\nen jeu.",
+    "NameEN": "Enraged Tofu",
+    "DescEN": "<b>APPEARANCE:</b>\n<b>CHARGES</b> the same number of cells as there are allied Tofus in play.",
+    "NameES": "Tofu Rabioso",
+    "DescES": "<b>APARICIÓN:</b>\n<b>Carga</b> tantas casillas como tofus tengas\r\nen juego."
+  }
 }

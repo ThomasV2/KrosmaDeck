@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 561,
+  "Id": 380,
   "Name": "piou_violet",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Piou Violet",
-  "DescriptionFR": "<b>APPARITION :</b>\nDonne +1 <b>AT</b> et +1 <b>AR</b>\r\nà vos autres Pious.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Piou Violet",
+    "DescFR": "<b>APPARITION :</b>\nDonne +1 <b>AT</b> et +1 <b>AR</b>\r\nà vos autres Pious.",
+    "NameEN": "Purple Piwi",
+    "DescEN": "<b>APPEARANCE:</b>\nGives +1 <b>AT</b> and +1 <b>AR</b>\r\nto your other Piwis.",
+    "NameES": "Pío violeta",
+    "DescES": "<b>APARICIÓN:</b>\nDa +1 <b>AT</b> y +1 <b>AR</b>\r\n a tus demás píos."
+  }
 }

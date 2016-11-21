@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 523,
+  "Id": 517,
   "Name": "excarnus",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 10,
   "Life": 8,
   "Attack": 6,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Excarnus",
-  "DescriptionFR": "Vos autres Bouftous remontent dans votre main quand ils meurent. ",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Excarnus",
+    "DescFR": "Vos autres Bouftous remontent dans votre main quand ils meurent. ",
+    "NameEN": "Excarnus",
+    "DescEN": "Your other Gobballs return to your hand when they die. ",
+    "NameES": "Excarnus",
+    "DescES": "Tus demás jalatós vuelven a tu mano cuando mueren. "
+  }
 }

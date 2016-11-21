@@ -1,9 +1,9 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 164,
+  "Id": 120,
   "Name": "engrais",
-  "CardType": "Spell",
-  "CostAP": 5,
+  "CardType": 1,
+  "CostAP": 2,
   "Life": 0,
   "Attack": 0,
   "MovementPoint": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 10,
-  "NameFR": "Engrais",
-  "DescriptionFR": "Vos Sadidas et vos Poupées <b>chargent</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Engrais",
+    "DescFR": "Piochez 1 carte, elle coûte 1 <b>PA</b> de moins par Graine alliée en jeu.",
+    "NameEN": "Fertilizer",
+    "DescEN": "Draw 1 card. It costs 1 <b>AP</b> less per Seed in play.",
+    "NameES": "Abono",
+    "DescES": "Robas 1 carta. Cuesta 1 <b>PA</b> meno por cada <b>semilla</b> en juego."
+  }
 }

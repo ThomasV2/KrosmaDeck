@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 44,
+  "Id": 38,
   "Name": "magmog_le_boufrog",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 8,
   "Life": 7,
   "Attack": 5,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Magmog le Boufrog",
-  "DescriptionFR": "<b>APPARITION :</b>\nTransforme une invocation en Boufton Blanc. ",
   "Extension": 1,
   "LinkedCards": [
     376
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Magmog le Boufrog",
+    "DescFR": "<b>APPARITION :</b>\nTransforme une invocation en Boufton Blanc. ",
+    "NameEN": "Magmog the Gobbalrog",
+    "DescEN": "<b>APPEARANCE:</b>\nTransforms a Summons into a White Gobbly. ",
+    "NameES": "Magmog, el Jálrog",
+    "DescES": "<b>APARICIÓN:</b>\nTransforma una invocación en jalatín blanco. "
+  }
 }

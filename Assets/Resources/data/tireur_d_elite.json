@@ -1,9 +1,9 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 29,
+  "Id": 365,
   "Name": "tireur_d_elite",
-  "CardType": "Spell",
-  "CostAP": 6,
+  "CardType": 1,
+  "CostAP": 3,
   "Life": 0,
   "Attack": 0,
   "MovementPoint": 0,
@@ -11,10 +11,17 @@
     2
   ],
   "IsToken": false,
-  "Rarity": 3,
+  "Rarity": 1,
   "GodType": 2,
-  "NameFR": "Tireur d'élite",
-  "DescriptionFR": "Vos Crâs infligent 1 dégât aux Dofus adverse de leur ligne.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tireur d'élite",
+    "DescFR": "Diminue de 1 la <b>portée</b> d'une invocation et augmente son <b>AT</b> de 2.",
+    "NameEN": "Elite Archer",
+    "DescEN": "Diminue de 1 la <b>portée</b> d'une invocation et augmente son <b>AT</b> de 2.",
+    "NameES": "Tirador de élite",
+    "DescES": "Diminue de 1 la <b>portée</b> d'une invocation et augmente son <b>AT</b> de 2."
+  }
 }

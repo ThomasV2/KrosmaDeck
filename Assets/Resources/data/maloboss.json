@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 470,
+  "Id": 427,
   "Name": "maloboss",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 14,
   "Life": 5,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Maloboss",
-  "DescriptionFR": "<b>MORT :</b> Ajoute 3 autres Bandits à votre main.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Maloboss",
+    "DescFR": "<b>MORT :</b> Ajoute 3 autres Bandits à votre main.",
+    "NameEN": "Baddoboss",
+    "DescEN": "<b>DEATH:</b> Add 3 other Bandits to your hand.",
+    "NameES": "Maloboss",
+    "DescES": "<b>MUERTE:</b> Añade 3 otros bandidos a tu mano."
+  }
 }

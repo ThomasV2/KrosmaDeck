@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 414,
+  "Id": 167,
   "Name": "fiole_infectee",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     3
   ],
   "IsToken": false,
-  "Rarity": 1,
+  "Rarity": 2,
   "GodType": 3,
-  "NameFR": "Fiole Infectee",
-  "DescriptionFR": "Echangez l'<b>AT</b>\r\nde 2 invocations.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Fiole Infectée",
+    "DescFR": "Echangez l'<b>AT</b>\r\nde 2 invocations.",
+    "NameEN": "Infected Flask",
+    "DescEN": "Exchange the <b>AT</b>\r\nof 2 Summons.",
+    "NameES": "Matraz Infectado",
+    "DescES": "Intercambias el <b>AT</b>\r\nde 2 invocaciones."
+  }
 }

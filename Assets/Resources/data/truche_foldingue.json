@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 434,
+  "Id": 199,
   "Name": "truche_foldingue",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 5,
   "Attack": 5,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Truche Foldingue ",
-  "DescriptionFR": "<b>COUP DE GRACE :</b>\n50% de chances de\r\nchanger de camp.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Truche Foldingue ",
+    "DescFR": "<b>COUP DE GRÂCE :</b>\n50% de chances de\r\nchanger de camp.",
+    "NameEN": "Loony Strich ",
+    "DescEN": "<b>FINAL BLOW:</b>\n50% chance of\r\nchanging sides.",
+    "NameES": "Pestruz locanática ",
+    "DescES": "<b>GOLPE DE GRACIA:</b>\n50% de probabilidades de\r\ncambiar de lado del tablero."
+  }
 }

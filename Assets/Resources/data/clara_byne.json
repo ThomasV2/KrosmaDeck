@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 354,
+  "Id": 35,
   "Name": "clara_byne",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 1,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 2,
-  "NameFR": "Clara Byne",
-  "DescriptionFR": "<b>PORTÉE :</b> 1-2\n<b>APPARITION :</b>\nInflige 1 dégât.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Clara Byne",
+    "DescFR": "<b>PORTÉE :</b> 1-2\n<b>APPARITION :</b>\nInflige 1 dégât.",
+    "NameEN": "Cara Byne",
+    "DescEN": "<b>RANGE:</b> 1-2\n<b>APPEARANCE:</b>\nInflicts 1 damage.",
+    "NameES": "Clara Byne",
+    "DescES": "<b>ALCANCE:</b> 1-2\n<b>APARICIÓN:</b>\nInflige 1 de daño."
+  }
 }

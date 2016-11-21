@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 356,
+  "Id": 456,
   "Name": "bellaphone",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 2,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Bellaphone",
-  "DescriptionFR": "<b>MORT :</b>\nRemonte dans votre main l'invocation qui a détruit la Bellaphone.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Bellaphone",
+    "DescFR": "<b>MORT :</b>\nRemonte dans votre main l'invocation qui a détruit la Bellaphone.",
+    "NameEN": "Bellaphone",
+    "DescEN": "<b>DEATH:</b>\nAdd the Summons which destroyed the Bellaphone to your hand.",
+    "NameES": "Belíade",
+    "DescES": "<b>MUERTE:</b>\nLa invocación que ha eliminado a la belíade pasa a tu mano."
+  }
 }

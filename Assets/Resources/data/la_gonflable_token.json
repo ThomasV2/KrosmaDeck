@@ -1,10 +1,10 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 5,
+  "Id": 183,
   "Name": "la_gonflable_token",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
-  "Life": 1,
+  "Life": 2,
   "Attack": 2,
   "MovementPoint": 3,
   "Families": [
@@ -14,8 +14,15 @@
   "IsToken": true,
   "Rarity": 0,
   "GodType": 10,
-  "NameFR": "La Gonflable",
-  "DescriptionFR": "<b>FIN DU TOUR :</b>\nSoigne de 2 <b>PV</b> vos autres invocations.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "La Gonflable",
+    "DescFR": "<b>DÉBUT DU TOUR :</b>\nSoigne de 2 <b>PV</b> les invocations alliées de sa ligne.",
+    "NameEN": "The Inflatable",
+    "DescEN": "<b>START OF TURN:</b>\nHeals the other allied Summons on her row by 2 <b>HP</b>.",
+    "NameES": "La hinchable",
+    "DescES": "<b>PRINCIPIO DEL TURNO:</b>\nCura 2 <b>PdV</b> a las demás invocaciones aliadas de su hilera."
+  }
 }

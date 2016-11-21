@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 490,
+  "Id": 312,
   "Name": "ratou",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 2,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Ratou",
-  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases que vous avez d'autres Rats alliés en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Ratou",
+    "DescFR": "<b>APPARITION :</b>\n<b>Charge</b> d'autant de cases que vous avez d'autres Rats alliés en jeu.",
+    "NameEN": "Ratou",
+    "DescEN": "<b>APPEARANCE:</b>\n<b>CHARGES</b> the same number of cells as there are other allied Rats in play.",
+    "NameES": "Ratató",
+    "DescES": "<b>APARICIÓN:</b>\n<b>Carga</b> tantas casillas como otras ratas aliadas tengas en juego."
+  }
 }

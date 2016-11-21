@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 454,
+  "Id": 440,
   "Name": "indie_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 2,
   "Life": 1,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Indie",
-  "DescriptionFR": "<b>MORT :</b> Récupérez une carte Infinite aléatoire de votre défausse. Elle coûte 1 <b>PA</b> de moins.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Indie",
+    "DescFR": "<b>MORT :</b> Récupérez une carte Infinite aléatoire de votre défausse. Elle coûte 1 <b>PA</b> de moins.",
+    "NameEN": "Indie",
+    "DescEN": "<b>DEATH:</b> Return an Infinite card from your discard pile to your hand. It costs 1 <b>AP</b> less.",
+    "NameES": "Indi",
+    "DescES": "<b>MUERTE:</b> Recuperas una carta infinita aleatoria de tu descarte. Cuesta 1 <b>PA</b> menos."
+  }
 }

@@ -9,6 +9,7 @@ public class Scene_Manager : MonoBehaviour {
     public static bool load_deck = false;
     public static string pathfile = "";
     public GameObject fondu;
+    public Text Filename;
 
     public void Set_load_deck(bool value)
     {
@@ -17,7 +18,11 @@ public class Scene_Manager : MonoBehaviour {
 
     public void Open_Load_Dialog_File()
     {
+#if UNITY_WEBGL
+        return;
+#else
         FileSelector.GetFile(Search_file_load, ".sav");
+#endif
     }
 
     public void Search_file_load(FileSelector.Status status, string path)
@@ -28,6 +33,13 @@ public class Scene_Manager : MonoBehaviour {
             return;
         }
         pathfile = path;
+        load_deck = true;
+        Deck_Scene(0);
+    }
+
+    public void Load_by_Playerpref()
+    {
+        pathfile = Filename.text;
         load_deck = true;
         Deck_Scene(0);
     }

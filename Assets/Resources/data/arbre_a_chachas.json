@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 23,
+  "Id": 383,
   "Name": "arbre_a_chachas",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 6,
   "Attack": 0,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 4,
-  "NameFR": "Arbre à Chachas",
-  "DescriptionFR": "<b>MUR</b>\n<b>CONTRE COUP :</b> Ajoute 1 Chacha à votre main.",
   "Extension": 1,
   "LinkedCards": [
     151
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Arbre à Chachas",
+    "DescFR": "<b>MUR</b>\n<b>CONTRE COUP :</b> Ajoute 1 Chacha à votre main.",
+    "NameEN": "Bow Meow Post",
+    "DescEN": "<b>WALL</b>\n<b>COUNTERATTACK:</b> Put a Bow Meow in your hand.",
+    "NameES": "Árbol para miaumiaus",
+    "DescES": "<b>MURO</b>\n<b>VENGANZA:</b> Introduce 1 miaumiau en tu mano."
+  }
 }

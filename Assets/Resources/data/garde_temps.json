@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 493,
+  "Id": 468,
   "Name": "garde_temps",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 20,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 7,
-  "NameFR": "Garde Temps",
-  "DescriptionFR": "Détruit un Dofus.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Garde Temps",
+    "DescFR": "Détruit un Dofus.",
+    "NameEN": "Timekeeper",
+    "DescEN": "Destroys a Dofus.",
+    "NameES": "Guarda Tiempo",
+    "DescES": "Destruye un dofus."
+  }
 }

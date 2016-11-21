@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 474,
+  "Id": 484,
   "Name": "missiz_frizz",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 4,
   "Attack": 3,
@@ -11,10 +11,17 @@
     9
   ],
   "IsToken": false,
-  "Rarity": 0,
+  "Rarity": 1,
   "GodType": 7,
-  "NameFR": "Missiz Frizz",
-  "DescriptionFR": "<b>MORT :</b>\nRemonte dans votre main\r\nsi vous avez au moins 5 <b>PA</b>\r\ndans votre <b>réserve</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Missiz Frizz",
+    "DescFR": "<b>MORT :</b> Détruit 2 <b>PA</b> de votre <b>réserve</b> pour remonter dans votre main.",
+    "NameEN": "Missiz Freezz",
+    "DescEN": "<b>DEATH:</b>\nDestroys 2 <b>AP</b>\r\nin your <b>reserve</b> to returns to your hand.",
+    "NameES": "Mizz Frizz",
+    "DescES": "<b>MUERTE:</b>\nDestruye 2 <b>PA</b>\r\nen tu <b>reserva</b>para volver a tu mano."
+  }
 }

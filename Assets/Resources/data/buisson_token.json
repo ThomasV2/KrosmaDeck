@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 240,
+  "Id": 507,
   "Name": "buisson_token",
-  "CardType": "Aoe",
+  "CardType": 2,
   "CostAP": 1,
   "Life": 0,
   "Attack": 0,
@@ -11,8 +11,15 @@
   "IsToken": true,
   "Rarity": 0,
   "GodType": 10,
-  "NameFR": "Buisson",
-  "DescriptionFR": "Vous pouvez invoquer un allié sur un buisson.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Buisson",
+    "DescFR": "Vous pouvez invoquer un allié sur un buisson.",
+    "NameEN": "Bush",
+    "DescEN": "You can summon an ally on a bush.",
+    "NameES": "Arbusto",
+    "DescES": "Puedes invocar un aliado sobre un <b>arbusto</b>."
+  }
 }

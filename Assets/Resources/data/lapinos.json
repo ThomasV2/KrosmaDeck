@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 291,
+  "Id": 559,
   "Name": "lapinos",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 7,
   "Life": 0,
   "Attack": 0,
@@ -11,12 +11,19 @@
     3
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 1,
   "GodType": 3,
-  "NameFR": "Lapinos",
-  "DescriptionFR": "Invoque des Lapinos sur vos cases de départ.\r",
   "Extension": 1,
   "LinkedCards": [
     536
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Lapinos",
+    "DescFR": "Invoque des Lapinos sur vos cases de départ.\r",
+    "NameEN": "Coneys",
+    "DescEN": "Summons Coneys on your starting cells.\n",
+    "NameES": "Cunejos",
+    "DescES": "Invoca cunejos en todas tus casillas de inicio.\n"
+  }
 }

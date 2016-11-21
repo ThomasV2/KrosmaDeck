@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 456,
+  "Id": 218,
   "Name": "grand_craqueleur_chuchote",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 8,
   "Life": 5,
   "Attack": 4,
@@ -14,10 +14,17 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Grand Craqueleur Chuchoté",
-  "DescriptionFR": "<b>PORTÉE :</b> 1-2\n<b>RÉSISTANCE :</b> 1\n<b>MORT :</b> Invoque des Chuchoteurs Arbalétriers.",
   "Extension": 1,
   "LinkedCards": [
     279
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Grand Craqueleur Chuchoté",
+    "DescFR": "<b>PORTÉE :</b> 1-2\n<b>RÉSISTANCE :</b> 1\n<b>MORT :</b> Invoque des Chuchoteurs Arbalétriers.",
+    "NameEN": "Big Whispered Crackler",
+    "DescEN": "<b>RANGE:</b> 1-2\n<b>RESISTANCE:</b> 1\n<b>DEATH:</b> Summons Crossbow Whisperers.",
+    "NameES": "Gran crujidor susurrado",
+    "DescES": "<b>ALCANCE:</b> 1-2\n<b>RESISTENCIA:</b> 1\n<b>MUERTE:</b> Invoca susurradores ballesteros."
+  }
 }

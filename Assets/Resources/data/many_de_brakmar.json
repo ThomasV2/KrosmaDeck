@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 227,
+  "Id": 256,
   "Name": "many_de_brakmar",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 2,
   "Life": 2,
   "Attack": 1,
@@ -11,10 +11,17 @@
     9
   ],
   "IsToken": false,
-  "Rarity": 1,
+  "Rarity": 0,
   "GodType": 7,
-  "NameFR": "Many de Brakmar",
-  "DescriptionFR": "<b>APPARITION :</b>\nDétruit 2 <b>PA</b> de la\r\n<b>réserve</b> adverse. ",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Many de Brakmar",
+    "DescFR": "<b>APPARITION :</b>\nDétruit 2 <b>PA</b> de la\r\n<b>réserve</b> adverse. ",
+    "NameEN": "Many of Brakmar",
+    "DescEN": "<b>APPEARANCE:</b>\nDestroys 2 <b>AP</b> of the\r\nenemy's <b>reserve</b>. ",
+    "NameES": "Many de Brakmar",
+    "DescES": "<b>APARICIÓN:</b>\nReduce en 2 <b>PA</b> la \r\n<b>reserva</b> del contrincante. "
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 245,
+  "Id": 19,
   "Name": "chasseur",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 2,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 4,
-  "NameFR": "Chasseur",
-  "DescriptionFR": "Piochez 1 carte.\nElle coûte 0 <b>PA</b> si c'est\r\nune invocation, sinon défaussez-la.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chasseur",
+    "DescFR": "Piochez 1 carte.\nElle coûte 0 <b>PA</b> si c'est\r\nune invocation, sinon défaussez-la.\r",
+    "NameEN": "Hunter",
+    "DescEN": "Draw 1 card.\nIt costs 0 <b>AP</b> if it's\r\na Summons, otherwise discard it.\n",
+    "NameES": "Cazador",
+    "DescES": "Robas 1 carta.\nCuesta 0 <b>PA</b> si es\r\nuna invocación. Si no lo es, descártala.\n"
+  }
 }

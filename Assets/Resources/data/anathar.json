@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 316,
+  "Id": 89,
   "Name": "anathar",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 7,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Anathar",
-  "DescriptionFR": "<b>CONTRE COUP :</b>\nTant qu'il est en vie, Anathar prend le contôle de son adversaire.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Anathar",
+    "DescFR": "<b>CONTRE COUP :</b>\nTant qu'il est en vie, Anathar prend le contrôle de son adversaire.",
+    "NameEN": "Anathar",
+    "DescEN": "<b>COUNTERATTACK:</b>\nSo long as he is alive, Anathar takes control of his opponent.",
+    "NameES": "Anathar",
+    "DescES": "<b>VENGANZA:</b>\nMientras esté vivo, Anathar toma el control de su contrincante."
+  }
 }

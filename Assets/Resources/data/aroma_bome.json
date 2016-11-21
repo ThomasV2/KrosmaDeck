@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 25,
+  "Id": 184,
   "Name": "aroma_bome",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 3,
   "Attack": 1,
@@ -11,10 +11,17 @@
     3
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 0,
   "GodType": 3,
-  "NameFR": "Aroma Bome",
-  "DescriptionFR": "Gagne +1 <b>AT</b> et +1 <b>AR</b>\r\nquand une invocation\r\nest soignée.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Aroma Bome",
+    "DescFR": "Gagne +1 <b>AT</b> et +1 <b>AR</b>\r\nquand une invocation\r\nest soignée.",
+    "NameEN": "Malb Aroma",
+    "DescEN": "Gains +1 <b>AT</b> and +1 <b>AR</b>\r\nwhen a Summons\r\nis healed.",
+    "NameES": "Aroma Boma",
+    "DescES": "Gana +1 <b>AT</b> y +1 <b>AR</b>\r\ncuando se cura\r\nuna invocación."
+  }
 }

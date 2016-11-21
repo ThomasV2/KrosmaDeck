@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 346,
+  "Id": 353,
   "Name": "jabs",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 1,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 1,
-  "NameFR": "Jabs",
-  "DescriptionFR": "Confère +2 <b>AT</b>\r\nà une invocation.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Jabs",
+    "DescFR": "Confère +2 <b>AT</b>\r\nà une invocation.",
+    "NameEN": "Jabs",
+    "DescEN": "Confers +2 <b>AT</b>\r\non a Summons.",
+    "NameES": "Jabs",
+    "DescES": "Da +2 <b>AT</b>\r\na una invocación."
+  }
 }

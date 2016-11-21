@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 143,
+  "Id": 566,
   "Name": "gwanpa_wabbit",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 3,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Gwanpa Wabbit ",
-  "DescriptionFR": "<b>APPARITION :</b>\nPlacez une Cawotte\r\ndans votre camp.\r",
   "Extension": 1,
   "LinkedCards": [
     326
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Gwanpa Wabbit ",
+    "DescFR": "<b>APPARITION :</b>\nPlacez une Cawotte\r\ndans votre camp.\r",
+    "NameEN": "Gwandpa Wabbit ",
+    "DescEN": "<b>APPEARANCE:</b>\nPlace a Cawwot\r\non your side.\n",
+    "NameES": "Abuwabbit ",
+    "DescES": "<b>APARICIÓN:</b>\nColoca una zanahowia\r\nen una casilla vacía de tu lado del tablero.\n"
+  }
 }

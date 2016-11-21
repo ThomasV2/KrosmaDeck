@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 302,
+  "Id": 443,
   "Name": "saignee_mortelle",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 3,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 6,
-  "NameFR": "Saignée Mortelle",
-  "DescriptionFR": "Fait chuter à 1 les <b>PV</b>\r\ndes invocations.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Saignée Mortelle",
+    "DescFR": "Fait chuter à 1 les <b>PV</b>\r\ndes invocations.",
+    "NameEN": "Bled Dry",
+    "DescEN": "Makes all Summons' <b>HP</b> drop to 1.",
+    "NameES": "Sangría Mortal",
+    "DescES": "Reduce a 1 los <b>PdV</b>\r\nde las invocaciones."
+  }
 }

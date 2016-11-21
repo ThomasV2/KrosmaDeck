@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 388,
+  "Id": 51,
   "Name": "oeil_de_lynx",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 3,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 2,
-  "NameFR": "Oeil de lynx",
-  "DescriptionFR": "Augmente de 2 la <b>portée</b> existante d’une invocation.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Oeil de lynx",
+    "DescFR": "Augmente de 2 la <b>portée</b> existante d’une invocation.",
+    "NameEN": "Lynx Eye",
+    "DescEN": "Increases a Summons's current <b>RANGE</b> by 2.",
+    "NameES": "Ojo de Lince",
+    "DescES": "Aumenta en 2 el <b>alcance</b> de una invocación."
+  }
 }

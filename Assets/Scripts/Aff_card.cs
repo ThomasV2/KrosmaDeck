@@ -35,7 +35,11 @@ public class Aff_card : MonoBehaviour {
         {
             cards_button.SetActive(true);
             deck_button.SetActive(false);
+#if UNITY_WEBGL
+            file_manager.Load_Deck_File_Web(Scene_Manager.pathfile);
+#else
             file_manager.Load_Deck_File(Scene_Manager.pathfile);
+#endif
             Refresh_Deck();
             Aff_Deck();
         }
@@ -126,7 +130,7 @@ public class Aff_card : MonoBehaviour {
             if (count < Research_Card.current_cards.Count)
             {
                 index = Research_Card.current_cards[count + (page * 8)];
-                current_img[count] = Resources.Load<Sprite>("Cards/" + Data_All.data_tab[index].Name);
+                current_img[count] = Resources.Load<Sprite>("Cards/" + Data_All.data_tab[index].Name) as Sprite;
             }
             else
             {
@@ -138,7 +142,7 @@ public class Aff_card : MonoBehaviour {
             if (count + 8 < Research_Card.current_cards.Count)
             {
                 index = Research_Card.current_cards[count + ((page + 1) * 8)];
-                next_img[count] = Resources.Load<Sprite>("Cards/" + Data_All.data_tab[index].Name);
+                next_img[count] = Resources.Load<Sprite>("Cards/" + Data_All.data_tab[index].Name) as Sprite;
             }
             else
             {

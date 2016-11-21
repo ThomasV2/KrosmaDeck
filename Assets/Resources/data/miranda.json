@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 107,
+  "Id": 153,
   "Name": "miranda",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 2,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Miranda",
-  "DescriptionFR": "<b>APPARITION :</b>\nPrend le contrôle des invocations adverses autour d'elle jusqu'à sa mort.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Miranda",
+    "DescFR": "<b>APPARITION :</b>\nPrend le contrôle des invocations adverses autour d'elle jusqu'à sa mort.",
+    "NameEN": "Miranda",
+    "DescEN": "<b>APPEARANCE:</b>\nTakes control of enemy Summons on adjacent cells until her death.",
+    "NameES": "Miranda",
+    "DescES": "<b>APARICIÓN: </b>\nToma el control de las invocaciones enemigas que estén a su alrededor hasta su muerte."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 73,
+  "Id": 46,
   "Name": "fripon",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 5,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Fripon",
-  "DescriptionFR": "<b>MORT :</b>\nRécupérez 1 carte aléatoire de la défausse adverse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Fripon",
+    "DescFR": "<b>MORT :</b>\nRécupérez 1 carte aléatoire de la défausse adverse.",
+    "NameEN": "Rascal",
+    "DescEN": "<b>DEATH:</b>\nReturn to your hand 1 random card from the opponent's discard pile.",
+    "NameES": "Perfowarrior",
+    "DescES": "<b>MUERTE:</b>\nRecuperas 1 carta aleatoria del descarte de tu contrincante."
+  }
 }

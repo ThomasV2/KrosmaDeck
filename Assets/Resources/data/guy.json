@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 274,
+  "Id": 373,
   "Name": "guy",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 1,
@@ -11,8 +11,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Guy",
-  "DescriptionFR": "<b>APPARITION :</b>\nEchange au hasard les emplacements des Dofus pour chaque joueur.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Guy",
+    "DescFR": "<b>APPARITION :</b>\nEchange au hasard les emplacements des Dofus pour chaque joueur.",
+    "NameEN": "Guy",
+    "DescEN": "<b>APPEARANCE:</b>\nRandomly switches the positions of both players' Dofus.",
+    "NameES": "Guiller",
+    "DescES": "<b>APARICIÓN:</b>\nLos dofus de cada jugador intercambian sus posiciones al azar."
+  }
 }

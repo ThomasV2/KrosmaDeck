@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 338,
+  "Id": 451,
   "Name": "intimidation",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 1,
-  "NameFR": "Intimidation",
-  "DescriptionFR": "Vos invocations <b>chargent</b> de 2 cases.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Intimidation",
+    "DescFR": "Vos invocations <b>chargent</b> de 2 cases.",
+    "NameEN": "Intimidation",
+    "DescEN": "Your Summons <b>CHARGE</b> 2 cells.",
+    "NameES": "Intimidación",
+    "DescES": "Tus invocaciones <b>cargan</b> 2 casillas."
+  }
 }

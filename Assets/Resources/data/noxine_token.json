@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 392,
+  "Id": 305,
   "Name": "noxine_token",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 2,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Noxine",
-  "DescriptionFR": "<b>APPARITION :</b>\nVole un <b>PA</b> de la <b>réserve</b> adverse et l'ajoute à la votre.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Noxine",
+    "DescFR": "<b>APPARITION :</b>\nVole 1 <b>PA</b> de la <b>réserve</b> adverse et l'ajoute à la votre.",
+    "NameEN": "Noxine",
+    "DescEN": "<b>APPEARANCE:</b>\nSteals 1 <b>AP</b> from the opponent's <b>reserve</b> and adds it to yours.",
+    "NameES": "Noxina",
+    "DescES": "<b>APARICIÓN:</b>\nRoba 1 <b>PA</b> de la <b>reserva</b> enemiga y lo añade a la tuya."
+  }
 }

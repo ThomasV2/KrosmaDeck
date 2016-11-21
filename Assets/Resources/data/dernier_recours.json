@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 276,
+  "Id": 42,
   "Name": "dernier_recours",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     2
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 1,
   "GodType": 2,
-  "NameFR": "Dernier Recours",
-  "DescriptionFR": "Supprime la portée\r\nd'une invocation et double son attaque.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Dernier Recours",
+    "DescFR": "Supprime la <b>portée</b>\r\nd'une invocation et double son <b>AT</b>.",
+    "NameEN": "Last Resort",
+    "DescEN": "Removes a Summons's\r\nrange and doubles its <b>AT</b>.",
+    "NameES": "Último Recurso",
+    "DescES": "Elimina el alcance\r\nde una invocación y dobla su <b>AT</b>."
+  }
 }

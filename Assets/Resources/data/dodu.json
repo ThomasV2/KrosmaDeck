@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 318,
+  "Id": 302,
   "Name": "dodu",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
-  "Attack": 2,
+  "Attack": 3,
   "MovementPoint": 3,
   "Families": [
     32
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 10,
-  "NameFR": "Dodu",
-  "DescriptionFR": "<b>APPARITION :</b>\nTransforme une de vos <b>Graines</b> en Poupée Folle.",
   "Extension": 1,
   "LinkedCards": [
     22
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Dodu",
+    "DescFR": "<b>APPARITION :</b>\nTransforme une de vos <b>Graines</b> en Poupée Folle.",
+    "NameEN": "Dodu",
+    "DescEN": "<b>APPEARANCE:</b>\nTransform one of your <b>Seeds</b> into a Madoll.",
+    "NameES": "Choncho",
+    "DescES": "<b>APARICIÓN:</b>\nTransforma una de tus <b>semillas</b> en muñeca loca."
+  }
 }

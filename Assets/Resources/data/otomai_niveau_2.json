@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 102,
+  "Id": 426,
   "Name": "otomai_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 7,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Otomaï",
-  "DescriptionFR": "Se transforme en invocation aléatoire coutant 6 <b>PA</b> s'il survit à une attaque.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Otomaï",
+    "DescFR": "Se transforme en invocation aléatoire coûtant 6 <b>PA</b> s'il survit à une attaque.",
+    "NameEN": "Otomai",
+    "DescEN": "Transforms into a random Summons costing 6 <b>AP</b> if it survives an attack.",
+    "NameES": "Otomai",
+    "DescES": "Se transforma en invocación aleatoria que cueste 6 <b>PA</b> si sobrevive a un ataque."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 439,
+  "Id": 93,
   "Name": "ronces_agressives",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,17 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 10,
-  "NameFR": "Ronces Agressives",
-  "DescriptionFR": "Inflige 4 dégâts à toutes les invocations d'une ligne.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [
+    537
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Ronces Agressives",
+    "DescFR": "Inflige 3 dégâts aux invocations d'une ligne. Ajoute une <b>Graine</b> à votre main.",
+    "NameEN": "Aggressive Bramble",
+    "DescEN": "Inflicts 3 damage on all Summons on a row. Add a <b>Seed</b>\r\nto your hand.",
+    "NameES": "Zarzas Agresivas",
+    "DescES": "Inflige 3 de daño a todas las invocaciones de una hilera. Añade una <b>semilla</b>\r\na tu mano."
+  }
 }

@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 419,
+  "Id": 494,
   "Name": "guy_yomtella",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 3,
-  "Attack": 3,
+  "Attack": 2,
   "MovementPoint": 3,
   "Families": [
     2
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 2,
-  "NameFR": "Guy Yomtella",
-  "DescriptionFR": "<b>PORTÉE :</b> 1-6",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Guy Yomtella",
+    "DescFR": "<b>PORTÉE :</b> 1-6",
+    "NameEN": "Bill Tell",
+    "DescEN": "<b>RANGE:</b> 1-6",
+    "NameES": "Guiller Motel",
+    "DescES": "<b>ALCANCE:</b> 1-6"
+  }
 }

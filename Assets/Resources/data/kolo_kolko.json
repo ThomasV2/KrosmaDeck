@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 27,
+  "Id": 562,
   "Name": "kolo_kolko",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 5,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 10,
-  "NameFR": "Kolo Kolko",
-  "DescriptionFR": "Gagne <b>initiative</b> et <b>inciblable</b> tant que vous avez une Graine en jeu.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Kolo Kolko",
+    "DescFR": "Gagne <b>initiative</b> et <b>inciblable</b> tant que vous avez une Graine en jeu.\r",
+    "NameEN": "Kolo Kolko",
+    "DescEN": "Gains <b>FIRST STRIKE</b> and <b>UNTARGETABLE</b> so long as you have a <b>Seed</b> in play.\n",
+    "NameES": "Kolo Kolko",
+    "DescES": "Gana <b>iniciativa</b> y <b>escurridizo</b> mientras tengas una <b>semilla</b> en juego.\n"
+  }
 }

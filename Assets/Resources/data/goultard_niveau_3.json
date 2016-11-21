@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 310,
+  "Id": 139,
   "Name": "goultard_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 9,
   "Life": 4,
   "Attack": 6,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Goultard le Barbare",
-  "DescriptionFR": "<b>INITIATIVE</b>\n<b>CHEF :</b> +2 <b>AT</b> et +1 <b>PM</b> à vos autres invocations.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Goultard le Barbare",
+    "DescFR": "<b>INITIATIVE</b>\n<b>CHEF :</b> +2 <b>AT</b> et +1 <b>PM</b> à vos autres invocations.",
+    "NameEN": "Goultard the Barbarian",
+    "DescEN": "<b>FIRST STRIKE</b>\n<b>LEADER:</b> +2 <b>AT</b> and +1 <b>MP</b> to your other Summons.",
+    "NameES": "Gúltar, el Bárbaro",
+    "DescES": "<b>INICIATIVA</b>\n<b>LÍDER:</b> Da +2 <b>AT</b> y +1 <b>PM</b> a tus demás invocaciones."
+  }
 }

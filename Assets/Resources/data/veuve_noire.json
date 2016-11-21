@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 103,
+  "Id": 64,
   "Name": "veuve_noire",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 8,
   "Life": 5,
   "Attack": 5,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Veuve Noire",
-  "DescriptionFR": "<b>APPARITION :</b>\nRemonte toutes les autres invocations dans la main de leur propriétaire. \r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Veuve Noire",
+    "DescFR": "<b>APPARITION :</b>\nRemonte les autres invocations situées dans votre camp dans la main de leur propriétaire. \r",
+    "NameEN": "Black Widow",
+    "DescEN": "<b>APPEARANCE:</b>\nReturns all other Summons in your side of the board to their owner's hand. \n",
+    "NameES": "Viuda Negra",
+    "DescES": "<b>APARICIÓN:</b>\nTodas las demás invocaciones en tu lado vuelven a la mano de su propietario. \n"
+  }
 }

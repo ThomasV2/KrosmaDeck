@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 506,
+  "Id": 17,
   "Name": "lait_bambou",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 2,
   "Life": 0,
   "Attack": 0,
@@ -11,8 +11,15 @@
   "IsToken": true,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Lait de Bambou",
-  "DescriptionFR": "L'invocation ciblée <b>charge</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Lait de Bambou",
+    "DescFR": "L'invocation ciblée <b>charge</b>.",
+    "NameEN": "Bamboo Milk",
+    "DescEN": "The targeted Summons <b>CHARGES</b>.",
+    "NameES": "Leche de bambú",
+    "DescES": "La invocación seleccionada <b>carga</b>."
+  }
 }

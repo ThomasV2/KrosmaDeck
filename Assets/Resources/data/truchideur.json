@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 332,
+  "Id": 162,
   "Name": "truchideur",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 2,
   "Life": 2,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Truchideur ",
-  "DescriptionFR": "Change de ligne\r\nlorsqu’une invocation\r\nadverse entre en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Truchideur ",
+    "DescFR": "Change de ligne\r\nlorsqu’une invocation\r\nadverse entre en jeu.",
+    "NameEN": "Trubout ",
+    "DescEN": "Changes row\r\nwhen an enemy Summons\r\ncomes into play.",
+    "NameES": "Pestruzatón ",
+    "DescES": "Cambia de hilera\r\ncuando una invocación\r\nenemiga entra en juego."
+  }
 }

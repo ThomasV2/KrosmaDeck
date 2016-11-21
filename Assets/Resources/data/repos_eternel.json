@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 20,
+  "Id": 173,
   "Name": "repos_eternel",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 2,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 6,
-  "NameFR": "Repos Éternel",
-  "DescriptionFR": "Durant ce tour,\r\nne dépensez pas de <b>PA</b> pour jouer vos cartes. A la place bannissez des cartes de votre défausse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Repos Éternel",
+    "DescFR": "Durant ce tour,\r\nne dépensez pas de <b>PA</b> pour jouer vos cartes. A la place bannissez des cartes de votre défausse.",
+    "NameEN": "Eternal Rest",
+    "DescEN": "During this turn,\r\ndon't use any <b>AP</b> to play your cards. Instead, banish cards from your discard pile.",
+    "NameES": "Descanso Eterno",
+    "DescES": "En este turno,\r\nno gastes <b>PA</b>para jugar tus cartas. En su lugar, elimina cartas de tu descarte."
+  }
 }

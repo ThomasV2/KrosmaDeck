@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 416,
+  "Id": 175,
   "Name": "araknoplasme_token",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 2,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Araknoplasme",
-  "DescriptionFR": "Donne +1 <b>AT</b> et +1 <b>AR</b> à vos autres Araknes quand une invocation remonte dans la main de son propriétaire.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Araknoplasme",
+    "DescFR": "Donne +1 <b>AT</b> et +1 <b>AR</b> à vos autres Araknes quand une invocation remonte dans la main de son propriétaire.",
+    "NameEN": "Arachnoplasm",
+    "DescEN": "Gives +1 <b>AT</b> and +1 <b>AR</b> to your other Arachnees when a Summons returns to its owner's hand.",
+    "NameES": "Araknoplasma",
+    "DescES": "Da +1 <b>AT</b> y +1 <b>AR</b> a tus demás araknas cuando una invocación vuelve a la mano de su propietario."
+  }
 }

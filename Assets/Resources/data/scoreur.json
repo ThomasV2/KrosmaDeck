@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 554,
+  "Id": 236,
   "Name": "scoreur",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 6,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Scoreur",
-  "DescriptionFR": "<b>APPARITION :</b>\nAjoute 5 <b>PA</b> à votre <b>réserve</b> si vous avez un autre Justicier en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Scoreur",
+    "DescFR": "<b>APPARITION :</b>\nAjoute 5 <b>PA</b> à votre <b>réserve</b> si vous avez un autre Justicier en jeu.",
+    "NameEN": "Beelzebug",
+    "DescEN": "<b>APPEARANCE:</b>\nAdd 5 <b>AP</b> to your <b>reserve</b> if you have another Vigilante in play.",
+    "NameES": "Escario",
+    "DescES": "<b>APARICIÓN:</b>\nAñade 5 <b>PA</b> a tu <b>reserva</b> si tienes otro justiciero en juego."
+  }
 }

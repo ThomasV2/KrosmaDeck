@@ -1,11 +1,11 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 371,
+  "Id": 209,
   "Name": "instantina",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
-  "Life": 5,
-  "Attack": 3,
+  "Life": 6,
+  "Attack": 5,
   "MovementPoint": 3,
   "Families": [
     9
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 7,
-  "NameFR": "Instantina",
-  "DescriptionFR": "<b>APPARITION :</b>\nInflige autant de dégâts que vous avez de <b>PA</b> dans votre <b>réserve</b>. ",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Instantina",
+    "DescFR": "<b>APPARITION :</b>\nInflige 2 dégâts ou 5 dégâts si vous avez au moins 5 <b>PA</b> dans votre <b>réserve</b>.",
+    "NameEN": "Instantina",
+    "DescEN": "<b>APPARITION :</b>\nInflige 2 dégâts ou 5 dégâts si vous avez au moins 5 <b>PA</b> dans votre <b>réserve</b>.",
+    "NameES": "Instantina",
+    "DescES": "<b>APPARITION :</b>\nInflige 2 dégâts ou 5 dégâts si vous avez au moins 5 <b>PA</b> dans votre <b>réserve</b>."
+  }
 }

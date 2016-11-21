@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 415,
+  "Id": 408,
   "Name": "tofu_celeste",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 6,
   "Attack": 5,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Tofu Céleste",
-  "DescriptionFR": "<b>APPARITON :</b> Piochez 3 cartes. Gardez les Tofus, défaussez les autres.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Tofu Céleste",
+    "DescFR": "<b>APPARITION :</b> Piochez 3 cartes. Gardez les Tofus, défaussez les autres.",
+    "NameEN": "Celestial Tofu",
+    "DescEN": "<b>APPEARANCE:</b> Draw 3 cards. Keep the Tofus and discard any others.",
+    "NameES": "Tofu Celestial",
+    "DescES": "<b>APARICIÓN:</b>\nRobas 3 cartas. Conservas los tofus y descartas las otras."
+  }
 }

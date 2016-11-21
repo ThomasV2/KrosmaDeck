@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 545,
+  "Id": 550,
   "Name": "echaenge",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 1,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 4,
-  "NameFR": "Echaenge",
-  "DescriptionFR": "Chaque joueur pioche 1 carte chez son adversaire.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Echaenge",
+    "DescFR": "Chaque joueur pioche 1 carte chez son adversaire.",
+    "NameEN": "Meowxchange",
+    "DescEN": "Each player draws 1 card from their opponent.",
+    "NameES": "Gato por Liebre",
+    "DescES": "Cada jugador roba 1 carta de su contrincante."
+  }
 }

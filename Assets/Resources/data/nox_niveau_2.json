@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 353,
+  "Id": 141,
   "Name": "nox_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 5,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Nox",
-  "DescriptionFR": "<b>MORT :</b> Inflige aux invocations adverses autant de dégâts que vous avez de <b>PA</b> dans votre <b>réserve</b>.\r\nVide votre <b>réserve</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Nox",
+    "DescFR": "<b>MORT :</b> Inflige aux invocations adverses autant de dégâts que vous avez de <b>PA</b> dans votre <b>réserve</b>.\r\nVide votre <b>réserve</b>.",
+    "NameEN": "Nox",
+    "DescEN": "<b>DEATH:</b>\nInflicts as much damage to enemy Summons as you have <b>AP</b> in your <b>reserve</b>.\r\nYour <b>RESERVE</b> is emptied.",
+    "NameES": "Nox",
+    "DescES": "<b>MUERTE:</b>\nInflige a las invocaciones enemigas tantos daños como <b>PA</b> tengas en tu <b>reserva</b>.\r\nVacía tu <b>reserva</b>."
+  }
 }

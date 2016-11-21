@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 217,
+  "Id": 131,
   "Name": "fosscheur",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 6,
-  "NameFR": "Fosscheur",
-  "DescriptionFR": "Déplace les cartes de la défausse de votre adversaire dans la votre.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Fosscheur",
+    "DescFR": "Déplace les cartes de la défausse de votre adversaire dans la votre.",
+    "NameEN": "Grave Reaper",
+    "DescEN": "Move the cards in your opponent's discard pile to yours.",
+    "NameES": "Sepulturaña",
+    "DescES": "Mueve las cartas del descarte de tu contrincante al tuyo."
+  }
 }

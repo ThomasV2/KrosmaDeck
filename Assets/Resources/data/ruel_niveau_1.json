@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 99,
+  "Id": 100,
   "Name": "ruel_niveau_1",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 4,
@@ -14,8 +14,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Ruel Stroud",
-  "DescriptionFR": "Coûte 3 <b>PA</b> de moins\r\npar autre membre de la Confrérie du Tofu que vous avez en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Ruel Stroud",
+    "DescFR": "Coûte 3 <b>PA</b> de moins\r\npar autre membre de la Confrérie du Tofu que vous avez en jeu.",
+    "NameEN": "Ruel Stroud",
+    "DescEN": "Costs 3 <b>AP</b> less\r\nfor each other member of the Brotherhood of the Tofu that you have in play.",
+    "NameES": "Ruel Stroud",
+    "DescES": "Cuesta 3 <b>PA</b> menos\r\npor otro miembro de la Hermandad del Tofu que tengas en juego."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 433,
+  "Id": 436,
   "Name": "chauve_souris_dodue",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 5,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Chauve Souris Dodue",
-  "DescriptionFR": "Soigne de 1 <b>PV</b> vos autres invocations quand elle blesse un adversaire.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chauve Souris Dodue",
+    "DescFR": "Soigne de 1 <b>PV</b> vos autres invocations quand elle blesse un adversaire.",
+    "NameEN": "Beefy Bat",
+    "DescEN": "Heals your other Summons 1 <b>HP</b> when it hurts an enemy.",
+    "NameES": "Murciego rechoncho",
+    "DescES": "Cura 1 <b>PdV</b> a tus demás invocaciones cuando hiere a un contrincante."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 315,
+  "Id": 296,
   "Name": "chef_de_guerre_bouftou",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 5,
   "Attack": 6,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Chef de Guerre Bouftou",
-  "DescriptionFR": "<b>CHEF :</b>\n+1 <b>AT</b> à vos autres Bouftous.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chef de Guerre Bouftou",
+    "DescFR": "<b>CHEF :</b>\n+1 <b>AT</b> à vos autres Bouftous.",
+    "NameEN": "Gobball War Chief",
+    "DescEN": "<b>LEADER:</b>\n+1 <b>AT</b> to your other Gobballs.",
+    "NameES": "Jefe de guerra jalató",
+    "DescES": "<b>LÍDER:</b>\nDa +1 <b>AT</b> a tus demás jalatós."
+  }
 }

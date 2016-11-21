@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 350,
+  "Id": 424,
   "Name": "sang_tatoue",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 3,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 8,
-  "NameFR": "Sang Tatoué",
-  "DescriptionFR": "Piochez une carte\r\npour chacune de vos invocations blessées.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sang Tatoué",
+    "DescFR": "Piochez 1 carte pour chacune de vos invocations blessées.",
+    "NameEN": "Tattooed Blood",
+    "DescEN": "Draw 1 card\r\nfor each of your injured Summons.",
+    "NameES": "Sangre Tatuada",
+    "DescES": "Robas 1 carta\r\npor cada una de tus invocaciones heridas."
+  }
 }

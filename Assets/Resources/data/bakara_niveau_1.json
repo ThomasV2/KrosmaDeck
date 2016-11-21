@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 418,
+  "Id": 409,
   "Name": "bakara_niveau_1",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Bakara",
-  "DescriptionFR": "<b>APPARITION :</b>\nRécupérez le dernier sort parti dans votre défausse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Bakara",
+    "DescFR": "<b>APPARITION :</b>\nRécupérez le dernier sort parti dans votre défausse.",
+    "NameEN": "Bakara",
+    "DescEN": "<b>APPEARANCE:</b>\nRetrieve the last spell that went to your discard pile.",
+    "NameES": "Bakara",
+    "DescES": "<b>APARICIÓN:</b>\nRecuperas el último hechizo enviado a tu descarte."
+  }
 }

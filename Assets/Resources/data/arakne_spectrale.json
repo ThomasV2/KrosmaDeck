@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 420,
+  "Id": 40,
   "Name": "arakne_spectrale",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 6,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Arakne Spectrale",
-  "DescriptionFR": "Remonte dans votre main\r\nsi il lui reste 1 <b>PV</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Arakne Spectrale",
+    "DescFR": "Remonte dans votre main\r\nsi il lui reste 1 <b>PV</b>.",
+    "NameEN": "Spectral Arachnee",
+    "DescEN": "Returns to your hand\r\nif it has 1 <b>HP</b>.",
+    "NameES": "Arakna espectral",
+    "DescES": "Vuelve a tu mano\r\nsi le queda 1 <b>PdV</b>."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 382,
+  "Id": 570,
   "Name": "miss_nuit",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 4,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 7,
-  "NameFR": "Miss Nuit",
-  "DescriptionFR": "Ajoute 1 <b>PA</b> à votre <b>réserve</b> chaque fois que votre adversaire joue une carte.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Miss Nuit",
+    "DescFR": "Ajoute 1 <b>PA</b> à votre <b>réserve</b> chaque fois que votre adversaire joue une carte.",
+    "NameEN": "Miss Night",
+    "DescEN": "Add 1 <b>AP</b> to your <b>reserve</b> each time your opponent plays a card.",
+    "NameES": "Medi Noch",
+    "DescES": "Añade 1 <b>PA</b> a tu <b>reserva</b> cada vez que tu contrincante juega una carta."
+  }
 }

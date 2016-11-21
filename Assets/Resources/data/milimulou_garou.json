@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 193,
+  "Id": 274,
   "Name": "milimulou_garou",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 3,
   "Attack": 3,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Milimulou Garou",
-  "DescriptionFR": "<b>COUP DE GRÂCE :</b>\nSe transforme en Mulou.\r",
   "Extension": 1,
   "LinkedCards": [
     129
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Milimulou Garou",
+    "DescFR": "<b>COUP DE GRÂCE :</b>\nSe transforme en Mulou.\r",
+    "NameEN": "Miliboowerewolf",
+    "DescEN": "<b>FINAL BLOW:</b>\nTransforms into a Boowolf.\n",
+    "NameES": "Hombre minilubo",
+    "DescES": "<b>GOLPE DE GRACIA:</b>\nSe transforma en mediulubo.\n"
+  }
 }

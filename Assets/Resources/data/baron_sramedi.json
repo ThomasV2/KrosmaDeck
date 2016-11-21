@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 243,
+  "Id": 385,
   "Name": "baron_sramedi",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 5,
   "Attack": 6,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 6,
-  "NameFR": "Baron Sramedi",
-  "DescriptionFR": "<b>MORT :</b> Remonte dans votre main si vous avez au moins 10 cartes dans votre défausse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Baron Sramedi",
+    "DescFR": "<b>MORT :</b> Remonte dans votre main si vous avez au moins 10 cartes dans votre défausse.",
+    "NameEN": "Baron Sramedi",
+    "DescEN": "<b>DEATH:</b> Returns to your hand if you have at least 10 cards in your discard pile.",
+    "NameES": "Barón Sramedi",
+    "DescES": "<b>MUERTE:</b> Vuelve a tu mano si tienes al menos 10 cartas en tu descarte."
+  }
 }

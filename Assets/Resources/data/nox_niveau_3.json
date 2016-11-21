@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 287,
+  "Id": 285,
   "Name": "nox_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 9,
   "Life": 7,
   "Attack": 5,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Nox",
-  "DescriptionFR": "Tant que Nox est en jeu,\r\nle coût de vos invocations est de 4 <b>PA</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Nox",
+    "DescFR": "Tant que Nox est en jeu,\r\nle coût de vos invocations est de 4 <b>PA</b>.",
+    "NameEN": "Nox",
+    "DescEN": "So long as Nox is in play,\r\nthe cost of your Summons is 4 <b>AP</b>.",
+    "NameES": "Nox",
+    "DescES": "Mientras Nox esté en juego,\r\nel coste de tus invocaciones es de 4 <b>PA</b>."
+  }
 }

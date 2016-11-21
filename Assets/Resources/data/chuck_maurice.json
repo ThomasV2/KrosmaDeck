@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 221,
+  "Id": 78,
   "Name": "chuck_maurice",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 1,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 1,
-  "NameFR": "Chuck Maurice",
-  "DescriptionFR": "<b>INITIATIVE</b>",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chuck Maurice",
+    "DescFR": "<b>INITIATIVE</b>",
+    "NameEN": "Chuck Morris",
+    "DescEN": "<b>FIRST STRIKE</b>",
+    "NameES": "Chuck Maurice",
+    "DescES": "<b>INICIATIVA</b>"
+  }
 }

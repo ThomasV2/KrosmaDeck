@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 407,
+  "Id": 467,
   "Name": "marcassin_or",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 3,
   "Attack": 2,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Marcassin Or",
-  "DescriptionFR": "<b>APPARITION :</b>\nTransforme toutes les autres invocations en Marcassinet.",
   "Extension": 1,
   "LinkedCards": [
     287
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Marcassin Or",
+    "DescFR": "<b>APPARITION :</b>\nTransforme les autres invocations en Marcassinet.",
+    "NameEN": "Golden Young Wild Boar",
+    "DescEN": "<b>APPEARANCE:</b>\nTransforms all other Summons into Young Wild Boars.",
+    "NameES": "Jabato dorado",
+    "DescES": "<b>APARICIÓN:</b>\nTransforma todas las demás invocaciones en jabatillo."
+  }
 }

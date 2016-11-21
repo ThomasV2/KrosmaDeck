@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 32,
+  "Id": 29,
   "Name": "boufette",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Boufette",
-  "DescriptionFR": "<b>APPARITION :</b>\nSoigne vos autres Bouftous de 2 <b>PV</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Boufette",
+    "DescFR": "<b>APPARITION :</b>\nSoigne vos autres Bouftous de 2 <b>PV</b>.",
+    "NameEN": "Gobbette",
+    "DescEN": "<b>APPEARANCE:</b>\nHeals your other Gobballs by 2 <b>HP</b>.",
+    "NameES": "Jalalínea",
+    "DescES": "<b>APARICIÓN:</b>\nCura 2 <b>PdV</b> a tus demás jalatós."
+  }
 }

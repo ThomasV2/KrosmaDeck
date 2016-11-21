@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 136,
+  "Id": 341,
   "Name": "harcelement",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 7,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 2,
-  "NameFR": "Harcèlement",
-  "DescriptionFR": "Inflige 1 dégât à tous les Dofus adverses.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Harcèlement",
+    "DescFR": "Inflige 1 dégât à tous les Dofus adverses.",
+    "NameEN": "Harassment",
+    "DescEN": "Inflicts 1 damage on all enemy Dofus.",
+    "NameES": "Hostigamiento",
+    "DescES": "Inflige 1 de daño a todos los dofus enemigos."
+  }
 }

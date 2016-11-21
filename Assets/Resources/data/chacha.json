@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 405,
+  "Id": 6,
   "Name": "chacha",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 8,
   "Life": 0,
   "Attack": 0,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 4,
-  "NameFR": "Chacha",
-  "DescriptionFR": "Transforme une invocation en Chacha allié.\r",
   "Extension": 1,
   "LinkedCards": [
     151
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chacha",
+    "DescFR": "Transforme une invocation en Chacha allié.\r",
+    "NameEN": "Bow Meow",
+    "DescEN": "Transforms a Summons into an allied Bow Meow.\n",
+    "NameES": "Miaumiau",
+    "DescES": "Transforma una invocación en miaumiau aliado.\n"
+  }
 }

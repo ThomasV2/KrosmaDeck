@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 295,
+  "Id": 437,
   "Name": "orma",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 1,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 10,
-  "NameFR": "Orma",
-  "DescriptionFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>\r\npar Graine alliée en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Orma",
+    "DescFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> et +1 <b>AR</b>\r\npar Graine alliée en jeu.",
+    "NameEN": "Elmer",
+    "DescEN": "<b>APPEARANCE:</b>\nGains +1 <b>AT</b> and +1 <b>AR</b>\r\nper allied <b>Seed</b> in play.",
+    "NameES": "Ormo",
+    "DescES": "<b>APARICIÓN:</b>\nGana +1 <b>AT</b> y +1 <b>AR</b>\r\npor cada <b>semilla</b> aliada en juego."
+  }
 }

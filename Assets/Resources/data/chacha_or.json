@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 224,
+  "Id": 368,
   "Name": "chacha_or",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 2,
   "Attack": 2,
@@ -13,11 +13,18 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Chacha Or",
-  "DescriptionFR": "Remplace vos\r\nautres Chachas par des Chachas Or.",
   "Extension": 1,
   "LinkedCards": [
     368,
     368
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chacha Or",
+    "DescFR": "Remplace vos\r\nautres Chachas par des Chachas Or.",
+    "NameEN": "Golden Bow Meow",
+    "DescEN": "Replace your\r\nother Bow Meows with Golden Bow Meows.",
+    "NameES": "Miaumiau dorado",
+    "DescES": "Sustituye tus\r\ndemás miaumiaus por miaumiaus dorados."
+  }
 }

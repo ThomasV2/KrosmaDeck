@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 378,
+  "Id": 363,
   "Name": "kerubim_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 3,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Kerubim le Brocanteur",
-  "DescriptionFR": "<b>APPARITION :</b>\nDétruit le prisme adverse de sa ligne puis dévoilez un Dofus adverse.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Kerubim le Brocanteur",
+    "DescFR": "<b>APPARITION :</b>\nDétruit le prisme adverse de sa ligne puis dévoilez un Dofus adverse.",
+    "NameEN": "Kerub the Broker",
+    "DescEN": "<b>APPEARANCE:</b>\nDestroys the enemy prism on his row then reveals reveals an enemy Dofus.",
+    "NameES": "Kerubim Anticuario",
+    "DescES": "<b>APARICIÓN:</b>\nDestruye el prisma enemigo de su hilera y descubres un dofus del contrincante."
+  }
 }

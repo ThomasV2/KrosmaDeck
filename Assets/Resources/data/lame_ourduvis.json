@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 206,
+  "Id": 567,
   "Name": "lame_ourduvis",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 6,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 6,
-  "NameFR": "Lame Ourduvis",
-  "DescriptionFR": "Se <b>téléporte</b> derrière son adversaire après un combat.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Lame Ourduvis",
+    "DescFR": "Se <b>téléporte</b> derrière son adversaire après un combat.",
+    "NameEN": "Luvav Slice",
+    "DescEN": "<b>Teleports</b> behind his opponent after a fight.",
+    "NameES": "Lamor Alvizo",
+    "DescES": "Se <b>teletransporta</b> detrás de su contrincante después de un combate."
+  }
 }

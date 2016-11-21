@@ -1,9 +1,9 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 236,
+  "Id": 189,
   "Name": "bas_les_pattes",
-  "CardType": "Spell",
-  "CostAP": 7,
+  "CardType": 1,
+  "CostAP": 6,
   "Life": 0,
   "Attack": 0,
   "MovementPoint": 0,
@@ -11,10 +11,17 @@
     8
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 3,
   "GodType": 4,
-  "NameFR": "Bas les Pattes",
-  "DescriptionFR": "Placez une invocation sur la pioche de son propriétaire.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Bas les Pattes",
+    "DescFR": "Placez une invocation sur la pioche de son propriétaire.\r",
+    "NameEN": "Paws Off",
+    "DescEN": "Put a Summons on its owner's deck.\n",
+    "NameES": "Zarpas Quietas",
+    "DescES": "Añades una invocación al mazo de su propietario.\n"
+  }
 }

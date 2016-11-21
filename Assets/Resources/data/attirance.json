@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 125,
+  "Id": 292,
   "Name": "attirance",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 2,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 8,
-  "NameFR": "Attirance",
-  "DescriptionFR": "<b>Attire</b> une invocation adverse de 7 cases.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Attirance",
+    "DescFR": "<b>Attire</b> une invocation adverse de 7 cases.",
+    "NameEN": "Attraction",
+    "DescEN": "<b>Attracts</b> an enemy Summons by 7 cells.",
+    "NameES": "Atracción",
+    "DescES": "<b>Atrae</b> una invocación enemiga 7 casillas."
+  }
 }

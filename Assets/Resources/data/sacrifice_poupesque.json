@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 89,
+  "Id": 510,
   "Name": "sacrifice_poupesque",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 8,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 10,
-  "NameFR": "Sacrifice Poupesque",
-  "DescriptionFR": "Sacrifiez toutes vos Poupées. Elles infligent chacune 1 dégât au Dofus adverse de leur ligne.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sacrifice Poupesque",
+    "DescFR": "Sacrifiez vos Poupées. Elles infligent chacune 1 dégât au Dofus adverse de leur ligne.",
+    "NameEN": "Dolly Sacrifice",
+    "DescEN": "Sacrifice all your Dolls. They each inflict 1 damage to the enemy Dofus on their line.",
+    "NameES": "Sacrificio Muñequero",
+    "DescES": "Sacrifica todas tus tus muñecas. Cada muñeca inflige 1 de daño al dofus enemigo de su hilera."
+  }
 }

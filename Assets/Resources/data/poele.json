@@ -1,9 +1,9 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 308,
+  "Id": 528,
   "Name": "poele",
-  "CardType": "Spell",
-  "CostAP": 1,
+  "CardType": 1,
+  "CostAP": 2,
   "Life": 0,
   "Attack": 0,
   "MovementPoint": 0,
@@ -11,8 +11,15 @@
   "IsToken": true,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Poêle",
-  "DescriptionFR": "Inflige 3 dégâts.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Poêle",
+    "DescFR": "Inflige 3 dégâts.",
+    "NameEN": "Frying Pan",
+    "DescEN": "Inflicts 3 damage.",
+    "NameES": "Sartén",
+    "DescES": "Inflige 3 de daño."
+  }
 }

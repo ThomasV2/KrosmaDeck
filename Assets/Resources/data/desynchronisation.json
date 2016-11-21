@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 377,
+  "Id": 68,
   "Name": "desynchronisation",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 0,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     9
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 1,
   "GodType": 7,
-  "NameFR": "Désynchronisation",
-  "DescriptionFR": "Dépense vos <b>PA</b> restants pour infliger l'équivalent\r\nen dégâts.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Désynchronisation",
+    "DescFR": "Dépense vos <b>PA</b> restants pour infliger l'équivalent\r\nen dégâts.",
+    "NameEN": "Desynchronization",
+    "DescEN": "Spend your remaining <b>AP</b> to inflict the equivalent\r\namount in damage.",
+    "NameES": "Desincronización",
+    "DescES": "Gastas tus <b>PA</b> restantes para infligir\r\nlos daños equivalentes."
+  }
 }

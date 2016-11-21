@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 83,
+  "Id": 439,
   "Name": "eratz_le_revendicateur",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 2,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 1,
-  "NameFR": "Eratz le Revendicateur",
-  "DescriptionFR": "<b>APPARITION :</b>\nDonne <b>initiative</b> à une invocation.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Eratz le Revendicateur",
+    "DescFR": "<b>APPARITION :</b>\nDonne <b>initiative</b> à une invocation.",
+    "NameEN": "Eratz the Protester",
+    "DescEN": "<b>APPEARANCE:</b>\nGives <b>FIRST STRIKE</b> to a Summons.",
+    "NameES": "Eratz, el Reivindicador",
+    "DescES": "<b>APARICIÓN:</b>\nDa <b>iniciativa</b> a una invocación."
+  }
 }

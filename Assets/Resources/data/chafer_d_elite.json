@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 223,
+  "Id": 97,
   "Name": "chafer_d_elite",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 3,
   "Attack": 2,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Chafer d'Elite ",
-  "DescriptionFR": "<b>MORT :</b>\n50% de chances d'invoquer un Chafer Lancier.",
   "Extension": 1,
   "LinkedCards": [
     238
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Chafer d'Elite ",
+    "DescFR": "<b>MORT :</b>\n50% de chances d'invoquer un Chafer Lancier.",
+    "NameEN": "Elite Chafer ",
+    "DescEN": "<b>DEATH:</b>\n50% chance of summoning a Chafer Lancer.",
+    "NameES": "Chafer de élite ",
+    "DescES": "<b>MUERTE:</b>\n50% de probabilidades de invocar 1 chafer lancero."
+  }
 }

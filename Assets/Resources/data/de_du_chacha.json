@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 514,
+  "Id": 509,
   "Name": "de_du_chacha",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 4,
-  "NameFR": "Dé du Chacha",
-  "DescriptionFR": "Ajoutez 1d6 Chacha(s)\r\nà votre main.\r",
   "Extension": 1,
   "LinkedCards": [
     151
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Dé du Chacha",
+    "DescFR": "Ajoutez 1d6 Chacha(s)\r\nà votre main.\r",
+    "NameEN": "Bow Meow Die",
+    "DescEN": "Add 1d6 Bow Meows\r\nto your hand.\n",
+    "NameES": "Dado del Miaumiau",
+    "DescES": "Añades 1d6 miaumiau(s)\r\n a tu mano.\n"
+  }
 }

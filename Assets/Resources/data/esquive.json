@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 239,
+  "Id": 481,
   "Name": "esquive",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 1,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 2,
-  "NameFR": "Esquive",
-  "DescriptionFR": "Repousse une invocation alliée de 4 cases.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Esquive",
+    "DescFR": "Repousse une invocation alliée de 4 cases.",
+    "NameEN": "Dodge",
+    "DescEN": "Repels an allied Summons by 4 cells.",
+    "NameES": "Esquiva",
+    "DescES": "Empuja una invocación aliada 4 casillas."
+  }
 }

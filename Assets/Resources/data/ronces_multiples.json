@@ -1,9 +1,9 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 172,
+  "Id": 442,
   "Name": "ronces_multiples",
-  "CardType": "Spell",
-  "CostAP": 6,
+  "CardType": 1,
+  "CostAP": 7,
   "Life": 0,
   "Attack": 0,
   "MovementPoint": 0,
@@ -11,10 +11,17 @@
     32
   ],
   "IsToken": false,
-  "Rarity": 1,
+  "Rarity": 2,
   "GodType": 10,
-  "NameFR": "Ronces Multiples",
-  "DescriptionFR": "Réduit les invocations adverses au <b>silence</b> et soigne de 3 <b>PV</b> vos invocations.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Ronces Multiples",
+    "DescFR": "Réduit les invocations adverses au <b>silence</b> et soigne de 3 <b>PV</b> vos invocations.",
+    "NameEN": "Manifold Bramble",
+    "DescEN": "<b>SILENCE</b> enemy Summons and heal your Summons by 3 <b>HP</b>.",
+    "NameES": "Zarzas Múltiples",
+    "DescES": "Inflige <b>silencio</b> a las invocaciones enemigas y cura 3 <b>PdV</b> a tus invocaciones."
+  }
 }

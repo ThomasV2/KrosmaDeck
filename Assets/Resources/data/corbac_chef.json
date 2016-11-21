@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 497,
+  "Id": 445,
   "Name": "corbac_chef",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 4,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Corbac Chef",
-  "DescriptionFR": "<b>CHEF :</b> +1 <b>PM</b> à vos\r\nautres Corbacs.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Corbac Chef",
+    "DescFR": "<b>CHEF :</b> +1 <b>PM</b> à vos\r\nautres Corbacs.",
+    "NameEN": "Crobak Chief",
+    "DescEN": "<b>LEADER:</b> +1 <b>MP</b> to your other Crobaks.",
+    "NameES": "Jefe cuerbok",
+    "DescES": "<b>LÍDER:</b> Da +1 <b>PM</b> a tus\r\ndemás cuerboks."
+  }
 }

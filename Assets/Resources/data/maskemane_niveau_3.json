@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 424,
+  "Id": 454,
   "Name": "maskemane_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 4,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Maskemane Psycho",
-  "DescriptionFR": "<b>APPARITION :</b>\nDéfausse votre main et celle de votre adversaire puis chaque joueur pioche 5 cartes.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Maskemane Psycho",
+    "DescFR": "<b>APPARITION :</b>\nDéfausse votre main et celle de votre adversaire puis chaque joueur pioche 5 cartes.",
+    "NameEN": "Psychopath Maskemane",
+    "DescEN": "<b>APPEARANCC:</b>\nDiscard your hand as well as the opponent's and then both players draw 5 cards.",
+    "NameES": "Maskeman - Sáikopat",
+    "DescES": "<b>APARICIÓN:</b>\nDescarta tu mano y la de tu contrincante, y cada jugador roba 5 cartas."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 31,
+  "Id": 270,
   "Name": "patty_ceriz",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 3,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 2,
-  "NameFR": "Patty Ceriz",
-  "DescriptionFR": "<b>PORTÉE :</b> 1-3\nRepousse de 1 case.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Patty Ceriz",
+    "DescFR": "<b>PORTÉE :</b> 1-3\nRepousse de 1 case\r\nson adversaire quand elle attaque.",
+    "NameEN": "Pace Trese",
+    "DescEN": "<b>RANGE:</b> 1-3\nRepels by 1 cell.",
+    "NameES": "Pasty Leria",
+    "DescES": "<b>ALCANCE:</b> 1-3\nEmpuja 1 casilla."
+  }
 }

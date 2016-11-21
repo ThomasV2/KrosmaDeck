@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 212,
+  "Id": 130,
   "Name": "sablier_de_xelor",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 1,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 7,
-  "NameFR": "Sablier de Xélor",
-  "DescriptionFR": "Détruit 1 <b>PA</b> de la\r\n<b>réserve</b> adverse et ajoute 1 <b>PA</b> à la votre.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sablier de Xélor",
+    "DescFR": "Détruit 1 <b>PA</b> de la\r\n<b>réserve</b> adverse et ajoute 1 <b>PA</b> à la votre.",
+    "NameEN": "Xelor's Sandglass",
+    "DescEN": "Destroys 1 <b>AP</b> from the opponent's\r\n<b>reserve</b> and adds 1 <b>AP</b> to yours.",
+    "NameES": "Reloj de Arena de Xelor",
+    "DescES": "Reduce en 1 <b>PA</b> la <b>reserva</b>\r\ndel contrincante y aumenta en 1 <b>PA</b> la tuya."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 101,
+  "Id": 407,
   "Name": "bombe_token",
-  "CardType": "Aoe",
+  "CardType": 2,
   "CostAP": 1,
   "Life": 0,
   "Attack": 0,
@@ -11,8 +11,15 @@
   "IsToken": true,
   "Rarity": 0,
   "GodType": 6,
-  "NameFR": "Bombe",
-  "DescriptionFR": "Inflige 2 dégâts.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Bombe",
+    "DescFR": "Inflige 2 dégâts.",
+    "NameEN": "Bomb",
+    "DescEN": "Inflicts 2 damage.",
+    "NameES": "Bomba",
+    "DescES": "Inflige 2 de daño."
+  }
 }

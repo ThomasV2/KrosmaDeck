@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 542,
+  "Id": 52,
   "Name": "piou_royal",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 5,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Piou Royal",
-  "DescriptionFR": "Vos Pious coûtent\r\n2 <b>PA</b> de moins.\n<b>CHEF  : </b> +1 <b>AT</b> à vos\r\nautres Pious.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Piou Royal",
+    "DescFR": "Vos Pious coûtent\r\n2 <b>PA</b> de moins.\n<b>CHEF  : </b> +1 <b>AT</b> à vos\r\nautres Pious.\r",
+    "NameEN": "Royal Piwi",
+    "DescEN": "Your Piwis cost\r\n2 <b>AP</b> less.\n<b>LEADER:</b> +1 <b>AT</b> to your\r\nother Piwis.\n",
+    "NameES": "Pío Real",
+    "DescES": "El coste de tus píos\r\nse reduce en 2 <b>PA</b>.\n<b>LÍDER:</b> Da +1 <b>AT</b> a tus\r\ndemás píos.\n"
+  }
 }

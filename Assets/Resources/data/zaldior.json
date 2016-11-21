@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 526,
+  "Id": 48,
   "Name": "zaldior",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 8,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 3,
-  "NameFR": "Zaldior",
-  "DescriptionFR": "<b>APPARITION :</b>\nRemontez dans votre main une invocation ayant 4 <b>AT</b> ou moins.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Zaldior",
+    "DescFR": "<b>APPARITION :</b>\nRemontez dans votre main une invocation ayant 4 <b>AT</b> ou moins.",
+    "NameEN": "Zaldior",
+    "DescEN": "<b>APPEARANCE:</b>\nReturn a Summons with 4 AT or less to your hand.",
+    "NameES": "Zaldior",
+    "DescES": "<b>APARICIÓN:</b>\nUna invocación que tenga 4 <b>AT</b> o menos vuelve a tu mano."
+  }
 }

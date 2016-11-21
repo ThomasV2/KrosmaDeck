@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 146,
+  "Id": 268,
   "Name": "atcham_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 2,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Atcham",
-  "DescriptionFR": "50% de chances de ne pas subir les dégâts qu'il reçoit.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Atcham",
+    "DescFR": "50% de chances de ne pas subir les dégâts qu'il reçoit.",
+    "NameEN": "Atcham",
+    "DescEN": "50% chance of not suffering the damage it receives.",
+    "NameES": "Atcham",
+    "DescES": "50% de probabilidades de no sufrir los daños que se le infligen."
+  }
 }

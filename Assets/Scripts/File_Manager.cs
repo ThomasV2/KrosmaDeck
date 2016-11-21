@@ -24,8 +24,6 @@ public class File_Manager : MonoBehaviour {
         string file = filename.text + ".sav";
         string data = "";
 
-        if (!Directory.Exists(path))
-            Directory.CreateDirectory(path);
         foreach (KeyValuePair<int, int> pair in deck_manager.Deck_cards)
         {
             for (int i = pair.Value; i > 0; i--)
@@ -33,16 +31,22 @@ public class File_Manager : MonoBehaviour {
         }
         data = data.Remove(data.Length - 1);
 
+#if UNITY_WEBGL
+        PlayerPrefs.SetString(filename.text, data);
+#else
+        if (!Directory.Exists(path))
+            Directory.CreateDirectory(path);
         File.WriteAllText(path + file, data);
-    }
+#endif
+        }
 
     public void Load_Deck_File(string path)
     {
         int value;
         GodTypes type = GodTypes.Neutre;
-
+        
         string data = File.ReadAllText(path);
-         string[] ids = data.Split(","[0]);
+        string[] ids = data.Split(","[0]);
          int index = 0;
          foreach (string id in ids)
          {
@@ -60,5 +64,33 @@ public class File_Manager : MonoBehaviour {
              deck_manager.Add_Card(index);
           }
          Scene_Manager.godType = type;
+    }
+
+    public void Load_Deck_File_Web(string name)
+    {
+        int value;
+        GodTypes type = GodTypes.Neutre;
+
+        if (PlayerPrefs.HasKey(name) == false)
+            return;
+        string data = PlayerPrefs.GetString(name);
+        string[] ids = data.Split(","[0]);
+        int index = 0;
+        foreach (string id in ids)
+        {
+            int.TryParse(id, out value);
+            for (int i = 0; i < Data_All.SIZE_TAB; i++)
+            {
+                if (Data_All.data_tab[i].Id == value)
+                {
+                    index = i;
+                    if (type != GodTypes.Neutre && Data_All.data_tab[index].GodType != (int)type)
+                        type = (GodTypes)Data_All.data_tab[index].GodType;
+                    break;
+                }
+            }
+            deck_manager.Add_Card(index);
+        }
+        Scene_Manager.godType = type;
     }
 }

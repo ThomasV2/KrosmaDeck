@@ -1,9 +1,9 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 251,
+  "Id": 211,
   "Name": "rituel_sram",
-  "CardType": "Spell",
-  "CostAP": 3,
+  "CardType": 1,
+  "CostAP": 2,
   "Life": 0,
   "Attack": 0,
   "MovementPoint": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 6,
-  "NameFR": "Rituel Sram",
-  "DescriptionFR": "Chaque joueur défausse\r\nles 5 premières cartes de sa pioche.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Rituel Sram",
+    "DescFR": "Chaque joueur défausse\r\nles 3 premières cartes de sa pioche.",
+    "NameEN": "Sram Ritual",
+    "DescEN": "Each player discards\r\nthe first 3 cards from their deck.",
+    "NameES": "Ritual de Sram",
+    "DescES": "Cada jugador descarta\r\nlas 3 primeras cartas de su mazo."
+  }
 }

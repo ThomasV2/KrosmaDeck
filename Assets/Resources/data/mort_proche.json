@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 195,
+  "Id": 465,
   "Name": "mort_proche",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 3,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     6
   ],
   "IsToken": false,
-  "Rarity": 1,
+  "Rarity": 2,
   "GodType": 8,
-  "NameFR": "Mort Proche",
-  "DescriptionFR": "Confère +3 <b>AT</b> et +2 <b>AR</b>\r\nà une invocation. Elle meurt à la fin de son tour.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Mort Proche",
+    "DescFR": "Confère +3 <b>AT</b> et +2 <b>AR</b>\r\nà une invocation. Elle meurt à la fin de son tour.\r",
+    "NameEN": "Moribund",
+    "DescEN": "Confers +3 <b>AT</b> and +2 <b>AR</b>\r\non a Summons. Dies at the end of its turn.\n",
+    "NameES": "Muerte Cercana",
+    "DescES": "Da +3 <b>AT</b> y +2 <b>AR</b>\r\na una invocación. Al final de su turno muere.\n"
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 181,
+  "Id": 355,
   "Name": "gligli",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 1,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Gligli",
-  "DescriptionFR": "<b>CHARGE</b>",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Gligli",
+    "DescFR": "<b>CHARGE</b>",
+    "NameEN": "Blibli",
+    "DescEN": "<b>CHARGE</b>",
+    "NameES": "Balí",
+    "DescES": "<b>CARGA</b>"
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 362,
+  "Id": 351,
   "Name": "amalia_niveau_1",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 1,
@@ -14,10 +14,17 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Amalia",
-  "DescriptionFR": "<b>APPARITION :</b>\nInvoquez une Poupée Gonflable.",
   "Extension": 1,
   "LinkedCards": [
     183
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Amalia",
+    "DescFR": "<b>APPARITION :</b>\nInvoquez une Poupée Gonflable.",
+    "NameEN": "Amalia",
+    "DescEN": "<b>APPEARANCE:</b>\nSummons an Inflatable Doll.",
+    "NameES": "Amalia",
+    "DescES": "<b>APARICIÓN:</b>\nInvoca 1 muñeca hinchable."
+  }
 }

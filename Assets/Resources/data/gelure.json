@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 170,
+  "Id": 362,
   "Name": "gelure",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 0,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 7,
-  "NameFR": "Gelure",
-  "DescriptionFR": "Transfère vos <b>PA</b> vers votre <b>réserve</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Gelure",
+    "DescFR": "Transfère vos <b>PA</b> vers votre <b>réserve</b>.",
+    "NameEN": "Frostbite",
+    "DescEN": "Transfer your <b>AP</b> to your <b>reserve</b>.",
+    "NameES": "Congelación",
+    "DescES": "Transfiere tus <b>PA</b> en tu <b>reserva</b>."
+  }
 }

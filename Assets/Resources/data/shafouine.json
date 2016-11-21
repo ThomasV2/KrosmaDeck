@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 383,
+  "Id": 149,
   "Name": "shafouine",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 3,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 4,
-  "NameFR": "Shafouine",
-  "DescriptionFR": "<b>APPARITION :</b>\nAjoute 1 Chacha\r\n à votre main.",
   "Extension": 1,
   "LinkedCards": [
     151
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Shafouine",
+    "DescFR": "<b>APPARITION :</b>\nAjoute 1 Chacha\r\n à votre main.",
+    "NameEN": "Shesearch",
+    "DescEN": "<b>APPEARANCE:</b>\nAdd 1 Bow Meow\r\nto your hand.",
+    "NameES": "Gatotilla",
+    "DescES": "<b>APARICIÓN:</b>\nIntroduce 1 miaumiau\r\nen tu mano."
+  }
 }

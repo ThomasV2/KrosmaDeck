@@ -18,11 +18,11 @@ public class Data_All : MonoBehaviour {
     public void Init_data()
     {
         data_tab = new Data_Card[SIZE_TAB];
-        DirectoryInfo dir = new DirectoryInfo(Application.dataPath + "/Resources/data");
+        TextAsset[] files = Resources.LoadAll<TextAsset>("data");
         int i = 0;
-        foreach (FileInfo card in dir.GetFiles("*.json"))
+        foreach (TextAsset card in files)
         {
-            string str = File.ReadAllText(card.FullName);
+            string str = card.text;
             var N = JSON.Parse(str);
             Data_Card data = new Data_Card();
             data.Id = N["Id"].AsInt;

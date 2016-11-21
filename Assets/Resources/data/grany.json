@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 289,
+  "Id": 374,
   "Name": "grany",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 2,
   "Attack": 1,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Grany",
-  "DescriptionFR": "Vos autres Chachas gagnent +1 <b>AR</b> lorsqu'ils entrent en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Grany",
+    "DescFR": "Vos autres Chachas gagnent +1 <b>AR</b> lorsqu'ils entrent en jeu.",
+    "NameEN": "Grany",
+    "DescEN": "Your other Bow Meows gain +1 <b>AR</b> when they come into play.",
+    "NameES": "Grany",
+    "DescES": "Tus demás miaumiaus ganan +1 <b>AR</b> cuando entran en juego."
+  }
 }

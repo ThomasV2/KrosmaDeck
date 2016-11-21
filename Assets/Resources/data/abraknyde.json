@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 516,
+  "Id": 106,
   "Name": "abraknyde",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 3,
   "Attack": 5,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Abraknyde",
-  "DescriptionFR": "<b>MORT :</b>\nInvoque 2 Araknes\nautour de lui.",
   "Extension": 1,
   "LinkedCards": [
     165
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Abraknyde",
+    "DescFR": "<b>MORT :</b>\nInvoque 2 Araknes\nà côté de lui.",
+    "NameEN": "Treechnid",
+    "DescEN": "<b>DEATH:</b>\nSummons 2 Arachnees\non adjacent cells if possible.",
+    "NameES": "Abráknido",
+    "DescES": "<b>MUERTE:</b>\nInvoca 2 araknas\na su alrededor."
+  }
 }

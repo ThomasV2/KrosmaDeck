@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 458,
+  "Id": 207,
   "Name": "katar_niveau_1",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 3,
   "Life": 3,
   "Attack": 3,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Katar",
-  "DescriptionFR": "<b>APPARITION :</b>\n<b>Attire</b> la première invocation adverse située devant lui puis <b>charge</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Katar",
+    "DescFR": "<b>APPARITION :</b>\n<b>Attire</b> la première invocation adverse située devant lui puis <b>charge</b>.",
+    "NameEN": "Katar",
+    "DescEN": "<b>APPEARANCE:</b>\n<b>ATTRACTS</b> the first enemy Summons in front of it, then <b>CHARGES</b>.",
+    "NameES": "Katar",
+    "DescES": "<b>APARICIÓN:</b>\n<b>Atrae</b> la primera invocación enemiga situada delante de él y <b>carga</b>."
+  }
 }

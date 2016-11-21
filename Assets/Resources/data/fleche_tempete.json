@@ -1,9 +1,9 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 84,
+  "Id": 508,
   "Name": "fleche_tempete",
-  "CardType": "Spell",
-  "CostAP": 6,
+  "CardType": 1,
+  "CostAP": 7,
   "Life": 0,
   "Attack": 0,
   "MovementPoint": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 2,
-  "NameFR": "Flèche tempête",
-  "DescriptionFR": "Inflige 2 dégâts et repousse de 2 cases toutes les invocations adverses.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Flèche Tempête",
+    "DescFR": "Inflige 2 dégâts et repousse de 2 cases les invocations adverses.",
+    "NameEN": "Storm Arrow",
+    "DescEN": "Inflicts 2 damage and repels all enemy Summons by 2 cells.",
+    "NameES": "Flecha de Tempestad",
+    "DescES": "Inflige 2 de daño y empuja 2 casillas todas las invocaciones enemigas."
+  }
 }

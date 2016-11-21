@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 319,
+  "Id": 515,
   "Name": "defhi_croquets",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 8,
   "Life": 3,
   "Attack": 5,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 4,
-  "NameFR": "Defhi Croquets",
-  "DescriptionFR": "<b>INITIATIVE</b>\n<b>APPARITION :</b>\n<b>Charge</b> de 1d6 case(s).",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Defhi Croquets",
+    "DescFR": "<b>INITIATIVE</b>\n<b>APPARITION :</b>\n<b>Charge</b> de 1d6 case(s).",
+    "NameEN": "Davy Contest",
+    "DescEN": "<b>FIRST STRIKE</b>\n<b>APPEARANCE:</b>\n<b>CHARGES</b> 1d6 cells.",
+    "NameES": "Dephi Croquets",
+    "DescES": "<b>INICIATIVA</b>\n<b>APARICIÓN:</b>\n<b>Carga</b> 1d6 casilla(s)."
+  }
 }

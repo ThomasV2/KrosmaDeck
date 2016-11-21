@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 117,
+  "Id": 545,
   "Name": "joris_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 6,
   "Life": 4,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Maître Joris",
-  "DescriptionFR": "Empêche votre adversaire de lancer des sorts.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Maître Joris",
+    "DescFR": "Empêche votre adversaire de lancer des sorts.",
+    "NameEN": "Master Joris",
+    "DescEN": "Prevents your opponent from casting spells.",
+    "NameES": "Maestro Joris",
+    "DescES": "Impide a tu contrincante lanzar hechizos."
+  }
 }

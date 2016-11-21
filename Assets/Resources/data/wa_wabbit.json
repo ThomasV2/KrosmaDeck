@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 59,
+  "Id": 524,
   "Name": "wa_wabbit",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 8,
   "Life": 5,
   "Attack": 5,
@@ -13,10 +13,17 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Wa Wabbit",
-  "DescriptionFR": "<b>APPARITION :</b>\nTransforme un de vos Wabbits en Wobot 02.\r",
   "Extension": 1,
   "LinkedCards": [
     265
-  ]
+  ],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Wa Wabbit",
+    "DescFR": "<b>APPARITION :</b>\nTransforme un de vos Wabbits en Wobot 02.\r",
+    "NameEN": "Wa Wabbit",
+    "DescEN": "<b>APPEARANCE:</b>\nTransforms one of your Wabbits into a Wobot 02.\n",
+    "NameES": "Wey Wabbit",
+    "DescES": "<b>APARICIÓN:</b>\nTransforma uno de tus wabbits en wobot 02.\n"
+  }
 }

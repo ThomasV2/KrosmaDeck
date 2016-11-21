@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 376,
+  "Id": 315,
   "Name": "rollback",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 7,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 7,
-  "NameFR": "Rollback",
-  "DescriptionFR": "Dépense tous les <b>PA</b>\r\nde votre <b>réserve</b>. Vos invocations <b>chargent</b> d'autant de cases.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Rollback",
+    "DescFR": "Dépense tous les <b>PA</b>\r\nde votre <b>réserve</b>. Vos invocations <b>chargent</b> d'autant de cases.",
+    "NameEN": "Rollback",
+    "DescEN": "Use all the <b>AP</b>\r\nin your <b>reserve</b>. Your Summons <b>CHARGE</b> the same number of cells.",
+    "NameES": "Rolbac",
+    "DescES": "Gasta todos los <b>PA</b>\r\nde tu <b>reserva</b>. Tus invocaciones <b>cargan</b> el número de casillas equivalente."
+  }
 }

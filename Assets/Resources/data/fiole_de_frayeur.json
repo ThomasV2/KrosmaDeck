@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 537,
+  "Id": 250,
   "Name": "fiole_de_frayeur",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 3,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     3
   ],
   "IsToken": false,
-  "Rarity": 0,
+  "Rarity": 1,
   "GodType": 3,
-  "NameFR": "Fiole de Frayeur",
-  "DescriptionFR": "Inflige <b>silence</b> à une invocation et la repousse de 3 cases.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Fiole de Frayeur",
+    "DescFR": "Inflige <b>silence</b> à une invocation et la repousse de 3 cases.",
+    "NameEN": "Fear Flask",
+    "DescEN": "<b>SILENCES</b> a Summons and repels it by 3 cells.",
+    "NameES": "Matraz de Espanto",
+    "DescES": "Inflige <b>silencio</b> a una invocación y la empuja 3 casillas."
+  }
 }

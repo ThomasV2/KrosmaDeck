@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 549,
+  "Id": 401,
   "Name": "roulette_ecaflip",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 2,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 4,
-  "NameFR": "Roulette Ecaflip",
-  "DescriptionFR": "Confère 1d6 <b>AR</b> à une invocation. Elle est détruite si vous faites 6.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Roulette Ecaflip",
+    "DescFR": "Confère 1d6 <b>AR</b> à une invocation. Elle est détruite si vous faites 6.",
+    "NameEN": "Ecaflip Roulette",
+    "DescEN": "Confer 1d6 <b>AR</b> on a Summons. It is destroyed if a 6 is thrown.",
+    "NameES": "Ruleta de Zurcarák",
+    "DescES": "Da 1d6 <b>AR</b> a una invocación. Se destruye si son 6."
+  }
 }

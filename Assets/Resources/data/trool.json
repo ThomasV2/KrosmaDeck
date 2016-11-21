@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 229,
+  "Id": 21,
   "Name": "trool",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 7,
   "Attack": 6,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Trool",
-  "DescriptionFR": "<b>APPARITION :</b>\nRepousse une invocation\r\nde 2 cases.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Trool",
+    "DescFR": "<b>APPARITION :</b>\nRepousse une invocation\r\nde 2 cases.",
+    "NameEN": "Trool",
+    "DescEN": "<b>APPEARANCE:</b>\nRepels a Summons\r\nby 2 cells.",
+    "NameES": "Trool",
+    "DescES": "<b>APARICIÓN:</b>\nEmpuja una invocación \r\n2 casillas."
+  }
 }

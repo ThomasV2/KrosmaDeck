@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 518,
+  "Id": 459,
   "Name": "amalia_niveau_3",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 3,
   "Attack": 3,
@@ -14,8 +14,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Amalia",
-  "DescriptionFR": "<b>APPARITION :</b>\nInflige 4 dégâts aux invocations adverses\r\nde sa ligne.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Amalia",
+    "DescFR": "<b>APPARITION :</b>\nInflige 4 dégâts aux invocations adverses\r\nde sa ligne.",
+    "NameEN": "Amalia",
+    "DescEN": "<b>APPEARANCE:</b>\nInflicts 4 damage on all enemy Summons\r\non its row.",
+    "NameES": "Amalia",
+    "DescES": "<b>APARICIÓN:</b>\nInflige 4 de daño a las invocaciones enemigas\r\nde su hilera."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 529,
+  "Id": 214,
   "Name": "maskemane_niveau_2",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 4,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 4,
   "GodType": 0,
-  "NameFR": "Maskemane Classe",
-  "DescriptionFR": "<b>INITIATIVE</b>\n<b>COUP DE GRÂCE :</b>\nGagne +2 <b>AT</b>.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Maskemane Classe",
+    "DescFR": "<b>INITIATIVE</b>\n<b>COUP DE GRÂCE :</b>\nGagne +2 <b>AT</b>.",
+    "NameEN": "Classy Maskemane",
+    "DescEN": "<b>FIRST STRIKE</b>\n<b>FINAL BLOW:</b>\nGains +2 <b>AT</b>.",
+    "NameES": "Maskeman - Zobal",
+    "DescES": "<b>INICIATIVA</b>\n<b>GOLPE DE GRACIA:</b>\nGana +2 <b>AT</b>."
+  }
 }

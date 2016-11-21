@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 184,
+  "Id": 393,
   "Name": "poussiere_temporelle",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 5,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     9
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 1,
   "GodType": 7,
-  "NameFR": "Poussière Temporelle",
-  "DescriptionFR": "Inflige 2 dégâts.\r\nAjoute 5 <b>PA</b> à votre <b>réserve</b> si l'invocation meurt.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Poussière Temporelle",
+    "DescFR": "Inflige 2 dégâts.\r\nAjoute 5 <b>PA</b> à votre <b>réserve</b> si l'invocation meurt.",
+    "NameEN": "Temporal Dust",
+    "DescEN": "Inflicts 2 damage.\r\nAdd 5 <b>AP</b> to your <b>RESERVE</b> if the Summons dies.",
+    "NameES": "Polvo Temporal",
+    "DescES": "Inflige 2 de daño.\r\nAñade 5 <b>PA</b> a tu <b>reserva</b> si la invocación muere."
+  }
 }

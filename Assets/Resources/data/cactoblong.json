@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 124,
+  "Id": 452,
   "Name": "cactoblong",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 5,
   "Life": 6,
   "Attack": 6,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 0,
-  "NameFR": "Cactoblong",
-  "DescriptionFR": "<b>APPARITION :</b>\nS'inflige 2 dégâts.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Cactoblong",
+    "DescFR": "<b>APPARITION :</b>\nS'inflige 2 dégâts.",
+    "NameEN": "Saguaro",
+    "DescEN": "<b>APPEARANCE:</b>\nInflicts 2 damage on self.",
+    "NameES": "Cactoblongo",
+    "DescES": "<b>APARICIÓN:</b>\nInflige 2 de daño."
+  }
 }

@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 92,
+  "Id": 532,
   "Name": "kamasutar",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 3,
   "Attack": 3,
@@ -14,8 +14,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Kamasutar",
-  "DescriptionFR": "<b>APPARITION :</b>\nRécupérez les 5 dernières cartes parties dans votre défausse si votre main est vide.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Kamasutar",
+    "DescFR": "<b>APPARITION :</b>\nRécupérez les 5 dernières cartes parties dans votre défausse si votre main est vide.\r",
+    "NameEN": "Kamasutar",
+    "DescEN": "<b>APPEARANCE:</b>\nRetrieve the last 5 cards that went to your discard pile if your hand is empty.\n",
+    "NameES": "Kamasutar",
+    "DescES": "<b>APARICIÓN:</b>\nRecuperas las 5 últimas cartas enviadas a tu descarte si tu mano se encuentra vacía.\n"
+  }
 }

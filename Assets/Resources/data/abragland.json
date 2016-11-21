@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 438,
+  "Id": 539,
   "Name": "abragland",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Abragland",
-  "DescriptionFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> par Arakne\r\nen jeu.\r",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Abragland",
+    "DescFR": "<b>APPARITION :</b>\nGagne +1 <b>AT</b> par Arakne\r\nen jeu.\r",
+    "NameEN": "Treechorn",
+    "DescEN": "<b>APPEARANCE:</b>\nGains +1 <b>AT</b> per Arachnee\r\nin play.\n",
+    "NameES": "Abrakllota",
+    "DescES": "<b>APARICIÓN:</b>\nGana +1 <b>AT</b> por cada arakna\r\nen juego.\n"
+  }
 }

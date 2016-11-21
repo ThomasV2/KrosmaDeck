@@ -10,7 +10,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: Neko
   productName: Krosmaga Deckbuilder
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -351,7 +351,7 @@ PlayerSettings:
   psp2InfoBarColor: 0
   psp2UseDebugIl2cppLibs: 0
   psmSplashimage: {fileID: 0}
-  spritePackerPolicy: 
+  spritePackerPolicy: DefaultPackerPolicy
   scriptingDefineSymbols: {}
   metroPackageName: Krosmaga Deckbuilder
   metroPackageVersion: 

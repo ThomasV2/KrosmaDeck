@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 70,
+  "Id": 23,
   "Name": "fan_token",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 1,
   "Life": 2,
   "Attack": 1,
@@ -11,8 +11,15 @@
   "IsToken": true,
   "Rarity": 0,
   "GodType": 0,
-  "NameFR": "Fan",
-  "DescriptionFR": "<b>APPARITION :</b>\n<b>Charge</b> si Khan Karkass est en jeu.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Fan",
+    "DescFR": "<b>APPARITION :</b>\n<b>Charge</b> si Khan Karkass est en jeu.",
+    "NameEN": "Fan",
+    "DescEN": "<b>APPEARANCE:</b>\n<b>CHARGES</b> if Khan Karkass is in play.",
+    "NameES": "Fan",
+    "DescES": "<b>APARICIÓN:</b>\n<b>Carga</b> si Khan Karkasa está en juego."
+  }
 }

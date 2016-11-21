@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 406,
+  "Id": 576,
   "Name": "sir_comte_flex",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 7,
   "Life": 4,
   "Attack": 4,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 3,
   "GodType": 0,
-  "NameFR": "Sir Comte Flex",
-  "DescriptionFR": "Vos Dofus renvoient\r\nles dégâts qu'ils subissent à la première invocation adverse de leur ligne.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Sir Comte Flex",
+    "DescFR": "Vos Dofus renvoient\r\nles dégâts qu'ils subissent à la première invocation adverse de leur ligne.",
+    "NameEN": "Sire Flexington",
+    "DescEN": "Your Dofus return\r\nany damage they suffer to the first enemy Summons on their row.",
+    "NameES": "Sir Kurn Flex",
+    "DescES": "Tus dofus devuelven\r\nlos daños que sufren a la primera invocación enemiga de su hilera."
+  }
 }

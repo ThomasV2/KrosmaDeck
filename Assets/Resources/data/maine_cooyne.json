@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 1579,
+  "Id": 862,
   "Name": "maine_cooyne",
-  "CardType": "Summon",
+  "CardType": 0,
   "CostAP": 4,
   "Life": 4,
   "Attack": 2,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 0,
-  "NameFR": "Maine Cooyne",
-  "DescriptionFR": "<b>CHEF :</b> +1 <b>AT</b> à\r\nvos autres Chachas.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Maine Cooyne",
+    "DescFR": "<b>CHEF :</b> +1 <b>AT</b> à\r\nvos autres Chachas.",
+    "NameEN": "Maine Goon",
+    "DescEN": "<b>LEADER:</b> +1 <b>AT</b> to\r\nyour other Bow Meows.",
+    "NameES": "Mein Kuyn",
+    "DescES": "<b>LÍDER:</b> Da +1 <b>AT</b>\r\n a tus demás miaumiaus."
+  }
 }

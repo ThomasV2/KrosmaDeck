@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 573,
+  "Id": 41,
   "Name": "de_rebondissant",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 10,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 2,
   "GodType": 4,
-  "NameFR": "Dé Rebondissant",
-  "DescriptionFR": "Inflige 1d6 dégât(s) aux invocations adverses.\n(Coûte 1 <b>PA</b> de moins par Chacha en jeu.\r)",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Dé Rebondissant",
+    "DescFR": "Inflige 1d6 dégât(s) aux invocations adverses.\n(Coûte 1 <b>PA</b> de moins par Chacha allié en jeu.\r)",
+    "NameEN": "Die Alright",
+    "DescEN": "Inflicts 1d6 damage to enemy Summons.\n(Costs 1 <b>AP</b> less per Bow Meow in play.)",
+    "NameES": "Dado Rebotado",
+    "DescES": "Inflige 1d6 de daño a las invocaciones enemigas.\n(Cuesta 1 <b>PA</b> menos por cada miaumiau en juego.)"
+  }
 }

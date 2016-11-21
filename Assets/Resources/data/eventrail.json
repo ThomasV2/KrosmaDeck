@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 232,
+  "Id": 86,
   "Name": "eventrail",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 4,
   "Life": 0,
   "Attack": 0,
@@ -13,8 +13,15 @@
   "IsToken": false,
   "Rarity": 1,
   "GodType": 1,
-  "NameFR": "Éventrail",
-  "DescriptionFR": "Inflige 3 dégâts\r\naux invocations adverses d'une ligne.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Éventrail",
+    "DescFR": "Inflige 3 dégâts\r\naux invocations adverses d'une ligne.",
+    "NameEN": "Gutting Gust",
+    "DescEN": "Inflicts 3 damage\r\non enemy Summons on a row.",
+    "NameES": "Borrasca",
+    "DescES": "Inflige 3 de daño\r\na las invocaciones enemigas de una hilera."
+  }
 }

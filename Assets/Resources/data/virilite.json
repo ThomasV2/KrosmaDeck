@@ -1,8 +1,8 @@
 {
   "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+SimpleData, Assembly-CSharp-Editor",
-  "Id": 208,
+  "Id": 194,
   "Name": "virilite",
-  "CardType": "Spell",
+  "CardType": 1,
   "CostAP": 5,
   "Life": 0,
   "Attack": 0,
@@ -11,10 +11,17 @@
     1
   ],
   "IsToken": false,
-  "Rarity": 2,
+  "Rarity": 1,
   "GodType": 1,
-  "NameFR": "Virilité",
-  "DescriptionFR": "Confère +2 <b>AT</b> et +1 <b>AR</b> à vos invocations.",
   "Extension": 1,
-  "LinkedCards": []
+  "LinkedCards": [],
+  "Texts": {
+    "$type": "Assets.Code.Editor.Helpers.SimpleCardDataExporter+TextData, Assembly-CSharp-Editor",
+    "NameFR": "Virilité",
+    "DescFR": "Confère +2 <b>AT</b> et +1 <b>AR</b> à vos invocations.",
+    "NameEN": "Virility",
+    "DescEN": "Confers +2 <b>AT</b> and +1 <b>AR</b> on your Summons.",
+    "NameES": "Virilidad",
+    "DescES": "Da +2 <b>AT</b> y +1 <b>AR</b> a tus invocaciones."
+  }
 }
