@@ -69,7 +69,7 @@ public class Research_Card : MonoBehaviour {
                 if (ydiff != 0) return ydiff;
                 else
                 {
-                    return Data_All.data_tab[a].NameFR.CompareTo(Data_All.data_tab[b].NameFR);
+                    return Data_All.data_tab[a].Texts.NameFR.CompareTo(Data_All.data_tab[b].Texts.NameFR);
                 }
             }
         });
@@ -115,8 +115,8 @@ public class Research_Card : MonoBehaviour {
     {
         for (int index = current_cards.Count - 1; index >= 0; index--)
         {
-            if (Data_All.data_tab[current_cards[index]].NameFR.IndexOf(description, StringComparison.OrdinalIgnoreCase) >= 0 ||
-                Data_All.data_tab[current_cards[index]].DescriptionFR.IndexOf(description, StringComparison.OrdinalIgnoreCase) >= 0)
+            if (Data_All.data_tab[current_cards[index]].Texts.NameFR.IndexOf(description, StringComparison.OrdinalIgnoreCase) >= 0 ||
+                Data_All.data_tab[current_cards[index]].Texts.DescFR.IndexOf(description, StringComparison.OrdinalIgnoreCase) >= 0)
                 continue;
             else
                 current_cards.Remove(current_cards[index]);

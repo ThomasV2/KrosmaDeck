@@ -87,7 +87,7 @@ public class Aff_card : MonoBehaviour {
                 if (child.name == "Qantity")
                     component.text = pair.Value.ToString();
                 else if (child.name == "Name")
-                    component.text = Data_All.data_tab[pair.Key].NameFR;
+                    component.text = Data_All.data_tab[pair.Key].Texts.NameFR;
                 else // Cost
                     component.text = Data_All.data_tab[pair.Key].CostAP.ToString();
             }

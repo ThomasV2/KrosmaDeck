@@ -36,14 +36,37 @@ public class Data_All : MonoBehaviour {
             data.IsToken = N["IsToken"].AsBool;
             data.Rarity = N["Rarity"].AsInt;
             data.GodType = N["GodType"].AsInt;
-            data.NameFR = N["NameFR"].Value;
-            data.DescriptionFR = N["DescriptionFR"].Value;
             data.Extension = N["Extension"].AsInt;
+
+            data.Texts = new Texts();
+            var T = JSON.Parse(N["Texts"].ToString());
+            data.Texts.NameFR = T["NameFR"].ToString();
+            data.Texts.NameFR = data.Texts.NameFR.Remove(0, 1);
+            data.Texts.NameFR = data.Texts.NameFR.Remove(data.Texts.NameFR.Length - 1);
+
+            data.Texts.DescFR = T["DescFR"].ToString();
+            if (data.Texts.DescFR.Length > 2)
+            {
+                data.Texts.DescFR = data.Texts.DescFR.Remove(0, 1);
+                data.Texts.DescFR = data.Texts.DescFR.Remove(data.Texts.DescFR.Length - 1);
+            }
+
             data_tab[i] = data;
             i++;
         }
     }
 
+}
+
+public class Texts
+{
+    public string type { get; set; }
+    public string NameFR { get; set; }
+    public string DescFR { get; set; }
+    public string NameEN { get; set; }
+    public string DescEN { get; set; }
+    public string NameES { get; set; }
+    public string DescES { get; set; }
 }
 
 public class Data_Card
@@ -60,8 +83,7 @@ public class Data_Card
     public bool IsToken { get; set; }
     public int Rarity { get; set; }
     public int GodType { get; set; }
-    public string NameFR { get; set; }
-    public string DescriptionFR { get; set; }
+    public Texts Texts { get; set; }
     public int Extension { get; set; }
     public List<object> LinkedCards { get; set; }
 }
