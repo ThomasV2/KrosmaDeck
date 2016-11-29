@@ -4,6 +4,8 @@ using System.IO;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using System.Runtime.InteropServices;
+using System;
+using System.Text;
 
 public class File_Manager : MonoBehaviour {
 
@@ -12,6 +14,8 @@ public class File_Manager : MonoBehaviour {
     public Text filename;
     public Text infos;
     public GameObject save_continue;
+
+    private TextEditor te = new TextEditor();
 
     public void Create_Deck_File()
     {
@@ -43,20 +47,8 @@ public class File_Manager : MonoBehaviour {
         if (deck_manager.Deck_cards.Count == 0)
         {
             infos.text = "<b>Erreur !</b>\nAucune carte présente dans le deck.";
+            te.text = "";
             return;
-        }
-
-        string id;
-        if (Scene_Manager.pathfile.Length > 1)
-        {
-            id = Scene_Manager.pathfile;
-        }
-        else
-        {
-            do
-            {
-                id = Random.Range(1000, 999999).ToString();
-            } while (PlayerPrefs.HasKey(id) == true);
         }
 
         string data = "";
@@ -68,25 +60,24 @@ public class File_Manager : MonoBehaviour {
         }
         data = data.Remove(data.Length - 1);
 
-        PlayerPrefs.SetString(id, data);
-        PlayerPrefs.Save();
-        infos.text = "Sauvegarde réussie !\nVotre <b>ID de chargement</b> est : " + id.ToString() + "\nN'oubliez pas de le noter et merci d'avoir utiliser KrosmaDeck !";
+        byte[] bytesToEncode = Encoding.UTF8.GetBytes(data);
+        string encodedText = Convert.ToBase64String(bytesToEncode);
+
+        te.text = "http://thomasv2.github.io/krosmadeck?id=" + encodedText;
+        infos.text = "Sauvegarde réussie !\nVotre <b>lien de partage</b> est disponible en appuyant sur \"Copier\"\nCopiez votre lien après le rechargement de la page.";
+    }
+
+    public void Copy_url()
+    {
+       
+        Application.OpenURL(te.text);
+//        GUIUtility.systemCopyBuffer = te.text;
     }
 
     public void Save_File()
     {
 #if UNITY_WEBGL
-        if (Scene_Manager.pathfile.Length > 1 && save_continue.active == false)
-        {
-            save_continue.SetActive(true);
-            infos.text = "<b>Attention !</b>\nVous aller remplacer l'ancienne sauvegarde par celle-ci.\nÊtes-vous sûr de votre choix ?";
-        }
-        else
-        { 
-            Create_Deck_File_Web();
-            save_continue.SetActive(false);
-        }
-        
+        Create_Deck_File_Web();
 #else
         Create_Deck_File();
 #endif
@@ -118,14 +109,11 @@ public class File_Manager : MonoBehaviour {
          Scene_Manager.godType = type;
     }
 
-    public void Load_Deck_File_Web(string name)
+    public void Load_Deck_File_Web(string data)
     {
         int value;
         GodTypes type = GodTypes.Neutre;
 
-        if (PlayerPrefs.HasKey(name) == false)
-            return;
-        string data = PlayerPrefs.GetString(name);
         string[] ids = data.Split(","[0]);
         int index = 0;
         foreach (string id in ids)

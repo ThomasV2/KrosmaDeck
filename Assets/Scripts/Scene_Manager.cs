@@ -2,14 +2,32 @@
 using System.Collections;
 using UnityEngine.UI;
 using System.IO;
+using System.Text;
+using System;
 
 public class Scene_Manager : MonoBehaviour {
 
     public static GodTypes godType;
     public static bool load_deck = false;
     public static string pathfile = "";
+    public static bool load_url = false;
     public GameObject fondu;
     public Text Filename;
+
+    void Start()
+    {
+#if UNITY_WEBGL
+        if (load_url == false && Application.absoluteURL.Contains("id=") == true)
+        {
+            pathfile = Application.absoluteURL.Substring(Application.absoluteURL.IndexOf("=") + 1);
+            byte[] decodedBytes = Convert.FromBase64String(pathfile);
+            pathfile = Encoding.UTF8.GetString(decodedBytes); // decodedText
+            load_url = true;
+            load_deck = true;
+            Deck_Scene(0);
+        }
+#endif
+    }
 
     public void Set_load_deck(bool value)
     {

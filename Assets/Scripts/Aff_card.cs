@@ -75,7 +75,24 @@ public class Aff_card : MonoBehaviour {
             Destroy(child.gameObject);
         }
         int count = 0;
-        foreach (KeyValuePair<int, int> pair in deck_manager.Deck_cards)
+
+        List<KeyValuePair<int, int>> list_pair = new List<KeyValuePair<int, int>>(deck_manager.Deck_cards);
+        list_pair.Sort(delegate(KeyValuePair<int, int> a, KeyValuePair<int, int> b)
+        {
+            int xdiff = Data_All.data_tab[a.Key].GodType.CompareTo(Data_All.data_tab[b.Key].GodType);
+            if (xdiff != 0) return -1 * xdiff;
+            else
+            {
+                int ydiff = Data_All.data_tab[a.Key].CostAP.CompareTo(Data_All.data_tab[b.Key].CostAP);
+                if (ydiff != 0) return ydiff;
+                else
+                {
+                    return Data_All.data_tab[a.Key].Texts.NameFR.CompareTo(Data_All.data_tab[b.Key].Texts.NameFR);
+                }
+            }
+        });
+
+        foreach (KeyValuePair<int, int> pair in list_pair)
         {
             GameObject newCard = (GameObject)Instantiate(prefab_deck);
             newCard.GetComponent<Prefab_Script>().index = pair.Key;
@@ -85,7 +102,7 @@ public class Aff_card : MonoBehaviour {
             {
                 component = child.GetComponent<Text>();
                 if (child.name == "Qantity")
-                    component.text = pair.Value.ToString();
+                    component.text = "x" + pair.Value.ToString();
                 else if (child.name == "Name")
                     component.text = Data_All.data_tab[pair.Key].Texts.NameFR;
                 else // Cost
