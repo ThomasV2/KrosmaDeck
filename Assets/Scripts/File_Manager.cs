@@ -63,8 +63,8 @@ public class File_Manager : MonoBehaviour {
         byte[] bytesToEncode = Encoding.UTF8.GetBytes(data);
         string encodedText = Convert.ToBase64String(bytesToEncode);
 
-        te.text = "http://thomasv2.github.io/krosmadeck?id=" + encodedText;
-        infos.text = "Sauvegarde réussie !\nVotre <b>lien de partage</b> est disponible en appuyant sur \"Copier\"\nCopiez votre lien après le rechargement de la page.";
+        te.text = "http://krosmadeck.github.io?id=" + encodedText;
+        infos.text = "Sauvegarde réussie !\nPlus qu'une étape : appuyez sur \"Partager\" puis copiez/collez le lien dans la barre de recherche de votre navigateur\nEnvoyer le à vos amis pour qu'il profite de votre deck !";
     }
 
     public void Copy_url()

@@ -24,7 +24,7 @@ public enum Rarity
     Rare = 2,
     Krosmique = 3,
     Infinite = 4
-}
+};
 
 public class Research_Card : MonoBehaviour {
 

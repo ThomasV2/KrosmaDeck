@@ -18,8 +18,10 @@ public class Aff_card : MonoBehaviour {
     public File_Manager file_manager;
     public GameObject scroll_content;
     public Text total_text;
+    public Text cost_text;
     public GameObject lock_panel;
     public GameObject prefab_deck;
+    public Sprite[] rarity_logo; 
 
     // Input
     public GameObject cards_button;
@@ -28,6 +30,8 @@ public class Aff_card : MonoBehaviour {
     public Text Input_text;
 
     private int page;
+    private int cost_total = 0;
+    private int[] cost_by_rarity = new int[] {30, 120, 350, 700, 2000};
 
     // Use this for initialization
     void Start () {
@@ -70,6 +74,7 @@ public class Aff_card : MonoBehaviour {
 
     public void Refresh_Deck()
     {
+        cost_total = 0;
         foreach (Transform child in scroll_content.transform)
         {
             Destroy(child.gameObject);
@@ -105,12 +110,19 @@ public class Aff_card : MonoBehaviour {
                     component.text = "x" + pair.Value.ToString();
                 else if (child.name == "Name")
                     component.text = Data_All.data_tab[pair.Key].Texts.NameFR;
-                else // Cost
+                else if (child.name == "Cost")
                     component.text = Data_All.data_tab[pair.Key].CostAP.ToString();
+                else //Rarity
+                {
+                    child.GetComponent<Image>().sprite = rarity_logo[Data_All.data_tab[pair.Key].Rarity];
+                    cost_total += cost_by_rarity[Data_All.data_tab[pair.Key].Rarity] * pair.Value;
+                }
             }
             newCard.transform.SetParent(scroll_content.transform);
         }
         total_text.text = "" + count.ToString() + " / 45";
+        cost_text.text = "" + cost_total.ToString();
+
         if (count >= 45)
             lock_panel.SetActive(true);
         else
