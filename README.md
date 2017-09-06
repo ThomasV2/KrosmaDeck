@@ -1,6 +1,6 @@
 # KrosmaDeck
 
-KrosmaDeck is a web application made with Unity. It is a Deck Builder for the Trade Card Game `Krosmaga` (Beta version).
+KrosmaDeck is a web application made with Unity. It is a Deck Builder for the Trade Card Game `Krosmaga` (Ankama Games, Beta version).
 
 Tags: Deck Builder, Krosmaga, Web, C#, Unity
 
